@@ -15,7 +15,9 @@ lightbox: true
 
 In this tutorial, we'll walk through an R script that automatically generates a Quarto blog post from images stored in a directory. If you have a collection of images and want to quickly create a visually appealing blog post, this guide will help you automate the process.
 
+::: {.callout-note}
 This code generates Markdown, which is itself code, that can then be built and published to a site. Essentially, it acts as a Markdown generator, producing properly formatted Markdown for your images. Once the Markdown file is created, you can build and publish it using Hugo, Quarto, Jekyll, Gatsby, or any other Static Site Generator (SSG) of your choice.
+:::
 
 In a future post, I will show you how to create a Shortcut to convert lots of `heic` images to `webp` images for much smaller file sizes. I'm assuming you already have a folder full of optimized images.
 

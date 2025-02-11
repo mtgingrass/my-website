@@ -7,18 +7,27 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - posts.qmd
-      - booklist.qmd
+      - href: posts.qmd
+      - href: booklist.qmd
     right:
       - icon: github
         href: https://github.com/mtgingrass
         aria-label: GitHub
       - icon: youtube
-        href: https://youtube.com/@cradletograver
-        aria-label: CradleToGraveR
+        menu:
+          - text: Cradle To Grave R
+            href: https://youtube.com/@cradletograver
+          - text: Mark Gingras
+            href: https://youtube.com/@markgingrass
       - icon: envelope-arrow-up-fill
         href: mailto:mark.gingrass@gmail.com
-
+  page-footer: 
+    left: "Copyright 2025, Mark Gingrass" 
+    right: 
+      - icon: github
+        href: https://github.com/mtgingrass
+      - icon: envelope-arrow-up-fill
+        href: mailto:mark.gingrass@gmail.com
 format:
   html:
     theme: solona
