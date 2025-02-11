@@ -14,7 +14,9 @@ image: image_generator.png
 
 In this tutorial, we'll walk through an R script that automatically generates a Quarto blog post from images stored in a directory. If you have a collection of images and want to quickly create a visually appealing blog post, this guide will help you automate the process.
 
-In a future post, I will show you how to create a Shortcut to convert lots of `heic` images to `webp` images for much smaller file sizes. I'm assuming you already have a folder full of optimized images. 
+This code generates Markdown, which is itself code, that can then be built and published to a site. Essentially, it acts as a Markdown generator, producing properly formatted Markdown for your images. Once the Markdown file is created, you can build and publish it using Hugo, Quarto, Jekyll, Gatsby, or any other Static Site Generator (SSG) of your choice.
+
+In a future post, I will show you how to create a Shortcut to convert lots of `heic` images to `webp` images for much smaller file sizes. I'm assuming you already have a folder full of optimized images.
 
 ## Loading Required Libraries
 
@@ -135,6 +137,13 @@ message("Markdown post generated successfully at: ", output_file)
 
 # Conclusion
 
-This script automates the process of creating a Quarto blog post from images stored in a directory. By leveraging R’s file system handling, string interpolation, and functional programming capabilities, we efficiently generate a structured markdown file ready for publishing. 
+This script automates the process of creating a Quarto blog post from images stored in a directory. By leveraging R’s file system handling, string interpolation, and functional programming capabilities, we efficiently generate a structured markdown file ready for publishing.
 
 Try running this script on your own collection of images and see how it works for you!
+
+## Full Source
+Find the full source doe repositary [here](https://github.com/mtgingrass/images_to_markdown.git).
+
+## Credit
+
+I give full credit to [Jaydey Ryan](https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/#configure-continuous-deployment) for their excellent instructions on setting up continuous deployment with Netlify and GitHub. Thank you! 

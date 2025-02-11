@@ -13,6 +13,9 @@ website:
       - icon: github
         href: https://github.com/mtgingrass
         aria-label: GitHub
+      - icon: youtube
+        href: https://youtube.com/@cradletograver
+        aria-label: CradleToGraveR
       - icon: envelope-arrow-up-fill
         href: mailto:mark.gingrass@gmail.com
 
