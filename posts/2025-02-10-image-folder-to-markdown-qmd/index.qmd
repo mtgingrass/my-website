@@ -8,6 +8,7 @@ execute:
   eval: false
 description: "A step-by-step guide to generating Quarto blog posts with a folder of images using R. Learn how to automate markdown creation, structure metadata, and display images seamlessly with reproducible code."
 image: image_generator.png 
+lightbox: true
 ---
 
 # Introduction
