@@ -27,7 +27,7 @@ website:
       - icon: github
         href: https://github.com/mtgingrass
       - icon: envelope-arrow-up-fill
-        href: mailto:mark.gingrass@gmail.com
+        href: mailto:mtg_public@markgingrass.com
 format:
   html:
     theme: solona
