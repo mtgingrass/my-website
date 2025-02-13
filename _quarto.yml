@@ -20,14 +20,15 @@ website:
           - text: Mark Gingras
             href: https://youtube.com/@markgingrass
       - icon: envelope-arrow-up-fill
-        href: mailto: mg@markgingrass.com
+        href: "mailto:mg@markgingrass.com"  # Ensure correct spacing and quotes
   page-footer: 
     left: "Copyright 2025, Mark Gingrass" 
     right: 
       - icon: github
         href: https://github.com/mtgingrass
       - icon: envelope-arrow-up-fill
-        href: mailto: mg@markgingrass.com
+        href: "mailto:mg@markgingrass.com"  # Ensure correct spacing and quotes
+
 format:
   html:
     theme: solona
@@ -40,4 +41,3 @@ freeze: auto
 
 execute:
   freeze: auto
-
