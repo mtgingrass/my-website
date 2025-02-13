@@ -20,7 +20,7 @@ website:
           - text: Mark Gingras
             href: https://youtube.com/@markgingrass
       - icon: envelope-arrow-up-fill
-        href: mailto:mg@markgingrass.com
+        href: mailto: mg@markgingrass.com
   page-footer: 
     left: "Copyright 2025, Mark Gingrass" 
     right: 
