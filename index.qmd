@@ -7,24 +7,20 @@ image: images/markandollie1.webp
 
 ## Professional
 
-I bring over two decades of experience in the federal space, where I have led high-performing teams, delivered enterprise software projects, and driven organizational success through strategic contracting, reorganization, and exceptional communication.
-
-Throughout my career, I have excelled at translating complex technical concepts into actionable insights for stakeholders at all levels. As a leader overseeing multiple Scrum teams, I have successfully guided Agile transformations, coached Product Owners and Scrum Masters, and optimized team performance to meet mission-critical objectives.
-
-With a proven track record in managing product backlogs, transforming stakeholder requirements into user-focused stories, and delivering innovative software solutions, I am committed to creating real-world value through technology and collaboration.
-
-I am passionate about improving processes, fostering innovation, and helping organizations achieve their missions efficiently and effectively. Feel free to connect to discuss how I can contribute to your team’s success.
+Technical leader with 20+ years in the federal sector, specializing in enterprise software solutions, Agile transformation, and government contracting. Track record of leading high-stakes technical initiatives, responding to RFPs/RFIs, and translating complex technical concepts into actionable business strategies. I love building relationships with stakeholders at all levels. Extensive experience working with defense, regulatory, and federal agencies.
 
 # About Me
 
 I’m a lifelong learner, outdoor enthusiast, and problem solver.
 
-### Hobbies  
-I have been actively hiking for a few years now. I started doing some over-nighters recently and love the steep climbs. I also mountain bike and skateboard. I have a partially built out van and pose as a vanlifer on the weekends from time to time. 
+### Hobbies
+
+I have been actively hiking for a few years now. I started doing some over-nighters recently and love the steep climbs. I also mountain bike and skateboard. I have a partially built out van and pose as a vanlifer on the weekends from time to time.
 
 My dog, Ollie, is usually along for the ride. He’s my trail buddy and road trip companion.
 
-### Curious Mind  
+### Curious Mind
+
 I have interests in technology, policy, governance, and efficiency. I enjoy learning about Lean, Six Sigma, and anything related to improving efficiency and eliminating wasteful processes.
 
 At the end of the day, I’m always seeking ways to combine what I know with what I love.
