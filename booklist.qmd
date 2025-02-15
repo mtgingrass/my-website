@@ -1,5 +1,5 @@
 ---
-title: "Book List"
+title: "Books"
 format:
   html:
     toc: true
@@ -16,59 +16,77 @@ I'll try to keep up with the books I have read and add them here. From this poin
 # History & Politics
 
 ### [The Limits of Power](https://www.amazon.com/Limits-Power-End-American-Exceptionalism/dp/0805088156?tag=hatro-20) by Andrew Bacevich
+
 A critical examination of America's foreign policy and its overreliance on military power. Bacevich delves into the consequences of unchecked national ambitions.
 
 ### [Easy Spanish Step-By-Step](https://www.amazon.com/Easy-Spanish-Step-Step/dp/0071463380?tag=hatro-20) by Barbara Bregstein
+
 An accessible guide for beginners aiming to learn Spanish, focusing on essential grammar and vocabulary to build a strong foundation.
 
 ### [Four Thousand Weeks](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122?tag=hatro-20) by Oliver Burkeman
+
 A profound reflection on time management, urging readers to embrace the limitations of life and focus on what truly matters.
 
 ### [How to Win Friends and Influence People](https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034?tag=hatro-20) by Dale Carnegie
+
 A timeless classic offering practical advice on effective communication and building meaningful relationships.
 
 ### [Master of the Senate](https://www.amazon.com/Master-Senate-Years-Lyndon-Johnson/dp/0394720954?tag=hatro-20) by Robert Caro
+
 An in-depth biography of Lyndon B. Johnson, focusing on his tenure in the U.S. Senate and his mastery of legislative power.
 
 ### [Means of Ascent](https://www.amazon.com/Means-Ascent-Years-Lyndon-Johnson/dp/067973371X?tag=hatro-20) by Robert Caro
+
 The second volume in Caro's series on Lyndon B. Johnson, detailing his controversial 1948 Senate campaign.
 
 ### [The Passage of Power](https://www.amazon.com/Passage-Power-Years-Lyndon-Johnson/dp/0375713255?tag=hatro-20) by Robert Caro
+
 This volume chronicles Johnson's vice presidency and the transition to his unexpected presidency after JFK's assassination.
 
 ### [The Path to Power](https://www.amazon.com/Path-Power-Years-Lyndon-Johnson/dp/0679729453?tag=hatro-20) by Robert Caro
+
 The first installment in the series, exploring Johnson's early life and political rise in Texas.
 
 ### [Man's Search for Meaning](https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/080701429X?tag=hatro-20) by Viktor E. Frankl
+
 A moving memoir by a Holocaust survivor, discussing finding purpose amidst suffering and the importance of meaning in life.
 
 ### [Sapiens](https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095?tag=hatro-20) by Yuval Noah Harari
+
 A sweeping narrative of human history, examining how Homo sapiens came to dominate the world.
 
 ### [The Men With the Pink Triangle](https://www.amazon.com/Men-Pink-Triangle-Heinz-Heger/dp/1555830064?tag=hatro-20) by Heinz Heger
+
 A harrowing account of the persecution of homosexuals in Nazi concentration camps, shedding light on a lesser-known aspect of history.
 
 ### [They Thought They Were Free](https://www.amazon.com/They-Thought-Were-Free-Germans/dp/022652583X?tag=hatro-20) by Milton Mayer
+
 An exploration of how ordinary Germans came to accept and support the Nazi regime, offering insights into the nature of conformity.
 
 # Tech, Science, Self Help
 
 ### [Dreyer's English](https://www.amazon.com/Dreyers-English-Ultimate-Companion-Writing/dp/0812995708?tag=hatro-20) by Benjamin Dreyer
+
 An informative and entertaining guide to writing and grammar, offering tips from a seasoned copy editor.
 
 ### [Lean Enterprise](https://www.amazon.com/Lean-Enterprise-Performance-Organizations-High-Performance/dp/1449368425?tag=hatro-20) by Jez Humble, Joanne Molesky, and Barry O'Reilly
+
 A guide for organizations aiming to adopt lean principles to drive innovation and achieve sustainable growth.
 
 ### [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/1942788290?tag=hatro-20) by Gene Kim, Kevin Behr, and George Spafford
+
 A novel that illustrates the challenges of IT operations and the journey to implement DevOps practices for better efficiency.
 
 # Fiction
 
 ### [Remarkably Bright Creatures](https://www.amazon.com/Remarkably-Bright-Creatures-Shelby-Pelt/dp/0063204150?tag=hatro-20) by Shelby Van Pelt
+
 A heartwarming story about unexpected friendships and healing, featuring a giant Pacific octopus.
 
 ### [The Idiot](https://www.amazon.com/Idiot-Fyodor-Dostoevsky/dp/014044792X?tag=hatro-20) by Fyodor Dostoevsky
+
 A profound novel exploring the life of Prince Myshkin, whose innocence and kindness are perceived as foolishness in a corrupt society.
 
 ### [Animal Farm](https://www.amazon.com/Animal-Farm-George-Orwell/dp/0451526341?tag=hatro-20) by George Orwell
+
 A satirical allegory on totalitarianism and power dynamics, as relevant today as when it was written.
