@@ -14,6 +14,7 @@ format:
 lightbox: true
 image: presentation-slide-power-point.png
 bibliography: references.bib
+image: english.png
 ---
 
 # Understanding American Literacy Levels
