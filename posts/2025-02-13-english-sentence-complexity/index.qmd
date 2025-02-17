@@ -1,0 +1,41 @@
+---
+title: "What's a complex English Sentence?"
+author: "Mark Gingrass"
+date: 2025-02-13
+categories: ["Life Pro Tips"]
+execute:
+  eval: false
+summary: "If your sentences all sound the same, your writing gets boring fast. Gary Provost nailed it: mix short, medium, and long sentences to keep readers engaged. This post breaks down why sentence variety matters and how to use it to make your writing clear, effective, and actually worth reading."
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-expand: true
+lightbox: true
+image: presentation-slide-power-point.png
+bibliography: references.bib
+---
+
+# Understanding American Literacy Levels
+
+## What Does It Mean When People Say That Most Americans Can't Read Above a Sixth-Grade Level?
+
+Studies have found a concern regarding literacy in the United States. Approximately 130 million American adults (54%) between the ages of 16 and 74, lack proficiency in literacy, basically reading below a sixth-grade level [@barbarabush].
+
+Over half of American adults can’t handle advanced reading tasks. So how do we expect them to understand complex issues like political agendas and policy decisions? This is why so many people’s political discussions never go beyond Facebook memes; they’re digestible, oversimplified, and don’t require real analysis. If we want better decision-making, we need to address the root problem: literacy. 
+
+## The Importance of Varied Sentence Structure in Writing
+
+I don't pretend to have a solution, in fact, I leave that to the expert educators out there. I did; however, find this short bit that Gary Provost wrote. I think he summarizes it nicely.
+
+> "This sentence has five words. Here are five more words. Five-word sentences are fine. But several together become monotonous. Listen to what is happening. The writing is getting boring. The sound of it drones. It's like a stuck record. The ear demands some variety.  
+>  
+> Now listen. I vary the sentence length, and I create music. Music. The writing sings. It has a pleasant rhythm, a lilt, a harmony. I use short sentences. And I use sentences of medium length. And sometimes, when I am certain the reader is rested, I will engage him with a sentence of considerable length, a sentence that burns with energy and builds with all the impetus of a crescendo, the roll of the drums, the crash of the cymbals—sounds that say listen to this, it is important." [@provost]
+
+When I first read this, I felt the music it made. 
+
+## About Gary Provost
+
+Gary Provost (1944–1995) was an American author and educator dedicated to helping writers enhance their craft. Throughout his career, he authored numerous books on writing, including *100 Ways to Improve Your Writing* and *Make Your Words Work*. Provost was also a respected writing instructor, conducting seminars and workshops aimed at guiding both novice and experienced writers toward more effective communication [@wikipedia].
+
+His teachings continue to influence writers today, emphasizing clarity, rhythm, and the musicality of language to engage and inform readers effectively.
