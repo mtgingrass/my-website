@@ -1,0 +1,159 @@
+---
+title: "How to Turn a GitHub Branch into a New Repository"
+author: "Mark Gingrass"
+date: 2025-02-17
+categories: ["Life Pro Tips"]
+execute:
+  eval: false
+summary: "Turn a GitHub branch into a standalone repository with this step-by-step guide. If your side project has outgrown its original repo, this tutorial will show you how to cleanly separate it, set up a new GitHub repository, and push your existing branch—without losing any work"
+image: githubbranch.png
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-expand: true
+lightbox: true
+---
+
+# **How to Turn a GitHub Branch into a New Repository**
+
+Sometimes, you start a side project as just a branch off your main GitHub repository, thinking it’s just a small experiment. But then, the project takes on a life of its own, and you realize: *This is never getting merged. It’s its own thing now.*
+
+If that sounds familiar, you might be wondering: *Should I just keep working off this branch, or should I split it into its own repository?* 
+
+Short answer? **Make a new repo.** 
+
+Here’s why, and more importantly, **how to do it without losing your work**.
+
+---
+
+## **Why You Should Create a New Repository Instead of Keeping a Branch**
+
+If you’re unsure whether to keep using a branch or break off into a new repo, ask yourself these questions:
+
+### **Signs You Should Create a New Repository:**
+✅ Your branch is a **completely different project** and not just a feature of the original repo.  
+✅ You’re never going to merge it back.  
+✅ You want separate version control, releases, and issue tracking.  
+✅ You might collaborate with others on it, and keeping it in the old repo would be confusing.  
+✅ You want a cleaner Git history that isn’t tangled up with unrelated commits from the main project.  
+
+### **When It’s Okay to Keep a Branch Instead:**
+🟡 The branch is just an **alternative version** of the original project (like an experimental feature).  
+🟡 You want to occasionally **cherry-pick updates** from the main repo.  
+🟡 You’re using it as a **temporary fork** for a short-term change.  
+
+If you’ve decided that your branch deserves to be its own project, here’s the **step-by-step guide** to making that happen.
+
+---
+
+# **Step 1: Clone the Branch as a New Local Repository**
+We need to extract the branch from the old repo and make it independent.
+
+```sh
+git clone --branch your-branch-name --single-branch https://github.com/yourusername/old-repo.git new-repo-folder
+```
+
+### **Explanation:**
+- `--branch your-branch-name` → Clones only the specified branch.  
+- `--single-branch` → Ensures we don’t pull unnecessary branches.  
+- `https://github.com/yourusername/old-repo.git` → The original repo’s URL.  
+- `new-repo-folder` → The folder where your new repository will live.
+
+At this point, you now have a **new directory with just your branch**, acting as an independent Git project.
+
+---
+
+# **Step 2: Remove the Connection to the Old Repository**
+Right now, your local Git project still thinks it’s tied to the original repository. Let’s break that link.
+
+```sh
+cd new-repo-folder
+git remote remove origin
+```
+
+### **Explanation:**
+- `cd new-repo-folder` → Navigate into your new project directory.  
+- `git remote remove origin` → Cuts the connection to the old repo.
+
+Now, your branch is **disconnected from the original repo**. Next, we’ll attach it to a new one.
+
+---
+
+# **Step 3: Create a New Repository on GitHub**
+1. Go to [GitHub](https://github.com/).
+2. Click the **+** icon in the top-right and select **New repository**.
+3. Give it a name and description.
+4. **Do not** initialize it with a README, `.gitignore`, or license (we’ll add those later).
+5. Click **Create repository**.
+
+Copy the repo URL—you’ll need it for the next step.
+
+---
+
+# **Step 4: Connect Your Local Project to the New Repo**
+Now, let’s link your new project directory to this fresh GitHub repository.
+
+```sh
+git remote add origin https://github.com/yourusername/new-repo.git
+```
+
+Verify the change with:
+
+```sh
+git remote -v
+```
+
+You should see something like:
+
+```
+origin  https://github.com/yourusername/new-repo.git (fetch)
+origin  https://github.com/yourusername/new-repo.git (push)
+```
+
+---
+
+# **Step 5: Push the Branch as the Main Branch**
+Since this was a branch before, it might not be named `main`. Let’s rename it and push it.
+
+```sh
+git branch -M main
+git push -u origin main
+```
+
+### **Explanation:**
+- `git branch -M main` → Renames your branch to `main`.  
+- `git push -u origin main` → Pushes it to GitHub and sets up tracking.
+
+At this point, **your project is live on GitHub as its own independent repository**.
+
+---
+
+# **Step 6: Add a README and Other Setup Files**
+Your new repo might look a little bare. Let’s add a `README.md` file and push it.
+
+```sh
+echo "# My New Project" > README.md
+git add README.md
+git commit -m "Add initial README"
+git push origin main
+```
+
+You can also set up a `.gitignore` file at this point if needed.
+
+---
+
+# **Final Thoughts**
+Splitting off a branch into a new GitHub repository is a **great way to separate concerns** when a project outgrows its original purpose. Now, you have a fully independent repo with:
+✔ Clean commit history  
+✔ Independent versioning  
+✔ No risk of accidental merges back into the original project  
+
+Next time you catch yourself endlessly working on a branch that’s *clearly its own thing*, consider breaking it off like this.  
+
+### **What’s Next?**
+- If this new repo is public, consider writing a proper README to explain what it does.
+- Set up GitHub Actions for automation if needed.
+- Plan out your first release!
+
+Got any other **Git questions**? Drop them in the comments below.
