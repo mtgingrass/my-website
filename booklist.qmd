@@ -72,8 +72,6 @@ A sweeping narrative of human history, examining how Homo sapiens came to domina
 
 An exploration of how ordinary Germans came to accept and support the Nazi regime, offering insights into the nature of conformity.
 
-# Tech, Science, Self Help
-
 ### [Dreyer's English](https://www.amazon.com/Dreyers-English-Ultimate-Companion-Writing/dp/0812995708?tag=hatro-20) by Benjamin Dreyer
 
 An informative and entertaining guide to writing and grammar, offering tips from a seasoned copy editor.
@@ -85,8 +83,6 @@ A guide for organizations aiming to adopt lean principles to drive innovation an
 ### [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/1942788290?tag=hatro-20) by Gene Kim, Kevin Behr, and George Spafford
 
 A novel that illustrates the challenges of IT operations and the journey to implement DevOps practices for better efficiency.
-
-# Fiction
 
 ### [Remarkably Bright Creatures](https://www.amazon.com/Remarkably-Bright-Creatures-Shelby-Pelt/dp/0063204150?tag=hatro-20) by Shelby Van Pelt
 
