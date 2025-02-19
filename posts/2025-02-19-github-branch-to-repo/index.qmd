@@ -2,7 +2,7 @@
 title: "How to Turn a GitHub Branch into a New Repository"
 author: "Mark Gingrass"
 date: 2025-02-19
-categories: ["Life Pro Tips"]
+categories: ["Programming"]
 execute:
   eval: false
 summary: "Turn a GitHub branch into a standalone repository with this step-by-step guide. If your side project has outgrown its original repo, this tutorial will show you how to cleanly separate it, set up a new GitHub repository, and push your existing branch—without losing any work"
