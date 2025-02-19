@@ -13,7 +13,6 @@ format:
     toc-depth: 2
     toc-expand: true
 lightbox: true
-image: presentation-slide-power-point.png
 bibliography: references.bib
 ---
 
