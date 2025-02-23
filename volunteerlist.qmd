@@ -1,0 +1,45 @@
+---
+title: "Involvement"
+format:
+  html:
+    toc: true
+    toc-depth: 1
+    toc-expand: true
+---
+
+# Volunteer Work & Community Impact
+
+I try to track my volunteer efforts here. I hope this page can inspire you, and motivate me, to give back to the community.
+
+## Recent Volunteer Activities
+
+------------------------------------------------------------------------
+
+### Humane Socieity 
+
+-   **2025-02-23**
+-   **Organization:** Humane Society
+-   **Description:**
+    *Helping with laundry, dishes, cleaning and more...all for the dogs and cats.*
+
+------------------------------------------------------------------------
+
+### Planting Trees
+
+-   **2025-02-22**
+-   **Organization:** [TreesUpstate](https://treesupstate.org/)
+-   **Description:**
+    *We went out and planted some small trees early in the morning in the cold. About 25 people showed up and we knocked this out in just a few short hours. It was a great precursor to a hike later on.*
+
+![](images/MarkTreeUpstate01.webp)
+
+------------------------------------------------------------------------
+
+### Humane Socieity 
+
+-   **2025-02-17**
+-   **Organization:** Humane Society
+-   **Description:**
+    *Helping with laundry, dishes, cleaning and more...all for the dogs and cats.*
+
+------------------------------------------------------------------------
