@@ -1,0 +1,58 @@
+---
+title: "Getting Politically Involved"
+author: "Mark Gingrass"
+date: 2025-02-26
+categories: ["Career", "Politics"]
+image: images/politics.png
+execute:
+  eval: false
+summary: "I’ve been folliwing politics as a lay-person for a while now, but now I’m taking it seriously and with a purpose. This isn’t just casual interest anymore; it’s a focused effort to understand how and where real change happens. My goal is to think about the bigger picture and do something meaningful in the public interest. I see 2026 and 2028 as major stepping stones, and I’m using the next year to sharpen my knowledge. For now, it’s all about learning, engaging, and getting ready. 2025 is the year for exploring."
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-expand: true
+lightbox: true
+---
+
+# **Why I'm Getting Politically Involved**  
+
+For most of my life, I followed politics the way many people do, listening to news from NPR and PBS or getting lost down the Reddit rabbit hole. But politics isn’t just about Washington, D.C., or major national movements; it directly impacts our daily lives.
+
+And when I say our lives, I mean the people around me—my colleagues, my friends, my family, the bar patrons, the folks at the coffee shop, the construction workers, the builders, the developers, the state and county employees, the unemployed, the elderly—the list goes on.
+
+If I want to see meaningful change, I need to do more than just watch from the sidelines. These are the people who make up **our** communities, and they deserve a leader who will stand up and fight for them.
+
+## **The Need to Engage**  
+
+In 2025, politics feels more personal and polarized than ever, but that doesn’t mean it’s a lost cause. This creates an opportunity for **independent** thinkers to engage more. The truth is, the loudest voices often drown out logic and facts and don’t always represent what’s best.
+
+People are confused, misinformed, and, frankly, not educated enough to see the long-term upstream and downstream effects of decisions made today. Somehow, we need better messaging across the board. People deserve to understand the consequences, both short-term and long-term.
+
+I believe in social safety nets, healthcare access, and environmental protections, but I also value pragmatic decision-making, economic sustainability, and efficiency. I support eliminating wasteful processes (I'm a huge lean/six sigma believer), but we must first define and measure what constitutes waste and implement a systematic approach to reducing it with minimal disruption to families. I don’t believe the government has all the answers, but I also reject the idea that it is the enemy. The private and public working classes should **collaborate to raise everyone’s standard of living**, rather than pulling one group down in the name of equality.
+
+## **Time to Focus**  
+
+I’ve always been aware of politics, followed major events, and had my own opinions, but this time, it’s different. I’m approaching this with purpose, structured learning, not just passive consumption. I am dedicating the next year to hyper-focused study and engagement.
+
+This isn’t about jumping in blindly or chasing trends. It’s about understanding the system deeply. Understanding how policies are shaped, how institutions function, and where real power lies. I see 2026 and 2028 as critical stepping stones, not just for my own involvement but for broader political change.  
+
+This isn’t about me. My goal isn’t personal ambition but public interest. Politics should serve people, not individual egos, and I want to be part of a movement that prioritizes meaningful, tangible improvements.  
+
+## **Where to Start?**  
+
+One of the biggest obstacles to getting involved is knowing where to start. The massive volume of political content is overwhelming, making it tempting to quit before even starting. But that’s not an option for me. Others are already deeply embedded in the system, shaping the rules and outcomes. It’s time to catch up—and surpass them.
+
+For me, the first step has been education, not just on the issues but on how politics actually works. How do policies get passed? How do local, state, and federal governments interact? Who really holds power in different institutions? It’s shocking how little most of us learn about the mechanics of government, yet we’re expected to navigate it as informed citizens. For a snapshot of what I am reading, check out my [Book List](https://markgingrass.com/booklist).  
+
+I've started following policy level discussions. I read from multiple sources—mainstream outlets, independent journalists, and all across the spectrum. I listen to people I don’t 100% agree with to understand different perspectives. I apply critical thinking to political narratives, recognizing when rhetoric is being used to obscure facts or simplify complex issues.
+
+At the end of the day, I’m human. I make mistakes. I strive to be principled, I also understand that navigating politics sometimes requires strategy and compromise to achieve real results.
+
+## **Looking Ahead**  
+
+This post isn’t a campaign announcement or anything like that. It’s just a reflection on why I feel like taking a more active role and what I’m doing to prepare for it. I usually write about technology, software development, and business on my personal blog; this is more of a personal checkpoint than a formal political statement.  
+
+That said, I have started laying some groundwork for Future Me. I recently purchased two domains—**[WeChooseMark.com](https://wechoosemark.com)** and **[MarkForChange.com](https://mark4change.com)**. Right now, they simply redirect to my personal website, but they represent a vision for the future: a placeholder where I can articulate a more structured, public-facing message when the time is right.  
+
+For today, my focus remains on learning, engaging, and refining my perspective. 2026 and 2028 will be more than just election years; they’ll be the beginning of something meaningful.  
