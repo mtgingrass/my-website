@@ -10,6 +10,8 @@ website:
       - href: posts.qmd
       - href: booklist.qmd
       - href: volunteerlist.qmd
+      - text: "Mark for Change"
+        href: https://markforchange.com
     right:
       - icon: github
         href: https://github.com/mtgingrass
