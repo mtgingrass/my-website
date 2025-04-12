@@ -17,6 +17,55 @@ I'll try to keep up with the books I have read and add them here. From this poin
 
 ## 2025
 
+### [**The Righteous Mind: Why Good People Are Divided by Politics and Religion** by Jonathan Haidt](https://www.amazon.com/dp/0307455777?tag=hatro-20)
+
+<table>
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px;">
+      <a href="https://www.amazon.com/dp/0307455777?tag=hatro-20" target="_blank">
+        <img src="/book_images/righteous-mind.jpg" alt="The Righteous Mind cover" style="max-width: 120px; height: auto;" />
+      </a>
+    </td>
+    <td style="vertical-align: top;">
+      In this insightful work, social psychologist Jonathan Haidt explores the roots of our moral divisions, arguing that moral judgments stem more from intuition than reason. Haidt introduces concepts like moral foundations theory and the “rider and elephant” metaphor to explain how different political and religious groups prioritize values differently. By understanding these moral underpinnings, the book offers a path toward greater empathy and constructive dialogue across ideological divides.
+    </td>
+  </tr>
+</table>
+
+### [**Fantasyland: How America Went Haywire** by Kurt Andersen](https://www.amazon.com/Fantasyland-America-Haywire-500-Year-History/dp/1400067219?tag=hatro-20)
+
+In this comprehensive analysis, Kurt Andersen explores America's 500-year history of embracing fantasy and its impact on contemporary society. He argues that the nation's foundation on dreamers and believers has led to a blurred line between reality and illusion, culminating in today's post-truth era. Andersen traces this phenomenon from the early settlers to modern times, examining how magical thinking has shaped politics, religion, and culture. A thought-provoking read for those seeking to understand the roots of America's current challenges.
+
+```{=html}
+<!-- ### [**The Power Broker: Robert Moses and the Fall of New York** by Robert A. Caro](https://www.amazon.com/Power-Broker-Robert-Moses-Fall/dp/0394720245?tag=hatro-20)
+
+This Pulitzer Prize-winning biography delves into the life of Robert Moses, the influential urban planner who shaped much of modern New York City. Caro meticulously examines how Moses wielded power to build infrastructure, often at the expense of communities. The book offers profound insights into urban development and political dynamics.
+
+*Personal Note*: This book has been a beast. I've been switching back and forth between audio and text, and this is my third attempt at reading it. It's a very good book—I love it. I've loved all of Robert Caro's books so far, but for some reason, this one has been a challenge to continue. I think it has to do with the fact that I keep wanting to read other books, so I might just need to take a break on this one.
+-->
+```
+
+# Completed Books
+
+### [**Abundance** by Ezra Klein and Derek Thompson](https://www.amazon.com/dp/1668023482?tag=hatro-20)
+
+<table>
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px;">
+      <a href="https://www.amazon.com/dp/1668023482?tag=hatro-20" target="_blank">
+        <img src="/book_images/abundance.jpg" alt="Abundance book cover" style="max-width: 120px; height: auto;" />
+      </a>
+    </td>
+    <td style="vertical-align: top;">
+      In *Abundance*, Ezra Klein and Derek Thompson argue that America's persistent shortages—in housing, infrastructure, and clean energy—stem from well-intentioned but outdated regulations and bureaucratic inertia. They advocate for a renewed liberalism focused on building and innovation, proposing reforms to overcome these self-imposed scarcities and foster a more prosperous future.
+    </td>
+  </tr>
+</table>
+
+### [**The Color of Law: A Forgotten History of How Our Government Segregated America** by Richard Rothstein](https://www.amazon.com/Color-Law-Forgotten-Government-Segregated/dp/1631494538?tag=hatro-20)
+
+In this compelling work, Richard Rothstein examines how federal, state, and local governments systematically imposed residential segregation in the United States. Challenging the notion of de facto segregation, Rothstein provides extensive evidence of de jure segregation—segregation by law—and its lasting impact on African American communities. This book is essential for understanding the historical roots of racial disparities in housing and the ongoing consequences of these policies.
+
 ### [**Let's Get Real or Let's Not Play: Transforming the Buyer/Seller Relationship** by Mahan Khalsa and Randy Illig](https://www.amazon.com/Lets-Get-Real-Not-Play/dp/1591842263?tag=hatro-20)
 
 This insightful guide introduces a fresh approach to sales, emphasizing clarity, authenticity, and emotional intelligence. Khalsa and Illig argue that salespeople achieve the best results by focusing entirely on helping clients succeed, leading to mutual benefits for both buyer and seller. The book provides practical strategies to transform the sales process into a collaborative and trust-building experience.
@@ -25,13 +74,11 @@ This insightful guide introduces a fresh approach to sales, emphasizing clarity,
 
 A foundational text on how public policy is formed, examining the complexities of decision-making in government. Lindblom and Woodhouse explore the incremental nature of policymaking and the factors that shape it, making this an essential read for those interested in governance and public administration.
 
-### [The Idiot](https://www.amazon.com/Idiot-Fyodor-Dostoevsky/dp/014044792X?tag=hatro-20) by Fyodor Dostoevsky
+### [**Jesus and John Wayne: How White Evangelicals Corrupted a Faith and Fractured a Nation** by Kristin Kobes Du Mez](https://www.amazon.com/Jesus-John-Wayne-Evangelicals-Corrupted/dp/1631495739?tag=hatro-20)
 
-A profound novel exploring the life of Prince Myshkin, whose innocence and kindness are perceived as foolishness in a corrupt society.
+In this compelling analysis, historian Kristin Kobes Du Mez examines how white evangelical culture in America has embraced a militant masculinity, intertwining Christian faith with rugged individualism and nationalism. Tracing developments over the past 75 years, she reveals how figures like John Wayne have become emblematic of this shift, influencing religious and political dynamics. This book offers a critical perspective on the intersections of faith, gender, and power in contemporary evangelicalism.
 
-# Completed Books
-
-### [**A People's History of the United States** by Howard Zinn](https://www.amazon.com/Peoples-History-United-States/dp/0062397346?tag=hatro-20)  
+### [**A People's History of the United States** by Howard Zinn](https://www.amazon.com/Peoples-History-United-States/dp/0062397346?tag=hatro-20)
 
 A groundbreaking work that reinterprets American history from the perspective of the marginalized and oppressed. Zinn challenges traditional narratives by highlighting the struggles of workers, women, Black Americans, and Indigenous peoples, offering a critical and thought-provoking look at the past. An essential read for those seeking a deeper understanding of U.S. history beyond textbooks.
 
