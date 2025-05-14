@@ -21,7 +21,7 @@ lightbox: true
 
 # Building My First Real-World iOS App: A Simple Habit Tracker Developed with AI and SwiftUI
 
-I started building this Habit Tracker app as my first real-world iOS application designed specifically for the iPhone using SwiftUI and Xcode. I wanted to build something I actually believe in to keep me interested. Something useful, simple, and scalable.
+I started building this [Habit Tracker](https://github.com/mtgingrass/my-website "Github Repo") app as my first real-world iOS application designed specifically for the iPhone using SwiftUI and Xcode. I wanted to build something I actually believe in to keep me interested. Something useful, simple, and scalable.
 
 A lot of the apps I’ve used are bloated and over-engineered for my tastes. You shouldn’t have to tap through 20 menus just to log a simple habit. I’m building this for usability first, with the goal of making itintuitive, low-friction, and free.
 
@@ -42,7 +42,7 @@ To be clear: LLMs don’t magically write your app for you. Let alone do any con
 -   Why Views, ViewModels, and Models must stay loosely coupled for long-term scalability
 -   How to organize features so you’re not painting yourself into a corner when it’s time to expand
 
-This stuff matters. 
+This stuff matters.
 
 ![](images/clipboard-3334868007.png){width="498"}
 
