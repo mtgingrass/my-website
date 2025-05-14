@@ -1,0 +1,97 @@
+---
+title: "Simple Habit Tracker App"
+author: "Mark Gingrass"
+date: 2025-04-14
+categories: ["Career", "Programming"]
+image: images/clipboard-3301350674.png
+execute:
+  eval: false
+summary: "I’m developing a custom iOS habit tracker app using SwiftUI and Xcode—with help from large language models (LLMs) to accelerate design, debug Swift code, and iterate features faster. The app supports recurring goals, progress tracking, and motivational messaging, with a focus on clean architecture and future scalability."
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-expand: true
+lightbox: true
+---
+
+# **To Vibe or to Strive?**
+
+![](images/clipboard-3301350674.png)
+
+# Building My First Real-World iOS App: A Simple Habit Tracker Developed with AI and SwiftUI
+
+I started building this Habit Tracker app as my first **real-world iOS application** designed specifically for the iPhone using **SwiftUI** and **Xcode**. I wanted to build something I actually believe in to keep me interested. Something **useful**, **simple**, and **scalable**.
+
+A lot of the apps I’ve used are bloated and over-engineered for my tastes. You shouldn’t have to tap through 20 menus just to log a simple habit. I’m building this for usability first, with the goal of making itintuitive, low-friction, and free.
+
+I plan to take this all the way to the App Store, and possibly integrate cloud-based infrastructure down the line. Mostly just to learn more about AWS S3, Firebase, or a lightweight REST API. I'm a firm believer in keeping it simple (KISS).
+
+------------------------------------------------------------------------
+
+## Why I’m Using AI in My Workflow
+
+This project is also an exploration of AI-assisted development. I'm not tryin to be left behind! I’m using ChatGPT as a coding partner, what the Reddit folks call *Vibe Programming*. Yes, it has a bad connotation, but it's here to stay. Vibe programming paired with actually knowing WTH you are doing is a good combo.
+
+To be clear: LLMs don’t magically write your app for you. Let alone do any configuration for you...configuration majic can be a career in itself. I digress. They’re only effective if *you* understand the architecture, how to scale, iterate, build, and more. Tools like ChatGPT can’t comprehend project-wide structure unless you explicitly guide them. That means you need to know:
+
+-   How to modularize
+-   How to apply MVVM architecture
+-   How state management works in SwiftUI
+-   How @State, @Binding, @Published, and ObservableObject interact
+-   Why Views, ViewModels, and Models must stay loosely coupled for long-term scalability
+-   How to organize features so you’re not painting yourself into a corner when it’s time to expand
+
+This stuff matters. Especially if you're trying to build an app that won't collapse the moment a new feature request shows up.
+
+If you’re a developer, PM, or tech recruiter checking this out—yes, I wrote the app. Yes, I integrated AI into the build process. And yes, I understand the architecture behind it. My core skill set has always been having the **holistic, enterprise-wide view** as a **program manager overseeing complex software development efforts**. But I believe the best leaders dive deep—and this project is my way of staying sharp, learning hands-on, and proving that strategic thinking is even stronger when paired with the ability to actually build.
+
+![](images/clipboard-3334868007.png){width="498"}
+
+------------------------------------------------------------------------
+
+## Technical Skills This Project Is Reinforcing
+
+Even in just a few days, I’ve already touched on or deepened my experience with:
+
+-   SwiftUI layout principles (like `NavigationStack`, `List`, and `@Environment`)
+-   Creating reusable modular views
+-   Managing app state using `ObservableObject` and `@AppStorage`
+-   Navigating Xcode previews vs. simulator discrepancies (two days of troubleshooting why the simulator looked perfect but the build looked like garbage!)
+-   Building for both dark mode and light mode
+-   Debugging “The compiler is unable to type-check this expression…” issues by breaking down logic
+-   Using Git and GitHub: managing branches, reverting commits, and recovering from merge messes (admittedly, I have a lot more to learn with Git commands)
+-   Getting the app to run on my actual iPhone device
+
+------------------------------------------------------------------------
+
+## A Project to Care About
+
+If you don't break it enough times, you will never learn how to fix it. You have to put in the work and care about your project to really learn from it. Yes, from time to time I would let the LLM do its thing without me having a proper understanding-but each time I did that, I regretted it.
+
+You *want* to know why `@Binding` is behaving weird, or why your preview crashes but your build works. How about why your list is not ordered the same way due to a *for-loop* and UI standards.
+
+I’ve broken a lot of things during this build, but that’s the point. I’ve learned how to use Git like a lifeline, how to prompt engineer ChatGPT, and how to translate vague AI suggestions into clean, working SwiftUI code.
+
+------------------------------------------------------------------------
+
+## Things I am Working On Now
+
+The MVP will have:
+
+-   Main and sub-habit counters
+-   Motivational pop-ups from time to time
+-   Cloud-based updates for motivational content
+-   A **tip jar** feature
+
+![](images/clipboard-3299487040.png){width="421"}
+
+------------------------------------------------------------------------
+
+## Recruiters
+
+If you’re a developer, PM, or tech recruiter checking this out—yes, I wrote the app. Yes, I integrated AI into the build process. And yes, I understand the architecture behind it.
+
+My core skill set has always been having the **holistic, enterprise-wide view** as a **program manager overseeing enterprise software development**. But I believe the best leaders dive deep—and this project is my way of staying sharp, learning hands-on, and proving that strategic thinking is even stronger when paired with the ability to actually build.
+
+------------------------------------------------------------------------
