@@ -21,7 +21,7 @@ lightbox: true
 
 # Building My First Real-World iOS App: A Simple Habit Tracker Developed with AI and SwiftUI
 
-I started building this Habit Tracker app as my first **real-world iOS application** designed specifically for the iPhone using **SwiftUI** and **Xcode**. I wanted to build something I actually believe in to keep me interested. Something **useful**, **simple**, and **scalable**.
+I started building this Habit Tracker app as my first real-world iOS application designed specifically for the iPhone using SwiftUI and Xcode. I wanted to build something I actually believe in to keep me interested. Something useful, simple, and scalable.
 
 A lot of the apps I’ve used are bloated and over-engineered for my tastes. You shouldn’t have to tap through 20 menus just to log a simple habit. I’m building this for usability first, with the goal of making itintuitive, low-friction, and free.
 
@@ -42,9 +42,7 @@ To be clear: LLMs don’t magically write your app for you. Let alone do any con
 -   Why Views, ViewModels, and Models must stay loosely coupled for long-term scalability
 -   How to organize features so you’re not painting yourself into a corner when it’s time to expand
 
-This stuff matters. Especially if you're trying to build an app that won't collapse the moment a new feature request shows up.
-
-If you’re a developer, PM, or tech recruiter checking this out—yes, I wrote the app. Yes, I integrated AI into the build process. And yes, I understand the architecture behind it. My core skill set has always been having the **holistic, enterprise-wide view** as a **program manager overseeing complex software development efforts**. But I believe the best leaders dive deep—and this project is my way of staying sharp, learning hands-on, and proving that strategic thinking is even stronger when paired with the ability to actually build.
+This stuff matters. 
 
 ![](images/clipboard-3334868007.png){width="498"}
 
@@ -92,6 +90,6 @@ The MVP will have:
 
 If you’re a developer, PM, or tech recruiter checking this out—yes, I wrote the app. Yes, I integrated AI into the build process. And yes, I understand the architecture behind it.
 
-My core skill set has always been having the **holistic, enterprise-wide view** as a **program manager overseeing enterprise software development**. But I believe the best leaders dive deep—and this project is my way of staying sharp, learning hands-on, and proving that strategic thinking is even stronger when paired with the ability to actually build.
+My core skill set has always been having the enterprise-wide view as a program manager overseeing enterprise software development. But I believe the best leaders dive deep—and this project is my way of staying sharp, learning hands-on, and proving that strategic thinking is even stronger when paired with the ability to actually build.
 
 ------------------------------------------------------------------------
