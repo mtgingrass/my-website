@@ -31,7 +31,7 @@ I plan to take this all the way to the App Store, and possibly integrate cloud-b
 
 ## Why I’m Using AI in My Workflow
 
-This project is also an exploration of AI-assisted development. I'm not tryin to be left behind! I’m using ChatGPT as a coding partner, what the Reddit folks call *Vibe Programming*. Yes, it has a bad connotation, but it's here to stay. Vibe programming paired with actually knowing WTH you are doing is a good combo.
+This project is also an exploration of AI-assisted development. I'm not trying to be left behind! I’m using ChatGPT as a coding partner, what the Reddit folks call *Vibe Programming*. Yes, it has a bad connotation, but it's here to stay. Vibe programming paired with actually knowing WTH you are doing is a good combo.
 
 To be clear: LLMs don’t magically write your app for you. Let alone do any configuration for you...configuration majic can be a career in itself. I digress. They’re only effective if *you* understand the architecture, how to scale, iterate, build, and more. Tools like ChatGPT can’t comprehend project-wide structure unless you explicitly guide them. That means you need to know:
 
@@ -90,6 +90,6 @@ The MVP will have:
 
 If you’re a developer, PM, or tech recruiter checking this out—yes, I wrote the app. Yes, I integrated AI into the build process. And yes, I understand the architecture behind it.
 
-My core skill set has always been having the enterprise-wide view as a program manager overseeing enterprise software development. But I believe the best leaders dive deep—and this project is my way of staying sharp, learning hands-on, and proving that strategic thinking is even stronger when paired with the ability to actually build.
+My skills have always been having the enterprise-wide view as a program manager overseeing enterprise software development. This project is my way of staying sharp, learning hands-on, and proving that strategic thinking is even better when paired with the ability to actually develop and build.
 
 ------------------------------------------------------------------------
