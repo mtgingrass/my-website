@@ -17,20 +17,17 @@ I'll try to keep up with the books I have read and add them here. From this poin
 
 ## 2025
 
+### [**The Professional Product Owner: Leveraging Scrum as a Competitive Advantage** by Don McGreal and Ralph Jocham](https://www.amazon.com/dp/0134686470?tag=hatro-20)
+
+|  |  |
+|----|----|
+| [![The Professional Product Owner book cover](/book_images/professional-product-owner.png){alt="The Professional Product Owner book cover"}](https://www.amazon.com/dp/0134686470?tag=hatro-20) | This book offers a comprehensive guide to maximizing value through effective Scrum product ownership. Drawing on decades of experience, the authors provide practical insights into aligning vision, value, and validation in agile product management. It's a valuable resource for anyone looking to deepen their understanding of the Product Owner role and leverage Scrum as a competitive advantage. |
+
 ### [**The Righteous Mind: Why Good People Are Divided by Politics and Religion** by Jonathan Haidt](https://www.amazon.com/dp/0307455777?tag=hatro-20)
 
-<table>
-  <tr>
-    <td style="vertical-align: top; padding-right: 20px;">
-      <a href="https://www.amazon.com/dp/0307455777?tag=hatro-20" target="_blank">
-        <img src="/book_images/righteous-mind.jpg" alt="The Righteous Mind cover" style="max-width: 120px; height: auto;" />
-      </a>
-    </td>
-    <td style="vertical-align: top;">
-      In this insightful work, social psychologist Jonathan Haidt explores the roots of our moral divisions, arguing that moral judgments stem more from intuition than reason. Haidt introduces concepts like moral foundations theory and the “rider and elephant” metaphor to explain how different political and religious groups prioritize values differently. By understanding these moral underpinnings, the book offers a path toward greater empathy and constructive dialogue across ideological divides.
-    </td>
-  </tr>
-</table>
+|  |  |
+|----|----|
+| [![The Righteous Mind cover](/book_images/righteous-mind.jpg){alt="The Righteous Mind cover"}](https://www.amazon.com/dp/0307455777?tag=hatro-20) | In this insightful work, social psychologist Jonathan Haidt explores the roots of our moral divisions, arguing that moral judgments stem more from intuition than reason. Haidt introduces concepts like moral foundations theory and the “rider and elephant” metaphor to explain how different political and religious groups prioritize values differently. By understanding these moral underpinnings, the book offers a path toward greater empathy and constructive dialogue across ideological divides. |
 
 ### [**Fantasyland: How America Went Haywire** by Kurt Andersen](https://www.amazon.com/Fantasyland-America-Haywire-500-Year-History/dp/1400067219?tag=hatro-20)
 
@@ -49,18 +46,9 @@ This Pulitzer Prize-winning biography delves into the life of Robert Moses, the 
 
 ### [**Abundance** by Ezra Klein and Derek Thompson](https://www.amazon.com/dp/1668023482?tag=hatro-20)
 
-<table>
-  <tr>
-    <td style="vertical-align: top; padding-right: 20px;">
-      <a href="https://www.amazon.com/dp/1668023482?tag=hatro-20" target="_blank">
-        <img src="/book_images/abundance.jpg" alt="Abundance book cover" style="max-width: 120px; height: auto;" />
-      </a>
-    </td>
-    <td style="vertical-align: top;">
-      In *Abundance*, Ezra Klein and Derek Thompson argue that America's persistent shortages—in housing, infrastructure, and clean energy—stem from well-intentioned but outdated regulations and bureaucratic inertia. They advocate for a renewed liberalism focused on building and innovation, proposing reforms to overcome these self-imposed scarcities and foster a more prosperous future.
-    </td>
-  </tr>
-</table>
+|  |  |
+|----|----|
+| [![Abundance book cover](/book_images/abundance.jpg){alt="Abundance book cover"}](https://www.amazon.com/dp/1668023482?tag=hatro-20) | In \*Abundance\*, Ezra Klein and Derek Thompson argue that America's persistent shortages—in housing, infrastructure, and clean energy—stem from well-intentioned but outdated regulations and bureaucratic inertia. They advocate for a renewed liberalism focused on building and innovation, proposing reforms to overcome these self-imposed scarcities and foster a more prosperous future. |
 
 ### [**The Color of Law: A Forgotten History of How Our Government Segregated America** by Richard Rothstein](https://www.amazon.com/Color-Law-Forgotten-Government-Segregated/dp/1631494538?tag=hatro-20)
 
