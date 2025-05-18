@@ -13,7 +13,7 @@ Technical leader with 20+ years in the federal sector, specializing in enterpris
 > **New Project: Habit Tracker App**\
 > I'm building a SwiftUI-based iOS app from scratch (with help from a LLM) to track daily habits in a clean, KISS interface. It's hands-on, architectural, and fully documented.
 >
-> [Check it out here](https://markgingrass.com/posts/2025-05-14-simple-habit-tracker-app/)
+> Check it out [~~here~~](https://markgingrass.com/posts/2025-05-14-simple-habit-tracker-app/)[here](https://github.com/mtgingrass/JustToday)
 > :::
 
 ## About Me
