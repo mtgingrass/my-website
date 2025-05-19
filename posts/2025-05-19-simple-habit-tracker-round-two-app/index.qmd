@@ -3,7 +3,7 @@ title: "Working with AI, Habit Tracker - Round Two"
 author: "Mark Gingrass"
 date: 2025-04-19
 categories: ["Career", "Programming", "AI
-image: images/clipboard-3301350674.png
+image: images/clipboard-1347718563.png
 execute:
   eval: false
 summary: "Experimenting with an AI-assisted development workflow for iOS using SwiftUI, Git, and Cursor AI.  
@@ -30,6 +30,8 @@ So I step back. I start asking the AI to teach me specific concepts in detail, t
 ## Markdown Instructions
 
 Now I’m trying something new. I’m writing a **Markdown file full of detailed instructions**, like a high-level blueprint for the app. This is not my idea to use Markdown. I went down the Reddit Rabit Hole to get there. Don't get me wrong, I though to do this on my own, but not in a Markdown and not as *part* of the project. It's not quite pseudocode, not full English either. Somewhere in between. Think of it like a super-detailed Agile story or functional spec.
+
+![](images/clipboard-1347718563.png)
 
 This new `.md` file is going to serve as a shared context layer between me and the AI. It’s going to spell out:
 
