@@ -84,6 +84,7 @@ The MVP will have:
 
 ![](images/clipboard-3299487040.png){width="421"}
 
+Well, it turns out, I made a lot of mistakes. Still experimenting, follow my next moves [here](https://markgingrass.com/posts/2025-05-19-simple-habit-tracker-round-two-app/). 
 ------------------------------------------------------------------------
 
 ## Recruiters

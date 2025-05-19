@@ -1,0 +1,170 @@
+---
+title: "Working with AI, Habit Tracker - Round Two"
+author: "Mark Gingrass"
+date: 2025-04-19
+categories: ["Career", "Programming", "AI
+image: images/clipboard-3301350674.png
+execute:
+  eval: false
+summary: "Experimenting with an AI-assisted development workflow for iOS using SwiftUI, Git, and Cursor AI.  
+This post explores my shift toward a Markdown-driven architecture strategy—balancing speed, structure, and learning through failure.  
+It’s a raw, honest look at building smarter by breaking things first."
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-expand: true
+lightbox: true
+---
+
+# I'm Learning By Breaking Shit (And I'm Okay With That)
+
+Working on my Habit Tracker app has been a success in disguise. I'm learning about SwiftUI, MVVM, and most importly, how to use AI tools and where they fail. Check out my first attempt and fail
+
+I fail quite a bit using these AI tools. Not because they’re bad, but because I keep pushing them harder than I should. I get antsy. I want to know what they’re *capable of*. So I start giving them tasks I know are too complex, thinking *"maybe it’ll get me close."* Sometimes it does. Most of the time, it doesn’t. But I still try over and over, because I’m learning what works and what doesn’t.
+
+My experimental mindset has a cost: messy code. Unused files. Half-working views. I have to stop and take a deep dive into the wreckage to figure out how things *should* work. And when I do that, I usually realize *I have a lot more to learn.*
+
+So I step back. I start asking the AI to teach me specific concepts in detail, things like how state propagation works, or why my `@ObservedObject` isn’t updating. Or why my swipe just doens't freaking work! Inevitably, I swing back to wanting to build *more* of the app faster. I want a full feature, a whole view, generated in one go. And when I try that, I suffer through the pain of broken code, just hoping I’m “close enough.”
+
+## Markdown Instructions
+
+Now I’m trying something new. I’m writing a **Markdown file full of detailed instructions**, like a high-level blueprint for the app. This is not my idea to use Markdown. I went down the Reddit Rabit Hole to get there. Don't get me wrong, I though to do this on my own, but not in a Markdown and not as *part* of the project. It's not quite pseudocode, not full English either. Somewhere in between. Think of it like a super-detailed Agile story or functional spec.
+
+This new `.md` file is going to serve as a shared context layer between me and the AI. It’s going to spell out:
+
+-   Every **view** I want
+-   The **logic** behind each view
+-   The **relationships** between components
+-   The **state behavior** and **model interactions**
+-   Shortcuts and naming conventions (like “HLV” = `HabitListView`)
+-   App-wide **rules**, **assumptions**, and **patterns**
+
+I'm not feeding instructions in piecemeal anymore. This is the AI’s sandbox, and it gets *everything* up front.
+
+This Markdown will be changed a hundred times, I'm sure, but I'll paste what I today now and link to the actual Git file later.
+
+```` markdown
+
+## Purpose
+This is the screen where users see all of their tracked habits. The purpose of this screen is to display each habit’s current streak, status, and allow quick interactions such as resetting progress or editing the goal. The screen should feel smooth, minimal, and dynamic — with intuitive swipe gestures and animation.
+
+## UI Elements for HabitListView
+
+### Overall Look
+- A vertically scrollable list of habits
+- Clean and readable spacing between items
+- Minimal visual clutter — each row gets to the point
+
+### Top Bar
+- **Title**: “Your Habits”
+- Optional buttons in the top right:
+  - **+ Add Habit** (future enhancement, not required now)
+  - **Settings** (future enhancement)
+
+### Habit Row Layout
+Each row represents one habit and includes:
+- **Habit Title** (e.g., “Gym”, “Read 10 pages”)
+- **Streak Display**: Show current streak and all-time record
+  - Example: “Streak: 4 🔥  • Record: 12”
+- **Completion Status**:
+  - Checkbox or “Mark Done” button
+  - If already completed today, show as completed
+- **Swipe Actions**:
+  - Swipe Left:
+    - Reset Streak (confirmation dialog required)
+    - Reset Record
+  - Swipe Right:
+    - Edit Goal → Opens `SetGoalView`
+
+### Empty State
+- If no habits exist, display a friendly message:
+  > “No habits yet. Tap '+' to get started.”
+
+## Functionality & Logic
+
+- **Smooth List Scrolling**: Avoid visual lag or jumping
+- **Swipe Gestures**:
+  - Left = destructive actions (reset)
+  - Right = edit/view details
+- **Streak Logic**:
+  - Streak increments if marked as complete for today
+  - If not marked by end of day, streak breaks
+  - Record updates automatically if streak is broken
+- **Dynamic Layout**:
+  - If a habit is marked “Just for Today” or “Lenient Tracking”, the UI may visually flag that
+  - Display logic should reflect current goal configuration
+
+## Design Goals
+
+- Uses reusable row view component: `HabitRowView`
+- Built using MVVM with clear separation of logic
+- Touch targets should be large enough for accessibility
+- Animations for swipe actions, row insert/delete
+- Smooth gesture transitions with haptic feedback (if possible)
+
+## Example Use Cases
+
+**User checks in a habit**
+- User taps “Mark Done” next to “Drink Water”
+- Streak increases, row updates visually to reflect completion
+
+**User wants to reset a streak**
+- Swipes left on “Workout”
+- Taps “Reset Streak” → Confirmation popup appears
+- If confirmed, streak resets to 0
+
+**User wants to update their goal**
+- Swipes right on “Meditation”
+- Taps “Edit Goal” → Navigates to `SetGoalView` preloaded with habit data
+
+## Future Enhancements
+These are not to be built yet, but should be considered in the app structure:
+- Add Habit button
+- Drag-and-drop to reorder habits
+- Tags, colors, or categories per habit
+- Filter by status (active, completed, failed)
+- Search bar at top
+- Support for archiving old habits
+```
+````
+
+## Let's See What Happens
+
+I’m not pretending this approach is going to work. I fully expect to fail again. In fact, I *know* that at some point I’ll go back to the “function-by-function” approach that’s slow but bulletproof. But right now, I want to learn by building something *real*, even if it’s flawed. I want to learn by breaking things and asking “why did that break?” That’s how I’ve always learned best.
+
+My hope is this Markdown-first method will let me:
+
+1.  Build a functioning app more quickly (even if it's buggy),
+2.  Learn more about the structure and design choices behind SwiftUI,
+3.  And then go back and refactor the hell out of it once I understand it all better.
+
+I’m the kind of person who will go back and scrutinize *every* line. I’m from the C++ times. I remember managing pointers manually and creating double linked lists from scratch. I love that stuff, but it's been years since I used any of it. So working this way is frustrating and exciting.
+
+## Git Saves My Ass
+
+One of the biggest things I’ve learned during this process is how to actually use **Git** the right way. Not just saving code every few minutes or zipping up folders like it’s 2005. Don't get me wrong, I haven't memorized the million Git commands, I still use the LLMs to help with that.
+
+I don’t worry anymore about breaking the app; although I really should branch more often to test code ... I'll get there.
+
+## Trying Cursor AI Now
+
+I started using an IDE called **Cursor AI**, which is a fork of VS Code built for LLM workflows. It’s been bitter-sweet so far. It can track multiple files at once and reason across them, which is something Xcode + ChatGPT can’t do. Although ChatGTP can be an agent for one file at a time in XCode, which is cool.
+
+So now here is my workflow:
+
+-   I keep **Xcode** open for previews and builds
+-   I write and test all my logic in **Cursor AI**
+-   I let Cursor rewrite, refactor, and guide me
+-   When I’m happy with it, I save and jump to Xcode to preview
+
+I think this is a good way to start using VSCode (even though it's a fork). It seems that this IDE is one of the most popular across platforms, and once again, I don't want to be left behind. I have catching up to do, and I am determined to get there, and even surpass the bar.
+
+------------------------------------------------------------------------
+
+### Recruiters
+
+My background is in managing enterprise-scale software programs with a focus on strategy, systems thinking, and delivery. These projects are my way of staying technically sharp while continuing to lead from a place of experience.
+
+📂 [GitHub](https://github.com/mtgingrass)\
+🔗 [LinkedIn](https://www.linkedin.com/in/markgingrass/)
