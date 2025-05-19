@@ -22,14 +22,14 @@ website:
           - text: Mark Gingras
             href: https://youtube.com/@markgingrass
       - icon: envelope-arrow-up-fill
-        href: "mailto:mg@markgingrass.com"  # Ensure correct spacing and quotes
+        href: "mailto:mg@markgingrass.com"
   page-footer: 
     left: "Copyright 2025, Mark Gingrass" 
     right: 
       - icon: github
         href: https://github.com/mtgingrass
       - icon: envelope-arrow-up-fill
-        href: "mailto:mg@markgingrass.com"  # Ensure correct spacing and quotes
+        href: "mailto:mg@markgingrass.com"
 
 format:
   html:
