@@ -2,7 +2,7 @@
 title: "Working with AI, Habit Tracker - Round Two"
 author: "Mark Gingrass"
 date: 2025-04-19
-categories: ["Career", "Programming", "AI
+categories: ["Career", "Programming", "AI"]
 image: images/clipboard-1347718563.png
 execute:
   eval: false
