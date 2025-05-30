@@ -4,55 +4,62 @@ date: "2025-05-30"
 categories: [AI, Technology]
 tags: [artificial intelligence, machine learning, productivity]
 image: images/image.png
-summary: "I’ve learning Swift, Xcode, AI tools—just trying to get my footing and build something legit. It started simple: use an IDE, ask AI for help, build a habit-tracking app. But like anything worth doing, it got complicated."
+summary: "I've learning Swift, Xcode, AI tools—just trying to get my footing and build something legit. It started simple: use an IDE, ask AI for help, build a habit-tracking app. But like anything worth doing, it got complicated."
 ---
 
 
 ## Learn Something New Daily
 
-I’ve learning Swift, Xcode, AI tools—just trying to get my footing and build something legit. It started simple: use an IDE, ask AI for help, build a habit-tracking app. But like anything worth doing, it got complicated. I feels good to learn about coding, but also the architecture and thought process that goes into makign scalable, reusable, and robust code. Of course, I ran into snags. 
+I've learning Swift, Xcode, AI tools—just trying to get my footing and build something legit. It started simple: use an IDE, ask AI for help, build a habit-tracking app. But like anything worth doing, it got complicated. I feels good to learn about coding, but also the architecture and thought process that goes into makign scalable, reusable, and robust code. Of course, I ran into snags. 
 
 At first, it was little things:  
 
 - Learning how to prompt AI better  
 - Understanding tokens, models, context windows  
-- Trying to avoid getting stuck in “agent” mode every time  
+- Trying to avoid getting stuck in "agent" mode every time  
 - Memorizing Xcode shortcuts, cleaning up my dev flow  
 
 One step at a time.
 
-## I Mean, I KNew Not to Trust the AI *Too* Much
+## I Mean, I Knew Not to Trust the AI *Too* Much
 
-I was excited and started rushing things again. It’s easy to fall into that trap of trusting the AI too much—not because you *actually* trust it, but because you're in a hurry. You're like, “Cool, I’ll just let the AI write that part. I’ll fix it later.”  
+I was excited and started rushing things again. It's easy to fall into that trap of trusting the AI too much—not because you *actually* trust it, but because you're in a hurry. You're like, "Cool, I'll just let the AI write that part. I'll fix it later."  
 
-I’ve made that mistake. More than once.
+I've made that mistake. More than once.
 
 I started going back through the code. I slowed down my pace a bit. I wanted my computer science brain back.
 
 ## Back to the Basics
 
-Algorithms, data structures, OOP concepts. Some of it I remembered, some I had to relearn. And AI would remind me, “Yeah, that’s called refactoring.” Or, “That’s a `struct` in Swift, not a class—and here’s why.”
+Algorithms, data structures, OOP concepts. Some of it I remembered, some I had to relearn. And AI would remind me, "Yeah, that's called refactoring." Or, "That's a `struct` in Swift, not a class—and here's why."
 
 I started asking smarter questions:
 
 - Can I persist this data or not?  
-- What’s the best way to store this locally *and* scale later?  
+- What's the best way to store this locally *and* scale later?  
 - Why is this UI state behaving weirdly?  
 
-And when I didn’t know how to ask my IDE agent directly, I’d ask ChatGPT *how* to ask it, and it worked. I’d ping one AI to help me talk to another.
+And when I didn't know how to ask my IDE agent directly, I'd ask ChatGPT *how* to ask it, and it worked. I'd ping one AI to help me talk to another.
 
 ## APPS - For Me? 
 
-I’m not doing this to become a UI guru. I’m not that interested in making flashy little swipe widgets that bounce when you gesture at it. I want to get back to more mathematical, deeper work—stuff that requires actual thinking and research. Code that solves real problems, not just interfaces that look good in screenshots. No offense to those that do. 
+I'm not doing this to become a UI guru. I'm not that interested in making flashy little swipe widgets that bounce when you gesture at it. I want to get back to more mathematical, deeper work—stuff that requires actual thinking and research. Code that solves real problems, not just interfaces that look good in screenshots. No offense to those that do. 
 
 This app project is my warm-up I guess. A hobby to get my muscle memory back. Syntax, logic, system design. I want that stuff locked in, because once it is, programming becomes more fun and you can start tackling the hard problems. 
 
 ## The Coming Flood of Mediocre Apps
 
-AI is going to supercharge a wave of bad apps. Millions of people will start creating them. Everyone will be shipping MVPs that don’t scale, don’t persist data, and definitely break and have bugs. AI will get them 60, 70, 80, or even 90% there, but they’ll hit the wall when something goes wrong.
+AI is going to supercharge a wave of bad apps. Millions of people will start creating them. Everyone will be shipping MVPs that don't scale, don't persist data, and definitely break and have bugs. AI will get them 60, 70, 80, or even 90% there, but they'll hit the wall when something goes wrong.
 
-That’s where people like me come in. Learning how to *think* through problems, not just generate code vibe coding with my talking mouth. Don't get me wrong, I'll never compete directly with the hard-core coders knocking out C++ projects in their spare time at age 12 through 40, but I have other skills to help me build a career (potentially) out of this. 
+That's where people like me come in. Learning how to *think* through problems, not just generate code vibe coding with my talking mouth. Don't get me wrong, I'll never compete directly with the hard-core coders knocking out C++ projects in their spare time at age 12 through 40, but I have other skills to help me build a career (potentially) out of this. 
 
-I don’t think there will be fewer skilled programmers—maybe even more. But the signal-to-noise ratio is going to get rough. AI gives a lot of people a head start, but it can’t replace fundamentals. And fundamentals are what I’m getting back to.
+I don't think there will be fewer skilled programmers—maybe even more. But the signal-to-noise ratio is going to get rough. AI gives a lot of people a head start, but it can't replace fundamentals. And fundamentals are what I'm getting back to.
 
-I’m only a few weeks in, and I feel like I have some momentum.
+I'm only a few weeks in, and I feel like I have some momentum.
+
+## Related Posts
+
+This post is part of a series about my journey learning Swift and building apps with AI assistance:
+
+- [Working with AI, Habit Tracker - Round Two](/posts/2025-05-19-simple-habit-tracker-round-two-app/) - My second attempt at building a habit tracking app with AI assistance
+- [Simple Habit Tracker App](/posts/2025-05-14-simple-habit-tracker-app/) - My first attempt at building a habit tracking app

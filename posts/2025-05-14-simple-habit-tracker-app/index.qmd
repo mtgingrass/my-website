@@ -6,7 +6,7 @@ categories: ["Career", "Programming"]
 image: images/clipboard-3301350674.png
 execute:
   eval: false
-summary: "I’m developing a custom iOS habit tracker app using SwiftUI and Xcode—with help from large language models (LLMs) to accelerate design, debug Swift code, and iterate features faster. The app supports recurring goals, progress tracking, and motivational messaging, with a focus on clean architecture and future scalability."
+summary: "I'm developing a custom iOS habit tracker app using SwiftUI and Xcode—with help from large language models (LLMs) to accelerate design, debug Swift code, and iterate features faster. The app supports recurring goals, progress tracking, and motivational messaging, with a focus on clean architecture and future scalability."
 format:
   html:
     toc: true
@@ -23,24 +23,24 @@ lightbox: true
 
 I started building this [~~Habit Tracker ~~](https://github.com/mtgingrass/SimpleHabit "Github Repo") [JustToday](https://github.com/mtgingrass/JustToday)] (constantly changing, lol) app as my first real-world iOS application designed specifically for the iPhone using SwiftUI and Xcode. I wanted to build something I actually believe in to keep me interested. Something useful, simple, and scalable.
 
-A lot of the apps I’ve used are bloated and over-engineered for my tastes. You shouldn’t have to tap through 20 menus just to log a simple habit. I’m building this for usability first, with the goal of making itintuitive, low-friction, and free.
+A lot of the apps I've used are bloated and over-engineered for my tastes. You shouldn't have to tap through 20 menus just to log a simple habit. I'm building this for usability first, with the goal of making itintuitive, low-friction, and free.
 
 I plan to take this all the way to the App Store, and possibly integrate cloud-based infrastructure down the line. Mostly just to learn more about AWS S3, Firebase, or a lightweight REST API. I'm a firm believer in keeping it simple (KISS).
 
 ------------------------------------------------------------------------
 
-## Why I’m Using AI in My Workflow
+## Why I'm Using AI in My Workflow
 
-This project is also an exploration of AI-assisted development. I'm not trying to be left behind! I’m using ChatGPT as a coding partner, what the Reddit folks call *Vibe Programming*. Yes, it has a bad connotation, but it's here to stay. Vibe programming paired with actually knowing WTH you are doing is a good combo.
+This project is also an exploration of AI-assisted development. I'm not trying to be left behind! I'm using ChatGPT as a coding partner, what the Reddit folks call *Vibe Programming*. Yes, it has a bad connotation, but it's here to stay. Vibe programming paired with actually knowing WTH you are doing is a good combo.
 
-To be clear: LLMs don’t magically write your app for you. Let alone do any configuration for you...configuration majic can be a career in itself. I digress. They’re only effective if *you* understand the architecture, how to scale, iterate, build, and more. Tools like ChatGPT can’t comprehend project-wide structure unless you explicitly guide them. That means you need to know:
+To be clear: LLMs don't magically write your app for you. Let alone do any configuration for you...configuration majic can be a career in itself. I digress. They're only effective if *you* understand the architecture, how to scale, iterate, build, and more. Tools like ChatGPT can't comprehend project-wide structure unless you explicitly guide them. That means you need to know:
 
 -   How to modularize
 -   How to apply MVVM architecture
 -   How state management works in SwiftUI
 -   How @State, @Binding, @Published, and ObservableObject interact
 -   Why Views, ViewModels, and Models must stay loosely coupled for long-term scalability
--   How to organize features so you’re not painting yourself into a corner when it’s time to expand
+-   How to organize features so you're not painting yourself into a corner when it's time to expand
 
 This stuff matters.
 
@@ -50,14 +50,14 @@ This stuff matters.
 
 ## Technical Skills This Project Is Reinforcing
 
-Even in just a few days, I’ve already touched on or deepened my experience with:
+Even in just a few days, I've already touched on or deepened my experience with:
 
 -   SwiftUI layout principles (like `NavigationStack`, `List`, and `@Environment`)
 -   Creating reusable modular views
 -   Managing app state using `ObservableObject` and `@AppStorage`
 -   Navigating Xcode previews vs. simulator discrepancies (two days of troubleshooting why the simulator looked perfect but the build looked like garbage!)
 -   Building for both dark mode and light mode
--   Debugging “The compiler is unable to type-check this expression…” issues by breaking down logic
+-   Debugging "The compiler is unable to type-check this expression..." issues by breaking down logic
 -   Using Git and GitHub: managing branches, reverting commits, and recovering from merge messes (admittedly, I have a lot more to learn with Git commands)
 -   Getting the app to run on my actual iPhone device
 
@@ -69,7 +69,7 @@ If you don't break it enough times, you will never learn how to fix it. You have
 
 You *want* to know why `@Binding` is behaving weird, or why your preview crashes but your build works. How about why your list is not ordered the same way due to a *for-loop* and UI standards.
 
-I’ve broken a lot of things during this build, but that’s the point. I’ve learned how to use Git like a lifeline, how to prompt engineer ChatGPT, and how to translate vague AI suggestions into clean, working SwiftUI code.
+I've broken a lot of things during this build, but that's the point. I've learned how to use Git like a lifeline, how to prompt engineer ChatGPT, and how to translate vague AI suggestions into clean, working SwiftUI code.
 
 ------------------------------------------------------------------------
 
@@ -89,8 +89,15 @@ Well, it turns out, I made a lot of mistakes. Still experimenting, follow my nex
 
 ## Recruiters
 
-If you’re a developer, PM, or tech recruiter checking this out—yes, I wrote the app. Yes, I integrated AI into the build process. And yes, I understand the architecture behind it.
+If you're a developer, PM, or tech recruiter checking this out—yes, I wrote the app. Yes, I integrated AI into the build process. And yes, I understand the architecture behind it.
 
 My skills have always been having the enterprise-wide view as a program manager overseeing enterprise software development. This project is my way of staying sharp, learning hands-on, and proving that strategic thinking is even better when paired with the ability to actually develop and build.
+
+## Related Posts
+
+This post is part of a series about my journey learning Swift and building apps with AI assistance:
+
+- [Round Two: Working with AI](/posts/2025-05-30-round-two-working-with-ai/) - My latest thoughts on working with AI tools
+- [Working with AI, Habit Tracker - Round Two](/posts/2025-05-19-simple-habit-tracker-round-two-app/) - My second attempt at building a habit tracking app with AI assistance
 
 ------------------------------------------------------------------------
