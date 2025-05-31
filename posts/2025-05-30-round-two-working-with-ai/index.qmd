@@ -4,44 +4,50 @@ date: "2025-05-30"
 categories: [AI, Technology]
 tags: [artificial intelligence, machine learning, productivity]
 image: images/image.png
-summary: "I've learning Swift, Xcode, AI tools—just trying to get my footing and build something legit. It started simple: use an IDE, ask AI for help, build a habit-tracking app. But like anything worth doing, it got complicated."
+summary: "I've been learning Swift, the Xcode enviornment, AI tools like Cursor and ChatGPT."
 ---
 
 
 ## Learn Something New Daily
 
-I've learning Swift, Xcode, AI tools—just trying to get my footing and build something legit. It started simple: use an IDE, ask AI for help, build a habit-tracking app. But like anything worth doing, it got complicated. I feels good to learn about coding, but also the architecture and thought process that goes into makign scalable, reusable, and robust code. Of course, I ran into snags. 
+I've been learning Swift, the Xcode enviornment, AI tools like Cursor and ChatGPT. The learning cruve is not too bad. I'm trying to build a habit-tracking app from scratch. But like anything worth doing, it got complicated. I feels good to learn about coding, but also the architecture and thought process that goes into makign scalable, reusable, and robust code. Of course, the frustrations started to mount. 
 
-At first, it was little things:  
+Some of the easeir thins to learn right away:
 
-- Learning how to prompt AI better  
-- Understanding tokens, models, context windows  
-- Trying to avoid getting stuck in "agent" mode every time  
-- Memorizing Xcode shortcuts, cleaning up my dev flow  
+- Learning how to prompt AI with more specific requests
+- Learning the differences between an Agent and an Ask request  
+- Understanding tokens, which models to use, and using context windows    
+- Memorizing Xcode shortcuts, cleaning up my work-flow
+
+Instead of vague asks like “make this better,” try being specific: “Refactor this SwiftUI view using MVVM and preserve the binding logic.” Of course, you should get even more specific than that, but you get the idea. 
+
+An AI Agent is like giving complete control of your code and IDE to the AI, so it's risky, but can speed up things (no more cut and paste). However, I think this is what gets me in trouble the most. The more I want to get the app *done*, the more I was trying to rely on the agent to do the work. In hindsight, I think having patience is the key. When you *ask* it just responds without taking control. This forces you to actually read the response before deciding to apply the logic. 
 
 One step at a time.
 
 ## I Mean, I Knew Not to Trust the AI *Too* Much
 
-I was excited and started rushing things again. It's easy to fall into that trap of trusting the AI too much—not because you *actually* trust it, but because you're in a hurry. You're like, "Cool, I'll just let the AI write that part. I'll fix it later."  
-
-I've made that mistake. More than once.
+Learning how to have a clean build, archive, setting up TestFlight and uploading your project to an actual Apple server to distribute to your friends is exiting. That being said, it's easy to fall into that trap of trusting the AI too much because you're in a hurry to launch and show your friends. You're like, "Cool, I'll just let the AI write that part. I'll fix it later."  
 
 I started going back through the code. I slowed down my pace a bit. I wanted my computer science brain back.
 
 ## Back to the Basics
 
-Algorithms, data structures, OOP concepts. Some of it I remembered, some I had to relearn. And AI would remind me, "Yeah, that's called refactoring." Or, "That's a `struct` in Swift, not a class—and here's why."
+Algorithms, data structures, OOP concepts. Some of it I remembered, some I had to relearn. And AI would remind me, "Yeah, that's called refactoring." Or, "That's a `struct` in Swift, not a class—and here's why." 
 
 I started asking smarter questions:
 
 - Can I persist this data or not?  
 - What's the best way to store this locally *and* scale later?  
-- Why is this UI state behaving weirdly?  
+- Why is this UI state correct sometimes, but not always?
+
+Another frustration was updating the logic and design without remembering to update the *preview* versions.   
 
 And when I didn't know how to ask my IDE agent directly, I'd ask ChatGPT *how* to ask it, and it worked. I'd ping one AI to help me talk to another.
 
-## APPS - For Me? 
+The thing is, if you don't dive in and make these mistakes, you will never get better. You can't just read a Reddit post about prompting better, you have to actually feel the pain yourself and starting prompting to fit your exact needs. 
+
+## Are APPS For Me? 
 
 I'm not doing this to become a UI guru. I'm not that interested in making flashy little swipe widgets that bounce when you gesture at it. I want to get back to more mathematical, deeper work—stuff that requires actual thinking and research. Code that solves real problems, not just interfaces that look good in screenshots. No offense to those that do. 
 
