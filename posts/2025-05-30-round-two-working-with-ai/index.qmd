@@ -12,12 +12,14 @@ summary: "I've been learning Swift, the Xcode enviornment, AI tools like Cursor 
 
 I've been learning Swift, the Xcode enviornment, AI tools like Cursor and ChatGPT. The learning cruve is not too bad. I'm trying to build a habit-tracking app from scratch. But like anything worth doing, it got complicated. I feels good to learn about coding, but also the architecture and thought process that goes into makign scalable, reusable, and robust code. Of course, the frustrations started to mount. 
 
-Some of the easeir thins to learn right away:
+Some of the easeir things to learn right away:
 
 - Learning how to prompt AI with more specific requests
 - Learning the differences between an Agent and an Ask request  
 - Understanding tokens, which models to use, and using context windows    
 - Memorizing Xcode shortcuts, cleaning up my work-flow
+- Switching between projects that are vastly different (qmd vs XCode project)
+- Multi-tasking both XCode being open and Cursor (to see the preview and build easier)
 
 Instead of vague asks like “make this better,” try being specific: “Refactor this SwiftUI view using MVVM and preserve the binding logic.” Of course, you should get even more specific than that, but you get the idea. 
 
