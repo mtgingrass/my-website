@@ -38,4 +38,4 @@ Having issues or have suggestions? [Contact me](mailto:piggypiggy@markgingrass.c
 
 ### Privacy
 
-Piggy Piggy respects your privacy. All data is stored locally on your device unless you choose to enable cloud sync. 
+Piggy Piggy respects your privacy. All data is stored locally on your device. [Privacy Policy Details](./privacy.html) can be found here.
