@@ -1,0 +1,52 @@
+# Privacy Policy for Piggy Piggy
+
+**Effective Date:** June 17, 2025
+
+Piggy Piggy respects your privacy. This app is designed for personal use and does not collect, store, or transmit any personal information.
+
+---
+
+## 1. Data Collection
+
+Piggy Piggy does **not collect**:
+- Names, emails, or contact information
+- Usage data or analytics
+- Device information
+- Location data
+
+All data (such as balances and transaction notes) is stored **locally on your device** and is never transmitted to any server.
+
+---
+
+## 2. In-App Purchases
+
+Piggy Piggy includes an optional **Tip Jar** feature. All transactions are processed securely by Apple through the App Store. No payment data is seen, stored, or handled by Piggy Piggy.
+
+---
+
+## 3. Third-Party Services
+
+This app does **not** integrate with any third-party services, advertising networks, or analytics tools.
+
+---
+
+## 4. Children's Privacy
+
+Piggy Piggy is family-friendly and suitable for all ages. It does not collect data from children or require any personal account registration.
+
+---
+
+## 5. Contact
+
+If you have any questions about this privacy policy, please contact:
+
+**Email:** [piggypiggy@markgingrass.com](mailto:piggypiggy@markgingrass.com)  
+**Website:** [https://markgingrass.com/apps/piggy-piggy/](https://markgingrass.com/apps/piggy-piggy/)
+
+---
+
+© 2025 Mark Gingrass. All rights reserved.
+
+---
+
+[Back to Piggy Piggy App](/apps/piggy-piggy/)
