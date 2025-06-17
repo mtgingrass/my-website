@@ -1,0 +1,35 @@
+---
+title: "Piggy Piggy"
+image: images/app-icon.png
+---
+
+## Piggy Piggy
+
+A financial tracking app designed to help you manage your savings goals and track your spending habits.
+
+### Features
+
+- Track daily expenses
+- Set and monitor savings goals
+- Visual progress tracking
+- Customizable categories
+- Data export capabilities
+
+### Screenshots
+
+<img src="images/piggy-piggy1.webp" alt="App Screenshot 1" width="300" />
+<img src="images/piggy-piggy2.webp" alt="App Screenshot 2" width="300" />
+<img src="images/piggy-piggy3.webp" alt="App Screenshot 3" width="300" />
+<img src="images/piggy-piggy4.webp" alt="App Screenshot 4" width="300" />
+
+### Download
+
+[Download on the App Store](https://apps.apple.com/app/piggy-piggy)
+
+### Support
+
+Having issues or have suggestions? [Contact me](mailto:mg@markgingrass.com) or visit the [GitHub repository](https://github.com/mtgingrass/piggy-piggy).
+
+### Privacy
+
+Piggy Piggy respects your privacy. All data is stored locally on your device unless you choose to enable cloud sync. 

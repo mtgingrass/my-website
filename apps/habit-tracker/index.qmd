@@ -1,0 +1,33 @@
+---
+title: "Habit Tracker"
+image: images/app-icon.png
+---
+
+## Habit Tracker
+
+A simple yet powerful habit tracking app built with SwiftUI, helping you build and maintain positive habits.
+
+### Features
+
+- Track multiple habits simultaneously
+- Streak tracking and statistics
+- Customizable reminders
+- Beautiful, intuitive interface
+- Dark mode support
+
+### Screenshots
+
+![App Screenshot 1](images/screenshot1.png)
+![App Screenshot 2](images/screenshot2.png)
+
+### Development Journey
+
+This app was developed as part of my learning journey with SwiftUI and AI-assisted development. Read more about the development process in my [blog posts](/posts/).
+
+### Support
+
+Having issues or have suggestions? [Contact me](mailto:mg@markgingrass.com) or visit the [GitHub repository](https://github.com/mtgingrass/habit-tracker).
+
+### Privacy
+
+Habit Tracker respects your privacy. All data is stored locally on your device. 
