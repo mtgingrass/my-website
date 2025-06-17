@@ -3,17 +3,23 @@ title: "Piggy Piggy"
 image: images/app-icon.png
 ---
 
-## Piggy Piggy
-
 A financial tracking app designed to help you manage your savings goals and track your spending habits.
+
+Use Piggy Piggy to:
+
+- Track money given, spent, and saved
+- Assign notes to purchases or gifts
+- Visualize remaining balances per child or user
+- Manage money on-the-go during trips, birthdays, or daily life
+
+Imagine having two children, Kai and Freya, who both received $100 from grandpa. They are too young to track or handle a one-hundred dollar bill, so the parent keeps the money, but tracks their expenses in this simple to use app. 
 
 ### Features
 
 - Track daily expenses
 - Set and monitor savings goals
-- Visual progress tracking
-- Customizable categories
-- Data export capabilities
+- Visual tracking
+- Simple design
 
 ### Screenshots
 
@@ -28,7 +34,7 @@ A financial tracking app designed to help you manage your savings goals and trac
 
 ### Support
 
-Having issues or have suggestions? [Contact me](mailto:mg@markgingrass.com) or visit the [GitHub repository](https://github.com/mtgingrass/piggy-piggy).
+Having issues or have suggestions? [Contact me](mailto:piggypiggy@markgingrass.com) or visit the [GitHub repository](https://github.com/mtgingrass/piggy-piggy).
 
 ### Privacy
 

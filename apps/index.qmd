@@ -2,24 +2,25 @@
 title: "Custom Apps"
 ---
 
-## My Custom Apps
+## My Custom IOS Apps
 
-Here you'll find a collection of apps I've developed, each with its own unique features and purpose.
+Here you'll find a collection of apps I've developed (or currently developing), each with its own unique features and purpose.
 
 ### [Piggy Piggy](/apps/piggy-piggy/)
 
-A financial tracking app designed to help you manage your savings goals and track your spending habits.
+A financial tracking app designed to help you manage your (kids) savings and track your spending. When Grandpa hands the seven year old kid a 100-dollar bill, you want to hang onto it instead of the child losing it, right? Then download this app to track. 
 
 ### [Habit Tracker](/apps/habit-tracker/)
 
-A simple yet powerful habit tracking app built with SwiftUI, helping you build and maintain positive habits.
+A simple yet powerful habit tracking app built with SwiftUI, helping you build and maintain positive habits. (in progress)
 
 ## About My Apps
 
-All my apps are built with a focus on:
+I try to solve real-world problems that I have with the apps. Simplicty in design is key for me. 
+
 - Clean, intuitive user interfaces
 - Privacy-first design
-- Regular updates and improvements
-- User feedback integration
+- Solve real-world problems
+- Learning Swift, SwiftUI, XCode, and industry best practices
 
 Feel free to try them out and let me know what you think! 
