@@ -1,0 +1,54 @@
+---
+title: "IWNDWYToday"
+image: images/app-icon.png
+---
+
+## IWNDWYToday
+
+I Will Not Destruct With You Today (IWNDWYT) is a minimalist, powerful day counter designed to help you stay committed to your personal goals—whether it's sobriety, quitting a bad habit, or building a new one. Every day you stay on track, the streak grows stronger. And if you slip? You can start again, with all your history still saved. Simple, intentional, and built for real life.
+
+No clutter. No guilt. Just progress.
+
+
+### Features
+
+- **Clean, distraction-free interface**  
+  A calming, minimalist design that keeps the focus on your progress—not on ads or noise.
+
+- **Day Counter with Streak Tracking**  
+  Your current streak, longest streak, total attempts, and detailed history—all at a glance.
+
+- **Custom Start Date**  
+  Whether you're just beginning or marking a milestone, you can start your streak from any date.
+
+- **Motivational Messages**  
+  Get words of encouragement tailored to your journey—especially powerful in your first days.
+
+- **Midnight Countdown**  
+  Know exactly how much time remains in the day with a real-time countdown to midnight.
+
+- **Optional Sub-Counters (Coming Soon)**  
+  Track multiple habits or milestones in parallel without cluttering your main focus.
+
+- **One-Time Setup, No Sign-Up Required**  
+  Your data stays on your device. No accounts. No cloud dependency. Pure privacy.
+
+### Screenshots
+
+<img src="images/iwndwytoday01.webp" alt="App Screenshot 1" width="300" />
+<img src="images/iwndwytoday02.webp" alt="App Screenshot 2" width="300" />
+<img src="images/iwndwytoday03.webp" alt="App Screenshot 3" width="300" />
+<img src="images/iwndwytoday04.webp" alt="App Screenshot 4" width="300" />
+<img src="images/iwndwytoday05.webp" alt="App Screenshot 5" width="300" />
+
+### Download
+
+[Download on the App Store](https://apps.apple.com/app/iwndwytoday)
+
+### Support
+
+Having issues or have suggestions? [Contact me](mailto:iwndwytoday@markgingrass.com) or visit the [GitHub repository](https://github.com/mtgingrass/iwndwy).
+
+### Privacy
+
+IWNDWYToday respects your privacy. All data is stored locally on your device. [Privacy Policy Details](./privacy.html) can be found here. 

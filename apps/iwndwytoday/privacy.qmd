@@ -1,0 +1,52 @@
+# Privacy Policy for IWNDWYToday
+
+**Effective Date:** June 17, 2025
+
+IWNDWYToday respects your privacy. This app is designed for personal use and does not collect, store, or transmit any personal information.
+
+---
+
+## 1. Data Collection
+
+IWNDWYToday does **not collect**:
+- Names, emails, or contact information
+- Usage data or analytics
+- Device information
+- Location data
+
+All data (such as progress tracking and personal notes) is stored **locally on your device** and is never transmitted to any server.
+
+---
+
+## 2. In-App Purchases
+
+IWNDWYToday includes an optional **Tip Jar** feature. All transactions are processed securely by Apple through the App Store. No payment data is seen, stored, or handled by IWNDWYToday.
+
+---
+
+## 3. Third-Party Services
+
+This app does **not** integrate with any third-party services, advertising networks, or analytics tools.
+
+---
+
+## 4. Children's Privacy
+
+IWNDWYToday is family-friendly and suitable for all ages. It does not collect data from children or require any personal account registration.
+
+---
+
+## 5. Contact
+
+If you have any questions about this privacy policy, please contact:
+
+**Email:** [iwndwytoday@markgingrass.com](mailto:iwndwytoday@markgingrass.com)  
+**Website:** [https://markgingrass.com/apps/iwndwytoday/](https://markgingrass.com/apps/iwndwytoday/)
+
+---
+
+© 2025 Mark Gingrass. All rights reserved.
+
+---
+
+[Back to IWNDWYToday App](/apps/iwndwytoday/) 
