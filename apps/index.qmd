@@ -6,6 +6,10 @@ title: "Custom Apps"
 
 Here you'll find a collection of apps I've developed, each with its own unique features and purpose.
 
+### [IWNDWYToday](/apps/iwndwytoday/)
+
+I Will Not Destruct With You Today (IWNDWYToday) is a minimalist, powerful day counter designed to help you stay committed to your personal goals—whether it's sobriety, quitting a bad habit, or building a new one.
+
 ### [Piggy Piggy](/apps/piggy-piggy/)
 
 A financial tracking app designed to help you manage your savings goals and track your spending habits.
@@ -13,10 +17,6 @@ A financial tracking app designed to help you manage your savings goals and trac
 ### [Habit Tracker](/apps/habit-tracker/)
 
 A simple yet powerful habit tracking app built with SwiftUI, helping you build and maintain positive habits.
-
-### [IWNDWYToday](/apps/iwndwytoday/)
-
-[App description to be added]
 
 ## About My Apps
 
