@@ -9,12 +9,18 @@ image: images/markandollie1.webp
 
 Technical leader with 20+ years in the federal sector, specializing in enterprise software solutions, Agile transformation, and government contracting. Track record of leading high-stakes technical initiatives, responding to RFPs/RFIs, and translating complex technical concepts into actionable business strategies. I love building relationships with stakeholders at all levels. Extensive experience working with defense, regulatory, and federal agencies.
 
-> ::: note
-> **New Project: Habit Tracker App**\
-> I'm building a SwiftUI-based iOS app from scratch (with help from a LLM) to track daily habits in a clean, KISS interface. It's hands-on, architectural, and fully documented.
->
-> [Check it out here](https://markgingrass.com/posts/2025-05-14-simple-habit-tracker-app/)
-> :::
+::: {.callout-tip appearance="card"}
+## Latest Project IWNDWYToday – Habit Destruct
+
+A minimalist iOS app to *destruct* bad habits.  
+Built in SwiftUI with scalable, MVVM-based architecture.
+
+✅ One counter, clean UI  
+✅ Git + TestFlight + first-try App Store approval  
+✅ End-to-end iOS development from concept to release
+
+[👉 Download on the App Store](https://apps.apple.com/us/app/iwndwytoday/id6747836739)
+:::
 
 ## About Me
 
