@@ -35,15 +35,29 @@ No clutter. No guilt. Just progress.
 
 ### Screenshots
 
-<img src="images/iwndwytoday01.webp" alt="App Screenshot 1" width="300" />
-<img src="images/iwndwytoday02.webp" alt="App Screenshot 2" width="300" />
-<img src="images/iwndwytoday03.webp" alt="App Screenshot 3" width="300" />
-<img src="images/iwndwytoday04.webp" alt="App Screenshot 4" width="300" />
-<img src="images/iwndwytoday05.webp" alt="App Screenshot 5" width="300" />
+::: {layout="[1,1,1,1]" layout-valign="center"}
+![Screenshot 1](images/01.webp){fig-alt="IWNDWYToday app screenshot 1" width=250}
+
+![Screenshot 2](images/02.webp){fig-alt="IWNDWYToday app screenshot 2" width=250}
+
+![Screenshot 3](images/03.webp){fig-alt="IWNDWYToday app screenshot 3" width=250}
+
+![Screenshot 4](images/04.webp){fig-alt="IWNDWYToday app screenshot 4" width=250}
+:::
+
+::: {layout="[1,1,1,1]" layout-valign="center"}
+![Screenshot 5](images/05.webp){fig-alt="IWNDWYToday app screenshot 5" width=250}
+
+![Screenshot 6](images/06.webp){fig-alt="IWNDWYToday app screenshot 6" width=250}
+
+![Screenshot 7](images/07.webp){fig-alt="IWNDWYToday app screenshot 7" width=250}
+
+![Screenshot 8](images/08.webp){fig-alt="IWNDWYToday app screenshot 8" width=250}
+:::
 
 ### Download
 
-[Download on the App Store](https://apps.apple.com/us/app/iwndwytoday/id6747836739)
+[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/iwndwytoday/id6747836739)
 
 ### Support
 
