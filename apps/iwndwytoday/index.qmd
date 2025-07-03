@@ -3,8 +3,6 @@ title: "IWNDWYToday"
 image: images/app-icon.png
 ---
 
-## IWNDWYToday
-
 ### Download
 
 [![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/iwndwytoday/id6747836739)
