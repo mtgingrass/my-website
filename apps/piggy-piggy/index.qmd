@@ -5,6 +5,14 @@ image: images/app-icon.png
 
 A financial tracking app designed to help you manage your savings goals and track your spending habits.
 
+### Download
+
+[![Download on the App Store](https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png)](https://apps.apple.com/app/piggy-piggy/id6746965872)
+
+### Official Website
+
+Visit the official website at [piggy-piggy.com](https://piggy-piggy.com) for more information and updates.
+
 Use Piggy Piggy to:
 
 - Track money given, spent, and saved
@@ -28,10 +36,6 @@ Imagine having two children, Kai and Freya, who both received $100 from grandpa.
 <img src="images/piggy-piggy2.webp" alt="App Screenshot 2" width="300" style="margin: 10px 0;" />
 <img src="images/piggy-piggy3.webp" alt="App Screenshot 3" width="300" style="margin: 10px 0;" />
 </div>
-
-### Download
-
-[Download on the App Store](https://apps.apple.com/app/piggy-piggy/id6746965872)
 
 ### Support
 
