@@ -23,10 +23,11 @@ Imagine having two children, Kai and Freya, who both received $100 from grandpa.
 
 ### Screenshots
 
-<img src="images/piggy-piggy1.webp" alt="App Screenshot 1" width="300" />
-<img src="images/piggy-piggy2.webp" alt="App Screenshot 2" width="300" />
-<img src="images/piggy-piggy3.webp" alt="App Screenshot 3" width="300" />
-<img src="images/piggy-piggy4.webp" alt="App Screenshot 4" width="300" />
+<div style="padding: 20px 0;">
+<img src="images/piggy-piggy1.webp" alt="App Screenshot 1" width="300" style="margin: 10px 0;" />
+<img src="images/piggy-piggy2.webp" alt="App Screenshot 2" width="300" style="margin: 10px 0;" />
+<img src="images/piggy-piggy3.webp" alt="App Screenshot 3" width="300" style="margin: 10px 0;" />
+</div>
 
 ### Download
 
