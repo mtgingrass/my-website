@@ -183,10 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: $font-size-4xl;
-  background: $gradient-sunset;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--text-primary);
   
   @media (min-width: 768px) {
     font-size: $font-size-5xl;
@@ -204,7 +201,7 @@ h2 {
 
 h3 {
   font-size: $font-size-2xl;
-  color: var(--accent-color);
+  color: var(--text-primary);
   
   @media (min-width: 768px) {
     font-size: $font-size-3xl;
@@ -757,11 +754,15 @@ p {
 .navbar-nav {
   .nav-link {
     font-weight: 500;
-    color: var(--text-primary);
+    color: var(--text-primary) !important;
     transition: color 0.3s ease;
     
     &:hover {
-      color: var(--accent-color);
+      color: var(--accent-color) !important;
+    }
+    
+    &.active {
+      color: var(--accent-color) !important;
     }
   }
 }

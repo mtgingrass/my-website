@@ -8,7 +8,6 @@ resources:
 
 ::: {.hero}
 ::: {.hero-content}
-# Mark Gingrass
 **Technical Leader • iOS Developer • Problem Solver**
 
 Building solutions that matter—from enterprise software to personal habit-tracking apps. 20+ years of federal sector experience meets modern iOS development.
