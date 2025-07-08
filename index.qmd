@@ -8,7 +8,7 @@ resources:
 
 ::: {.hero}
 ::: {.hero-content}
-**Technical Leader • iOS Developer • Problem Solver**
+**Technical Leader • Developer • Problem Solver**
 
 Building solutions that matter—from enterprise software to personal habit-tracking apps. 20+ years of federal sector experience meets modern iOS development.
 
@@ -20,7 +20,7 @@ Building solutions that matter—from enterprise software to personal habit-trac
 <div class="row mt-12">
 <div class="col-md-6">
 
-## Professional Journey
+## Professional
 
 Technical leader with 20+ years in the federal sector, specializing in enterprise software solutions, Agile transformation, and government contracting. Track record of leading high-stakes technical initiatives, responding to RFPs/RFIs, and translating complex technical concepts into actionable business strategies. 
 
