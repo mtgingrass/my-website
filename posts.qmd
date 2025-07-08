@@ -1,8 +1,255 @@
 ---
-title: "Blog"
+title: "Latest Writing"
+page-layout: full
+toc: false
 listing: 
-  contents: posts # this name must match the name of the folder you created in step #1; here, all Quarto docs in the `posts` directory will be included on your listing page
-  type: grid # or `default` or `table`; each type has its own set of yaml options to include
-  sort: "date desc" # can also sort on more than one field
-  categories: true # allows you to sort posts by assigned categories 
+  contents: posts
+  type: grid
+  sort: "date desc"
+  categories: true
+  grid-columns: 3
+  grid-item-align: center
+  image-align: left
+  fields: [image, date, title, categories, description]
+  feed: true
 ---
+
+::: {.hero}
+::: {.hero-content}
+# Latest Writing
+**Thoughts on technology, development, and process improvement**
+
+Sharing insights from my journey in federal contracting, iOS development, and continuous learning.
+
+[Subscribe to RSS](/posts.xml){.btn .btn-primary} [View All Categories](#categories){.btn .btn-secondary}
+:::
+:::
+
+::: {.container}
+## Recent Posts
+
+<div id="listing-container">
+<!-- Quarto listing will be inserted here -->
+</div>
+
+<div class="mt-12">
+<h2 id="categories">Categories</h2>
+<div id="category-cloud" class="category-cloud">
+<!-- Category links will be dynamically populated -->
+</div>
+</div>
+
+:::
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Enhanced blog grid animations
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -20px 0px'
+  };
+  
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('animate-fadeInUp');
+        }, index * 100);
+      }
+    });
+  }, observerOptions);
+  
+  // Wait for Quarto listing to load
+  setTimeout(() => {
+    const listingItems = document.querySelectorAll('.listing-item');
+    listingItems.forEach(item => {
+      observer.observe(item);
+      
+      // Add enhanced hover effects
+      item.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-8px) scale(1.02)';
+      });
+      
+      item.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0) scale(1)';
+      });
+    });
+    
+    // Create category cloud
+    const categories = new Set();
+    document.querySelectorAll('.listing-category').forEach(cat => {
+      categories.add(cat.textContent.trim());
+    });
+    
+    const categoryCloud = document.getElementById('category-cloud');
+    if (categoryCloud) {
+      categories.forEach(category => {
+        const link = document.createElement('a');
+        link.href = `#`;
+        link.className = 'category-tag';
+        link.textContent = category;
+        link.onclick = function(e) {
+          e.preventDefault();
+          filterByCategory(category);
+        };
+        categoryCloud.appendChild(link);
+      });
+    }
+  }, 1000);
+  
+  function filterByCategory(category) {
+    const items = document.querySelectorAll('.listing-item');
+    items.forEach(item => {
+      const itemCategories = item.querySelector('.listing-category');
+      if (itemCategories && itemCategories.textContent.includes(category)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+  
+  // Add search functionality
+  const searchInput = document.createElement('input');
+  searchInput.type = 'text';
+  searchInput.placeholder = 'Search posts...';
+  searchInput.className = 'search-input';
+  searchInput.addEventListener('input', function() {
+    const searchTerm = this.value.toLowerCase();
+    const items = document.querySelectorAll('.listing-item');
+    
+    items.forEach(item => {
+      const title = item.querySelector('.listing-title')?.textContent.toLowerCase() || '';
+      const description = item.querySelector('.listing-description')?.textContent.toLowerCase() || '';
+      
+      if (title.includes(searchTerm) || description.includes(searchTerm)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+  
+  // Insert search input before listing
+  const listingContainer = document.getElementById('listing-container');
+  if (listingContainer) {
+    listingContainer.parentNode.insertBefore(searchInput, listingContainer);
+  }
+});
+</script>
+
+<style>
+.category-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.category-tag {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.category-tag:hover {
+  background: var(--accent-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+  outline: none;
+}
+
+.listing-item {
+  background: var(--bg-secondary);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid var(--border-color);
+}
+
+.listing-item:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.listing-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.listing-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.listing-date {
+  font-size: 0.875rem;
+  color: var(--text-tertiary);
+  margin-bottom: 0.5rem;
+}
+
+.listing-category {
+  display: inline-block;
+  background: var(--accent-color);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.listing-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .listing-item {
+    padding: 1rem;
+  }
+  
+  .category-cloud {
+    justify-content: center;
+  }
+  
+  .search-input {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
+</style>

@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Mark Gingrass"
+  site-url: "https://markgingrass.com"
   navbar:
     left:
       - href: index.qmd
@@ -35,9 +36,13 @@ website:
 
 format:
   html:
-    theme: solona
-    css: styles.css
+    theme: [cosmo, _quarto.scss]
+    css: [styles.css]
     toc: true
+    code-copy: true
+    code-fold: false
+    smooth-scroll: true
+    include-after-body: dark-mode.js
 
 editor: visual
 

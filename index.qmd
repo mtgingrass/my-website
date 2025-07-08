@@ -1,39 +1,179 @@
 ---
 title: "Mark Gingrass"
-about:
-  template: trestles
-image: images/markandollie1.webp
+page-layout: full
+toc: false
 ---
 
-## Professional
+::: {.hero}
+::: {.hero-content}
+# Mark Gingrass
+**Technical Leader • iOS Developer • Problem Solver**
 
-Technical leader with 20+ years in the federal sector, specializing in enterprise software solutions, Agile transformation, and government contracting. Track record of leading high-stakes technical initiatives, responding to RFPs/RFIs, and translating complex technical concepts into actionable business strategies. I love building relationships with stakeholders at all levels. Extensive experience working with defense, regulatory, and federal agencies.
+Building solutions that matter—from enterprise software to personal habit-tracking apps. 20+ years of federal sector experience meets modern iOS development.
 
-::: {.callout-tip appearance="card"}
-## Latest Project [IWNDWYToday – Habit Destruct](https://markgingrass.com/apps/iwndwytoday/)
+[View My Apps](/apps/){.btn .btn-primary} [Read My Blog](/posts.html){.btn .btn-secondary}
+:::
+:::
 
-A minimalist iOS app to *destruct* bad habits.  
-Built in SwiftUI with scalable, MVVM-based architecture.
+::: {.container}
+<div class="row mt-12">
+<div class="col-md-6">
+
+## Professional Journey
+
+Technical leader with 20+ years in the federal sector, specializing in enterprise software solutions, Agile transformation, and government contracting. Track record of leading high-stakes technical initiatives, responding to RFPs/RFIs, and translating complex technical concepts into actionable business strategies. 
+
+I love building relationships with stakeholders at all levels. Extensive experience working with defense, regulatory, and federal agencies.
+
+### Current Focus
+- **iOS Development**: Building SwiftUI apps with MVVM architecture
+- **Enterprise Solutions**: Leading Agile teams and product strategy
+- **Technical Writing**: Sharing insights on development and process improvement
+
+</div>
+<div class="col-md-6">
+
+![Mark and Ollie](images/markandollie1.webp){.img-fluid .rounded-xl .shadow-lg}
+
+</div>
+</div>
+
+## Latest Project
+
+::: {.card .card-featured .mb-8}
+### [IWNDWYToday – Habit Destruct](https://markgingrass.com/apps/iwndwytoday/)
+
+A minimalist iOS app to *destruct* bad habits. Built in SwiftUI with scalable, MVVM-based architecture.
 
 ✅ One counter, clean UI  
 ✅ Git + TestFlight + first-try App Store approval  
 ✅ End-to-end iOS development from concept to release
 
-[👉 Download on the App Store](https://apps.apple.com/us/app/iwndwytoday/id6747836739)
+[👉 Download on the App Store](https://apps.apple.com/us/app/iwndwytoday/id6747836739){.btn .btn-primary}
 :::
 
-## About Me
+<div class="row mt-12">
+<div class="col-md-4">
 
-I’m a lifelong learner, outdoor enthusiast, and problem solver.
+## Outdoor Enthusiast
 
-### Hobbies
+I've been actively hiking for a few years now. I recently started doing overnighters and love the steep climbs. I also mountain bike and skateboard. I have a partially built-out van and pose as a vanlifer on the weekends from time to time.
 
-I’ve been actively hiking for a few years now. I recently started doing overnighters and love the steep climbs. I also mountain bike and skateboard. I have a partially built-out van and pose as a vanlifer on the weekends from time to time.
+My dog, Ollie, is usually along for the ride. He's my trail buddy and road trip companion.
 
-My dog, Ollie, is usually along for the ride. He’s my trail buddy and road trip companion.
+</div>
+<div class="col-md-4">
 
-### Curious Mind
+## Curious Mind
 
 I have interests in technology, policy, governance, and efficiency. I enjoy learning about Lean, Six Sigma, and anything related to improving efficiency and eliminating wasteful processes.
 
-At the end of the day, I’m always seeking ways to combine what I know with what I love.
+At the end of the day, I'm always seeking ways to combine what I know with what I love.
+
+</div>
+<div class="col-md-4">
+
+## What I'm Learning
+
+- **Swift & SwiftUI**: Building native iOS experiences
+- **AI-Assisted Development**: Leveraging tools like Cursor and ChatGPT
+- **System Architecture**: Scalable, maintainable code patterns
+- **Modern Web**: Staying current with 2025 design trends
+
+</div>
+</div>
+
+## Featured Apps
+
+::: {.app-showcase}
+::: {.app-card}
+![IWNDWYToday Icon](apps/iwndwytoday/images/IWNDWY_icon.png){.app-icon}
+
+### IWNDWYToday
+A minimalist habit-tracking app designed to help you stay committed to your goals. Clean interface, powerful tracking, and motivational messages.
+
+::: {.app-tags}
+[SwiftUI]{.app-tag}
+[iOS]{.app-tag}
+[Habit Tracking]{.app-tag}
+[Privacy-First]{.app-tag}
+:::
+
+[View Details](/apps/iwndwytoday/){.btn .btn-primary}
+:::
+
+::: {.app-card}
+![Piggy Piggy Icon](apps/piggy-piggy/images/piggy-piggy1.webp){.app-icon}
+
+### Piggy Piggy
+Simple savings tracking app with a focus on financial goals and progress visualization.
+
+::: {.app-tags}
+[SwiftUI]{.app-tag}
+[Finance]{.app-tag}
+[Goal Setting]{.app-tag}
+:::
+
+[View Details](/apps/piggy-piggy/){.btn .btn-primary}
+:::
+
+::: {.app-card}
+![Habit Tracker Icon](posts/2025-05-14-simple-habit-tracker-app/images/clipboard-3299487040.png){.app-icon}
+
+### Habit Tracker
+Comprehensive habit tracking with multiple counters and detailed analytics.
+
+::: {.app-tags}
+[SwiftUI]{.app-tag}
+[Productivity]{.app-tag}
+[Analytics]{.app-tag}
+:::
+
+[View Details](/apps/habit-tracker/){.btn .btn-primary}
+:::
+:::
+
+## Recent Writing
+
+Check out my latest thoughts on technology, development, and process improvement.
+
+[View All Posts](/posts.html){.btn .btn-secondary}
+
+:::
+
+<script>
+// Add scroll animations
+document.addEventListener('DOMContentLoaded', function() {
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+  
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-fadeInUp');
+      }
+    });
+  }, observerOptions);
+  
+  // Observe all cards and sections
+  document.querySelectorAll('.card, .app-card, .col-md-4, .col-md-6').forEach(el => {
+    observer.observe(el);
+  });
+  
+  // Add smooth scrolling for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+});
+</script>

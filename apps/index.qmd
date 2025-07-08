@@ -1,29 +1,239 @@
 ---
 title: "Custom Apps"
+page-layout: full
+toc: false
 ---
 
-## My Custom Apps
+::: {.hero}
+::: {.hero-content}
+# Custom Apps
+**iOS Development Portfolio**
 
-Here you'll find a collection of apps I've developed, each with its own unique features and purpose.
+A collection of SwiftUI apps I've developed, each solving real problems with clean, intuitive design and privacy-first principles.
 
-### [IWNDWYToday](/apps/iwndwytoday/)
+[View Source Code](https://github.com/mtgingrass){.btn .btn-primary} [Contact Me](mailto:mg@markgingrass.com){.btn .btn-secondary}
+:::
+:::
+
+::: {.container}
+## Featured Apps
+
+::: {.app-showcase}
+::: {.app-card}
+![IWNDWYToday Icon](iwndwytoday/images/IWNDWY_icon.png){.app-icon}
+
+### IWNDWYToday
+**Habit Destruction Counter**
 
 I Will Not Destruct With You Today (IWNDWYToday) is a minimalist, powerful day counter designed to help you stay committed to your personal goals—whether it's sobriety, quitting a bad habit, or building a new one.
 
-### [Piggy Piggy](/apps/piggy-piggy/)
+::: {.app-features}
+- **Clean Interface**: Distraction-free design focused on your progress
+- **Streak Tracking**: Current streak, longest streak, and detailed history
+- **Motivational Messages**: Encouragement tailored to your journey
+- **Privacy-First**: All data stays on your device
+- **Custom Start Date**: Begin your streak from any date
+:::
 
-A financial tracking app designed to help you manage your savings goals and track your spending habits.
+::: {.app-tags}
+[SwiftUI]{.app-tag}
+[iOS]{.app-tag}
+[Habit Tracking]{.app-tag}
+[Privacy-First]{.app-tag}
+[MVVM]{.app-tag}
+:::
 
-### [Habit Tracker](/apps/habit-tracker/)
+::: {.app-actions}
+[View Details](iwndwytoday/){.btn .btn-primary}
+[Download on App Store](https://apps.apple.com/us/app/iwndwytoday/id6747836739){.btn .btn-accent}
+:::
+:::
 
-A simple yet powerful habit tracking app built with SwiftUI, helping you build and maintain positive habits.
+::: {.app-card}
+![Piggy Piggy Icon](piggy-piggy/images/piggy-piggy1.webp){.app-icon}
 
-## About My Apps
+### Piggy Piggy
+**Financial Goal Tracker**
 
-All my apps are built with a focus on:
-- Clean, intuitive user interfaces
-- Privacy-first design
-- Regular updates and improvements
-- User feedback integration
+A financial tracking app designed to help you manage your savings goals and track your spending habits. Built with SwiftUI for a smooth, native iOS experience.
 
-Feel free to try them out and let me know what you think! 
+::: {.app-features}
+- **Goal Setting**: Define and track multiple savings goals
+- **Progress Visualization**: Beautiful charts and progress indicators
+- **Spending Insights**: Understand your spending patterns
+- **Secure Storage**: Your financial data stays private
+- **Goal Reminders**: Stay motivated with progress updates
+:::
+
+::: {.app-tags}
+[SwiftUI]{.app-tag}
+[Finance]{.app-tag}
+[Goal Setting]{.app-tag}
+[iOS]{.app-tag}
+[Core Data]{.app-tag}
+:::
+
+::: {.app-actions}
+[View Details](piggy-piggy/){.btn .btn-primary}
+[Coming Soon]{.btn .btn-secondary}
+:::
+:::
+
+::: {.app-card}
+![Habit Tracker Icon](../posts/2025-05-14-simple-habit-tracker-app/images/clipboard-3299487040.png){.app-icon}
+
+### Habit Tracker
+**Comprehensive Habit Management**
+
+A simple yet powerful habit tracking app built with SwiftUI, helping you build and maintain positive habits with detailed analytics and progress tracking.
+
+::: {.app-features}
+- **Multiple Habits**: Track unlimited habits simultaneously
+- **Detailed Analytics**: Comprehensive progress insights
+- **Streak Tracking**: Monitor your consistency
+- **Custom Scheduling**: Flexible habit frequency options
+- **Visual Progress**: Charts and graphs for motivation
+:::
+
+::: {.app-tags}
+[SwiftUI]{.app-tag}
+[Productivity]{.app-tag}
+[Analytics]{.app-tag}
+[iOS]{.app-tag}
+[Charts]{.app-tag}
+:::
+
+::: {.app-actions}
+[View Details](habit-tracker/){.btn .btn-primary}
+[In Development]{.btn .btn-secondary}
+:::
+:::
+:::
+
+## Development Philosophy
+
+<div class="row mt-12">
+<div class="col-md-3">
+
+### Clean Design
+Intuitive interfaces that focus on user experience and eliminate unnecessary complexity.
+
+</div>
+<div class="col-md-3">
+
+### Privacy First
+All apps are designed with privacy as a core principle. Your data stays on your device.
+
+</div>
+<div class="col-md-3">
+
+### Modern Architecture
+Built with SwiftUI and MVVM patterns for maintainable, scalable code.
+
+</div>
+<div class="col-md-3">
+
+### User Feedback
+Continuous improvement based on real user needs and feedback.
+
+</div>
+</div>
+
+## Technical Stack
+
+::: {.tech-stack}
+**SwiftUI** • **UIKit** • **Core Data** • **CloudKit** • **Combine** • **XCTest** • **Git** • **TestFlight** • **App Store Connect**
+:::
+
+## Coming Soon
+
+I'm always working on new projects and improvements. Follow my [blog](/posts.html) for updates on my development journey and upcoming releases.
+
+[Subscribe to Updates](/posts.xml){.btn .btn-primary} [View Source Code](https://github.com/mtgingrass){.btn .btn-secondary}
+
+:::
+
+<style>
+.app-features {
+  margin: 1rem 0;
+}
+
+.app-features li {
+  margin: 0.5rem 0;
+  color: var(--text-secondary);
+}
+
+.app-features strong {
+  color: var(--text-primary);
+}
+
+.app-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.app-actions .btn {
+  flex: 1;
+  min-width: 120px;
+}
+
+.tech-stack {
+  background: var(--bg-secondary);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin: 2rem 0;
+  border: 1px solid var(--border-color);
+}
+
+@media (max-width: 768px) {
+  .app-actions {
+    flex-direction: column;
+  }
+  
+  .app-actions .btn {
+    width: 100%;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add scroll animations
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+  
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('animate-fadeInUp');
+        }, index * 200);
+      }
+    });
+  }, observerOptions);
+  
+  // Observe all app cards
+  document.querySelectorAll('.app-card, .col-md-3').forEach(el => {
+    observer.observe(el);
+  });
+  
+  // Add enhanced hover effects for app cards
+  document.querySelectorAll('.app-card').forEach(card => {
+    card.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateY(-12px) scale(1.02)';
+    });
+    
+    card.addEventListener('mouseleave', function() {
+      this.style.transform = 'translateY(0) scale(1)';
+    });
+  });
+});
+</script> 
