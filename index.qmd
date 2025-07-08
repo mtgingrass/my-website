@@ -187,51 +187,66 @@ Comprehensive habit tracking with multiple counters and detailed analytics.
 
 ## Recent Writing
 
-::: {.blog-grid}
-::: {.blog-card}
-::: {.blog-category}
-AI & Technology
-:::
-
-### [Round Two: Working with AI](posts/2025-05-30-round-two-working-with-ai/)
-
-Reflecting on learning Swift and iOS development while working with AI tools like Cursor, Claude Code, and ChatGPT. Exploring the balance between leveraging AI assistance and maintaining fundamental programming skills.
-
-::: {.blog-meta}
-May 30, 2025 • 5 min read
-:::
-:::
-
-::: {.blog-card}
-::: {.blog-category}
-Career & Programming
-:::
-
-### [Working with AI, Habit Tracker - Round Two](posts/2025-05-19-simple-habit-tracker-round-two-app/)
-
-Experimenting with an AI-assisted development workflow for iOS using SwiftUI, Git, and Cursor AI. This post explores my shift toward a Markdown-driven architecture strategy.
-
-::: {.blog-meta}
-May 19, 2025 • 4 min read
-:::
-:::
-
-::: {.blog-card}
-::: {.blog-category}
-Career & Programming
-:::
-
-### [Simple Habit Tracker App](posts/2025-05-14-simple-habit-tracker-app/)
-
-Building a custom iOS habit tracker app using SwiftUI and Xcode—with help from large language models to accelerate design, debug Swift code, and iterate features faster.
-
-::: {.blog-meta}
-May 14, 2025 • 6 min read
-:::
-:::
+::: {#recent-posts}
 :::
 
 [View All Posts](/posts.html){.btn .btn-secondary}
+
+<script>
+// Dynamic Recent Posts Loading
+document.addEventListener('DOMContentLoaded', function() {
+  // Recent posts data (this would ideally come from a build-time JSON file)
+  const recentPosts = [
+    {
+      title: "Round Two: Working with AI",
+      url: "posts/2025-05-30-round-two-working-with-ai/",
+      category: "AI & Technology",
+      description: "Reflecting on learning Swift and iOS development while working with AI tools like Cursor, Claude Code, and ChatGPT. Exploring the balance between leveraging AI assistance and maintaining fundamental programming skills.",
+      date: "May 30, 2025",
+      readTime: "5 min read"
+    },
+    {
+      title: "Working with AI, Habit Tracker - Round Two",
+      url: "posts/2025-05-19-simple-habit-tracker-round-two-app/",
+      category: "Career & Programming",
+      description: "Experimenting with an AI-assisted development workflow for iOS using SwiftUI, Git, and Cursor AI. This post explores my shift toward a Markdown-driven architecture strategy.",
+      date: "May 19, 2025",
+      readTime: "4 min read"
+    },
+    {
+      title: "Simple Habit Tracker App",
+      url: "posts/2025-05-14-simple-habit-tracker-app/",
+      category: "Career & Programming",
+      description: "Building a custom iOS habit tracker app using SwiftUI and Xcode—with help from large language models to accelerate design, debug Swift code, and iterate features faster.",
+      date: "May 14, 2025",
+      readTime: "6 min read"
+    }
+  ];
+
+  // Generate HTML for recent posts
+  const recentPostsContainer = document.getElementById('recent-posts');
+  if (recentPostsContainer) {
+    const blogGrid = document.createElement('div');
+    blogGrid.className = 'blog-grid';
+    
+    recentPosts.forEach(post => {
+      const blogCard = document.createElement('div');
+      blogCard.className = 'blog-card';
+      
+      blogCard.innerHTML = `
+        <div class="blog-category">${post.category}</div>
+        <h3><a href="${post.url}">${post.title}</a></h3>
+        <p>${post.description}</p>
+        <div class="blog-meta">${post.date} • ${post.readTime}</div>
+      `;
+      
+      blogGrid.appendChild(blogCard);
+    });
+    
+    recentPostsContainer.appendChild(blogGrid);
+  }
+});
+</script>
 
 :::
 

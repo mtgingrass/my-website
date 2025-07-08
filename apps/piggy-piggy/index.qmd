@@ -7,7 +7,7 @@ A financial tracking app designed to help you manage your savings goals and trac
 
 ### Download
 
-[![Download on the App Store](https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png)](https://apps.apple.com/app/piggy-piggy/id6746965872)
+[![Download on the App Store](https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png)](https://apps.apple.com/us/app/piggy-piggy/id6746965872)
 
 ### Official Website
 
