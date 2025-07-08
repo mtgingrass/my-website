@@ -6,6 +6,17 @@ resources:
   - "dark-mode.js"
 ---
 
+<!-- Dark Mode Toggle Button -->
+<button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+  <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle>
+    <path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"></path>
+  </svg>
+  <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+  </svg>
+</button>
+
 ::: {.hero}
 ::: {.hero-content}
 **Technical Leader • Developer • Problem Solver**
@@ -27,9 +38,9 @@ Technical leader with 20+ years in the federal sector, specializing in enterpris
 I love building relationships with stakeholders at all levels. Extensive experience working with defense, regulatory, and federal agencies.
 
 ### Current Focus
-- **iOS Development**: Building SwiftUI apps with MVVM architecture
+- **iOS Development**: Building SwiftUI apps with MVVM architecture as a hobbiest
 - **Enterprise Solutions**: Leading Agile teams and product strategy
-- **Technical Writing**: Sharing insights on development and process improvement
+- **Software Contracting & Architecture**: Planning and executing custom software solutions with a focus on system architecture, scalability, and integration
 
 </div>
 <div class="col-md-6">
@@ -193,7 +204,7 @@ AI & Technology
 
 ### [Round Two: Working with AI](posts/2025-05-30-round-two-working-with-ai/)
 
-Reflecting on my journey learning Swift and iOS development while working with AI tools like Cursor and ChatGPT. Exploring the balance between leveraging AI assistance and maintaining fundamental programming skills.
+Reflecting on learning Swift and iOS development while working with AI tools like Cursor, Claude Code, and ChatGPT. Exploring the balance between leveraging AI assistance and maintaining fundamental programming skills.
 
 ::: {.blog-meta}
 May 30, 2025 • 5 min read
