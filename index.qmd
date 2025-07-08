@@ -84,6 +84,55 @@ At the end of the day, I'm always seeking ways to combine what I know with what 
 </div>
 </div>
 
+## Skills & Technologies
+
+::: {.tech-stack}
+**Senior Technology Leader** with expertise spanning enterprise architecture, mobile development, and AI-assisted workflows
+:::
+
+<div class="row mt-8">
+<div class="col-md-3">
+
+### **Leadership & Strategy**
+- **20+ Years** Federal Sector Experience
+- **Agile Transformation** & Team Leadership
+- **RFP/RFI Response** & Contract Management
+- **Stakeholder Engagement** at All Levels
+- **Process Optimization** (Lean, Six Sigma)
+
+</div>
+<div class="col-md-3">
+
+### **Development & Architecture**
+- **Swift & SwiftUI** (Native iOS Apps)
+- **MVVM Architecture** & Design Patterns
+- **Git & TestFlight** Deployment
+- **System Architecture** & Scalability
+- **API Design** & Integration
+
+</div>
+<div class="col-md-3">
+
+### **AI & Modern Tools**
+- **Cursor AI** & AI-Assisted Development
+- **ChatGPT** for Code Review & Optimization
+- **Prompt Engineering** & Workflow Automation
+- **Claude Code** for Technical Writing
+- **Markdown-Driven** Development Strategies
+
+</div>
+<div class="col-md-4">
+
+### **Technical Writing & Communication**
+- **Technical Documentation** & Process Guides
+- **Blog Writing** on Development & AI
+- **Cross-Functional** Communication
+- **Training & Mentorship**
+- **Public Speaking** & Presentations
+
+</div>
+</div>
+
 ## Featured Apps
 
 ::: {.app-showcase}
@@ -136,7 +185,49 @@ Comprehensive habit tracking with multiple counters and detailed analytics.
 
 ## Recent Writing
 
-Check out my latest thoughts on technology, development, and process improvement.
+::: {.blog-grid}
+::: {.blog-card}
+::: {.blog-category}
+AI & Technology
+:::
+
+### [Round Two: Working with AI](posts/2025-05-30-round-two-working-with-ai/)
+
+Reflecting on my journey learning Swift and iOS development while working with AI tools like Cursor and ChatGPT. Exploring the balance between leveraging AI assistance and maintaining fundamental programming skills.
+
+::: {.blog-meta}
+May 30, 2025 • 5 min read
+:::
+:::
+
+::: {.blog-card}
+::: {.blog-category}
+Career & Programming
+:::
+
+### [Working with AI, Habit Tracker - Round Two](posts/2025-05-19-simple-habit-tracker-round-two-app/)
+
+Experimenting with an AI-assisted development workflow for iOS using SwiftUI, Git, and Cursor AI. This post explores my shift toward a Markdown-driven architecture strategy.
+
+::: {.blog-meta}
+May 19, 2025 • 4 min read
+:::
+:::
+
+::: {.blog-card}
+::: {.blog-category}
+Career & Programming
+:::
+
+### [Simple Habit Tracker App](posts/2025-05-14-simple-habit-tracker-app/)
+
+Building a custom iOS habit tracker app using SwiftUI and Xcode—with help from large language models to accelerate design, debug Swift code, and iterate features faster.
+
+::: {.blog-meta}
+May 14, 2025 • 6 min read
+:::
+:::
+:::
 
 [View All Posts](/posts.html){.btn .btn-secondary}
 
