@@ -21,11 +21,11 @@ website:
         href: https://www.linkedin.com/in/markgingrass/
         aria-label: LinkedIn
       - icon: youtube
-        menu:
-          - text: Cradle To Grave R
-            href: https://youtube.com/@cradletograver
-          - text: Mark Gingras
-            href: https://youtube.com/@markgingrass
+        href: https://youtube.com/@cradletograver
+        aria-label: Cradle To Grave R YouTube
+      - icon: youtube
+        href: https://youtube.com/@markgingrass
+        aria-label: Mark Gingrass YouTube
       - icon: envelope-arrow-up-fill
         href: "mailto:mg@markgingrass.com"
   page-footer: 
