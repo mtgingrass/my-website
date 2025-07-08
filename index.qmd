@@ -2,6 +2,8 @@
 title: "Mark Gingrass"
 page-layout: full
 toc: false
+resources:
+  - "dark-mode.js"
 ---
 
 ::: {.hero}
@@ -177,3 +179,5 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
+<script src="dark-mode.js"></script>
