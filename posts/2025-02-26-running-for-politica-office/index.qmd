@@ -3,7 +3,7 @@ title: "Getting Politically Involved"
 author: "Mark Gingrass"
 date: 2025-02-26
 categories: ["Career", "Politics"]
-image: images/politics.png
+image: images/politics.webp
 execute:
   eval: false
 summary: "I’ve been folliwing politics as a lay-person for a while now, but now I’m taking it seriously and with a purpose. This isn’t just casual interest anymore; it’s a focused effort to understand how and where real change happens. My goal is to think about the bigger picture and do something meaningful in the public interest. I see 2026 and 2028 as major stepping stones, and I’m using the next year to sharpen my knowledge. For now, it’s all about learning, engaging, and getting ready. 2025 is the year for exploring."

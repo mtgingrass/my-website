@@ -3,7 +3,7 @@ title: "What's a complex English Sentence?"
 author: "Mark Gingrass"
 date: 2025-02-17
 categories: ["Life Pro Tips"]
-image: english.png
+image: english.webp
 execute:
   eval: false
 summary: "If your sentences all sound the same, your writing gets boring fast. Gary Provost nailed it: mix short, medium, and long sentences to keep readers engaged. This post breaks down why sentence variety matters and how to use it to make your writing clear, effective, and actually worth reading."
