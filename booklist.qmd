@@ -10,7 +10,7 @@ format:
 ::: {.hero}
 ::: {.hero-content}
 # Books
-**My Reading Journey**
+**My Reading Collection**
 
 My bookshelf reflects my curiosity. I choose many books that explore history, politics, philosophy, and the human condition. These books challenge me to think, question assumptions, and connect dots between unrelated ideas. The more I read, the more connections I make.
 
