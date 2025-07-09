@@ -19,7 +19,7 @@ listing:
 # Latest Writing
 **Thoughts on technology, development, and process improvement**
 
-Sharing insights from my journey in federal contracting, iOS development, and continuous learning.
+Sharing insights in federal contracting, programming, development, and continuous learning.
 
 [Subscribe to RSS](/posts.xml){.btn .btn-primary} [View All Categories](#categories){.btn .btn-secondary}
 :::
