@@ -80,6 +80,36 @@ A financial tracking app designed to help you manage your savings goals and trac
 :::
 
 ::: {.app-card}
+![GreenvilleRunClubs Icon](greenville-run-clubs/images/01.webp){.app-icon}
+
+### GreenvilleRunClubs
+**Community Running Platform**
+
+Discover and connect with the vibrant running community in Greenville, South Carolina. Find running clubs, join group runs, and stay updated on local races and events.
+
+::: {.app-features}
+- **Club Discovery**: Find running clubs based on your pace and interests
+- **Event Calendar**: Stay updated on local races and group runs
+- **Community Connection**: Connect with runners in your area
+- **Route Sharing**: Discover and share popular running routes
+- **Training Groups**: Join specialized groups for different goals
+:::
+
+::: {.app-tags}
+[SwiftUI]{.app-tag}
+[Community]{.app-tag}
+[Running]{.app-tag}
+[iOS]{.app-tag}
+[Local]{.app-tag}
+:::
+
+::: {.app-actions}
+[View Details](greenville-run-clubs/){.btn .btn-primary}
+[Coming Soon]{.btn .btn-secondary}
+:::
+:::
+
+::: {.app-card}
 ![Habit Tracker Icon](../posts/2025-05-14-simple-habit-tracker-app/images/clipboard-3299487040.png){.app-icon}
 
 ### Habit Tracker

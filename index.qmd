@@ -155,6 +155,21 @@ A minimalist habit-tracking app designed to help you stay committed to your goal
 :::
 
 ::: {.app-card}
+![GreenvilleRunClubs Icon](apps/greenville-run-clubs/images/01.webp){.app-icon}
+
+### GreenvilleRunClubs
+Discover and connect with Greenville's running community. Find clubs, events, and fellow runners.
+
+::: {.app-tags}
+[SwiftUI]{.app-tag}
+[Community]{.app-tag}
+[Running]{.app-tag}
+:::
+
+[View Details](/apps/greenville-run-clubs/){.btn .btn-primary}
+:::
+
+::: {.app-card}
 ![Piggy Piggy Icon](apps/piggy-piggy/images/piggy-piggy1.webp){.app-icon}
 
 ### Piggy Piggy

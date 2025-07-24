@@ -9,3 +9,9 @@
 
 /.quarto/
 /_site/
+
+# Raw images - only include optimized webp versions
+**/*.png
+**/*.jpg
+**/*.jpeg
+!apps/iwndwytoday/images/IWNDWY_icon.png
