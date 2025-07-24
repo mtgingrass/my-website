@@ -2,77 +2,37 @@
 
 **Effective Date:** July 24, 2025
 
-GreenvilleRunClubs respects your privacy. This app is designed to connect runners in the Greenville community while maintaining strong privacy protections.
+GreenvilleRunClubs respects your privacy. This app is designed for personal use and does not collect, store, or transmit any personal information.
 
 ---
 
 ## 1. Data Collection
 
-GreenvilleRunClubs collects minimal data to provide its services:
+GreenvilleRunClubs does **not collect**:
+- Names, emails, or contact information
+- Usage data or analytics
+- Device information
+- Location data
 
-### Information We Collect:
-- **Profile Information**: Basic profile details (name, running preferences) that you choose to share
-- **Location Data**: General location information to show nearby clubs and events (with your permission)
-- **Usage Analytics**: Anonymous usage patterns to improve the app experience
-
-### Information We Do NOT Collect:
-- Precise GPS tracking or detailed location history
-- Personal contact information beyond what you voluntarily provide
-- Social media credentials or external account data
-- Financial information
+All data (such as club information and personal preferences) is stored **locally on your device** and is never transmitted to any server.
 
 ---
 
-## 2. How We Use Your Data
+## 2. In-App Purchases
 
-Your information is used solely to:
-- Connect you with local running clubs and events
-- Provide personalized recommendations for groups and activities
-- Improve app functionality and user experience
-- Send notifications about relevant running events (with your consent)
-
-We **never** sell, rent, or share your personal information with third parties for marketing purposes.
+GreenvilleRunClubs includes an optional **Tip Jar** feature. All transactions are processed securely by Apple through the App Store. No payment data is seen, stored, or handled by GreenvilleRunClubs.
 
 ---
 
-## 3. Data Storage and Security
+## 3. Third-Party Services
 
-- **Local Storage**: Most personal data is stored locally on your device
-- **Secure Transmission**: Any data transmitted to our servers uses encryption
-- **Limited Server Storage**: Only essential information needed for community features is stored on our servers
-- **Regular Deletion**: Inactive accounts and old data are automatically removed
+This app does **not** integrate with any third-party services, advertising networks, or analytics tools.
 
 ---
 
-## 4. Third-Party Services
+## 4. Children's Privacy
 
-GreenvilleRunClubs may integrate with:
-- **Mapping Services**: For displaying running routes and club locations
-- **Event Platforms**: To show public running events and races
-
-These services have their own privacy policies and we encourage you to review them.
-
----
-
-## 5. Your Privacy Rights
-
-You have the right to:
-- **Access**: View all data we have about you
-- **Correct**: Update or correct your information
-- **Delete**: Remove your account and associated data
-- **Control**: Manage notification preferences and data sharing settings
-
----
-
-## 6. Children's Privacy
-
-GreenvilleRunClubs is intended for users 13 years and older. We do not knowingly collect personal information from children under 13.
-
----
-
-## 7. Changes to This Policy
-
-We may update this privacy policy as needed. Users will be notified of any significant changes through the app.
+GreenvilleRunClubs is family-friendly and suitable for all ages. It does not collect data from children or require any personal account registration.
 
 ---
 
