@@ -1,0 +1,11 @@
+---
+title: "Update Run Club Info"
+format:
+  html:
+    toc: false
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=update-form.html">
+---
+
+Redirecting to update form...
