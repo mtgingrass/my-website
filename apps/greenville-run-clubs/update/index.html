@@ -393,9 +393,8 @@
 
     <script>
         // Initialize EmailJS with your Public Key
-        // REPLACE 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
         (function() {
-            emailjs.init('YOUR_PUBLIC_KEY');
+            emailjs.init('nDLunFgHrvWbZGrVO');
         })();
 
         // Form elements
@@ -466,7 +465,11 @@
                 timestamp: new Date().toLocaleString('en-US', { timeZone: 'America/New_York' }),
                 details: document.getElementById('details').value,
                 source: document.getElementById('source').value,
-                email: document.getElementById('email').value || 'Not provided'
+                email: document.getElementById('email').value || 'Not provided',
+                // Initialize all fields to prevent undefined in email
+                updateItems: '',
+                meetingDetails: '',
+                location: ''
             };
             
             // Add type-specific data
@@ -485,8 +488,7 @@
             
             try {
                 // Send email using EmailJS
-                // REPLACE 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual IDs
-                await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData);
+                await emailjs.send('service_126opt9', 'template_o3y6cvj', formData);
                 
                 // Show success message
                 successAlert.style.display = 'block';
