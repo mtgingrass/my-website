@@ -6,12 +6,12 @@ image: images/01.webp
 ::: {.text-center}
 **GreenvilleRunClubs**
 
-*Coming Soon to the App Store*
+*Now Available on the App Store*
 :::
 
 ### Download
 
-*App Store link coming soon*
+[Download on the App Store](https://apps.apple.com/us/app/greenvillerunclubs/id6749022264)
 
 ### Screenshots
 

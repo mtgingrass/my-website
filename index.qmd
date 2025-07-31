@@ -44,15 +44,16 @@ I love building relationships with stakeholders at all levels. Extensive experie
 ## Latest Project
 
 ::: {.card .card-featured .mb-8}
-### [IWNDWYToday – Habit Destruct](https://markgingrass.com/apps/iwndwytoday/)
+### [GreenvilleRunClubs – Community Running Platform](https://markgingrass.com/apps/greenville-run-clubs/)
 
-A minimalist iOS app to *destruct* bad habits. Built in SwiftUI with scalable, MVVM-based architecture.
+Connect with Greenville's vibrant running community. Built in SwiftUI with a focus on local connections and event discovery.
 
-✅ One counter, clean UI  
-✅ Git + TestFlight + first-try App Store approval  
-✅ End-to-end iOS development from concept to release
+✅ Club discovery based on pace and interests  
+✅ Local event calendar and race information  
+✅ Route sharing and community features  
+✅ Privacy-first design with clean, intuitive UI
 
-[👉 Download on the App Store](https://apps.apple.com/us/app/iwndwytoday/id6747836739){.btn .btn-primary}
+[👉 Download on the App Store](https://apps.apple.com/us/app/greenvillerunclubs/id6749022264){.btn .btn-primary}
 :::
 
 <div class="row mt-12">

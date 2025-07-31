@@ -45,7 +45,7 @@ Discover and connect with the vibrant running community in Greenville, South Car
 
 ::: {.app-actions}
 [View Details](greenville-run-clubs/){.btn .btn-primary}
-[Coming Soon]{.btn .btn-secondary}
+[Download on App Store](https://apps.apple.com/us/app/greenvillerunclubs/id6749022264){.btn .btn-accent}
 :::
 :::
 
