@@ -37,6 +37,8 @@ GreenvilleRunClubs is your gateway to discovering and connecting with the vibran
 
 Explore running clubs, join group runs, and stay updated on races and events happening throughout the Greenville area. Built with a focus on community and accessibility, GreenvilleRunClubs makes it easy to find your running tribe.
 
+For more information, visit the official site at [greenvillerunclubs.com](https://greenvillerunclubs.com/).
+
 ### Features
 
 - **Club Discovery**  

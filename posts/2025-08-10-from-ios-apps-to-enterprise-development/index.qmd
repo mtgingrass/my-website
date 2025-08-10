@@ -1,0 +1,149 @@
+---
+title: "From iOS Apps to Enterprise Development: My Evolution with AI Tools"
+author: "Mark Gingrass"
+date: 2025-08-10
+categories: ["Career", "Programming", "AI", "Tools"]
+image: images/workflow.png
+execute:
+  eval: false
+summary: "Three iOS apps. Countless AI iterations. One clear path forward. Here's how I evolved from AI-assisted app development to building enterprise-grade systems, and the sophisticated workflow that makes it possible."
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-expand: true
+lightbox: true
+---
+
+# The Tools Don't Make the Developer, But They Sure As Hell Help
+
+I've shipped three iOS apps to the App Store. They're clunky. They skip steps. They rely heavily on AI-generated code. And I'm completely fine with that—because that wasn't the point.
+
+The point was learning how to think like a developer again. Understanding architecture. Grasping state management. Remembering why data structures matter. Most importantly, learning how to leverage AI tools without becoming dependent on them.
+
+Now I'm building something entirely different: a Spring Boot microservices platform with Angular frontend and Drools business rules engine. Real enterprise stuff. The kind of systems I used to manage teams building, but now I'm writing the code myself.
+
+## The Setup That Gets Things Done
+
+My development environment has evolved from simple ChatGPT queries to a sophisticated multi-tool workflow:
+
+**Left monitor**: Claude Desktop running full screen. This is my strategic planning and architecture tool. Claude excels at understanding complex system design and maintaining context across large codebases.
+
+**Right monitor**: Terminal with multiple tabs, each running Claude Code (CC). This is where the actual work happens:
+- Tab 1: Backend services development
+- Tab 2: Frontend Angular work  
+- Tab 3: Database operations and migrations
+- Tab 4: Testing and deployment scripts
+- Tab 5: Git operations and PR management
+
+**Keyboard shortcuts memorized**:
+- `Cmd+Shift+]` / `Cmd+Shift+[` to switch terminal tabs instantly
+- `Cmd+Space` for Spotlight to launch any app in milliseconds
+- `Cmd+W` to close, `Cmd+Q` to quit, `Cmd+Tab` to switch focus
+- Custom aliases for common operations: `gs` for git status, `gp` for git push, `cc` to launch Claude Code
+
+No mouse. No clicking around. Just rapid-fire commands and instant context switching.
+
+## From Hobby Hacking to Production Systems
+
+Those iOS apps taught me where AI tools excel and where they fail. AI can generate a SwiftUI view in seconds. It can't tell you why your state management is causing UI freezes. AI can write a REST endpoint. It can't architect a scalable microservices platform.
+
+That's where human expertise comes in. I use AI as a force multiplier, not a replacement for thinking.
+
+Take my current project, TrailMaster—a comprehensive hiking platform. The architecture decisions are mine:
+- PostgreSQL with separate databases per service (database-per-service pattern)
+- Spring Cloud Gateway for API routing
+- Drools for business rules because requirements change faster than code
+- Angular with lazy loading and PWA capabilities for mobile performance
+
+But the implementation? That's where AI accelerates everything. Claude Code writes the boilerplate. I review, refactor, and ensure it fits the architecture. Claude Desktop helps me think through complex problems. I make the final decisions.
+
+## The Markdown-Driven Development Approach
+
+Every project now starts with a comprehensive Markdown file. Not documentation—a living specification that drives development. The `CLAUDE.md` file in my TrailMaster project contains:
+- Complete architecture diagrams and service boundaries
+- Database schemas with relationships clearly defined
+- API contracts with example requests/responses  
+- Business rules in plain English before they become Drools rules
+- UI component hierarchy and state management patterns
+
+This isn't just planning. It's executable documentation. I feed these specs to Claude Code, and it generates implementations that actually match my architecture. No more "close enough" code that needs complete rewrites.
+
+## Why This Matters for Enterprise Development
+
+Here's what recruiters and hiring managers need to understand: I'm not a 22-year-old who learned to code from YouTube tutorials. I'm a seasoned program manager who understands enterprise software from the business side and decided to master the technical side.
+
+I know why microservices exist (and when they shouldn't). I understand why you need circuit breakers in distributed systems. I can explain CAP theorem and its implications for system design. I've managed multi-million dollar software programs, and now I can build them.
+
+The AI tools? They're just accelerators. Like using an IDE instead of notepad. Like using Git instead of zip files. Tools evolve. Fundamentals don't.
+
+## The Technical Stack That Matters
+
+Current proficiencies gained through hands-on development:
+- **Backend**: Spring Boot 3.x, Spring Data JPA, Spring Security, Spring Cloud Gateway
+- **Frontend**: Angular 16+, RxJS, Angular Material, TypeScript
+- **Databases**: PostgreSQL, Redis, database migration strategies
+- **DevOps**: Docker, Docker Compose, GitHub Actions, CI/CD pipelines
+- **Business Rules**: Drools 8.x for complex decision logic
+- **Cloud**: AWS (RDS, ECS, S3), Heroku, DigitalOcean App Platform
+
+But more importantly, I understand:
+- Domain-Driven Design and bounded contexts
+- Event-driven architectures and eventual consistency
+- API gateway patterns and service mesh concepts
+- Distributed system challenges: network partitions, cascading failures, data consistency
+- Performance optimization: caching strategies, lazy loading, database indexing
+
+## The Workflow in Action
+
+Let me paint you a picture of actual development:
+
+9:00 AM: Review requirements for new trail recommendation feature. Open Claude Desktop, discuss architectural implications. Decision: implement as separate Rules Engine service using Drools.
+
+9:15 AM: Switch to terminal. `cd backend && mkdir rules-engine-service`. Claude Code generates Spring Boot skeleton with Drools dependencies.
+
+9:30 AM: While that's generating, switch tabs. Start Angular component for displaying recommendations. Claude Code creates the service, component, and routing.
+
+9:45 AM: Back to backend tab. Review generated code. Spot an issue with the KieSession lifecycle. Fix it. Add proper error handling.
+
+10:00 AM: Write Drools rules in plain English first. Feed to Claude Desktop for review. Implement in `.drl` files with Claude Code assistance.
+
+10:30 AM: Integration time. Update API Gateway routes. Add circuit breaker pattern for resilience. Claude Code knows my patterns from the CLAUDE.md file.
+
+11:00 AM: Testing. Write integration tests with Claude Code. Run full stack locally with `docker-compose up`. Everything works first try because the architecture was solid from the start.
+
+This is a 2-hour task that would've taken 2 days without AI assistance. But notice: every decision was mine. Every architecture choice deliberate. The AI just eliminated the googling, the boilerplate, the syntax lookup.
+
+## Where This Goes Next
+
+The market is about to flood with AI-generated applications. Most will be garbage—working enough to demo, falling apart in production. The developers who thrive will be those who understand both the tools and the fundamentals.
+
+I'm positioning myself at that intersection. Deep enterprise experience. Modern development skills. Sophisticated AI tool usage. The ability to architect systems that scale, not just code features that work.
+
+My goal isn't to compete with CS graduates on algorithm implementation. It's to be the person who can walk into a room with executives, understand their business problems, architect a technical solution, and then actually build it. With AI tools as my accelerator, not my crutch.
+
+## The Bottom Line
+
+Three months ago, I was asking ChatGPT how to print "Hello World" in Swift. Today, I'm building distributed systems with circuit breakers and event sourcing. The progression isn't magic—it's systematic learning accelerated by AI tools but grounded in decades of enterprise experience.
+
+For recruiters and hiring managers: I'm not selling myself as a senior developer. I'm offering something different—enterprise program management experience combined with hands-on technical capability. I can speak to the C-suite about ROI and speak to developers about distributed transaction patterns. I can manage the program and debug the code.
+
+The tools will keep evolving. Claude will become more capable. New frameworks will emerge. But the ability to think systematically, architect solutions, and execute with precision? That's the constant. And that's what I bring to the table.
+
+---
+
+### Let's Connect
+
+Currently exploring opportunities in technical program management, software development leadership, and enterprise software sales engineering.
+
+📂 [GitHub](https://github.com/mtgingrass) - See the code in action  
+🔗 [LinkedIn](https://www.linkedin.com/in/markgingrass/) - Full professional background  
+📧 mark@markgingrass.com
+
+## Related Posts
+
+This post is part of my series on evolving development practices:
+
+- [Round Two: Working with AI](/posts/2025-05-30-round-two-working-with-ai/) - Lessons learned from AI-assisted development
+- [Working with AI, Habit Tracker - Round Two](/posts/2025-05-19-simple-habit-tracker-round-two-app/) - The Markdown-driven development approach
+- [Simple Habit Tracker App](/posts/2025-05-14-simple-habit-tracker-app/) - Where it all started
