@@ -3,7 +3,7 @@ title: "From iOS Apps to Enterprise Development: My Evolution with AI Tools"
 author: "Mark Gingrass"
 date: 2025-08-10
 categories: ["Career", "Programming", "AI", "Tools"]
-image: images/workflow.png
+image: images/featured_image_dev_ai.webp
 execute:
   eval: false
 summary: "Three iOS apps. Countless AI iterations. One clear path forward. Here's how I evolved from AI-assisted app development to building enterprise-grade systems, and the sophisticated workflow that makes it possible."
