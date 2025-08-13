@@ -30,7 +30,7 @@ I bring over 20 years of hands-on experience architecting enterprise systems, le
 </div>
 <div class="col-md-6">
 
-![Mark Gingrass](images/markandollie1.webp){.img-fluid .rounded-xl .shadow-lg}
+![Mark Gingrass](images/MarkTreeUpstate01.webp){.img-fluid .rounded-xl .shadow-lg}
 
 </div>
 </div>
