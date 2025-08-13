@@ -1,10 +1,284 @@
 ---
-title: "About"
-about:
-  template: trestles
-image: images/markandollie1.webp
+title: "About Mark"
+page-layout: full
+toc: false
 ---
 
-I have over two decades of federal government experience leading multiple teams, delivering enterprise software projects, and driving organizational success through strategic contracting, reorganization, and exceptional communication.
+::: {.hero}
+::: {.hero-content}
+**Developer • Technical Leader • Problem Solver**
 
-I'm an expert with translating technical concepts into business acumen for many stakeholders, and aligning projects with mission goals. Overseeing multiple Scrum teams, including Product Owners and Scrum Masters, while also stepping in to coach and support them as needed. Responsible for managing product backlogs, translating stakeholder requirements into actionable user stories, and guiding Agile teams to deliver software solutions.
+From Air Force service to federal contracting to full-stack development—building scalable solutions that matter through decades of real-world experience.
+
+[View My Apps](/apps/){.btn .btn-primary} [Read My Blog](/posts.html){.btn .btn-secondary}
+:::
+:::
+
+::: {.container}
+<div class="row mt-12">
+<div class="col-md-6">
+
+## Real-World Experience
+
+I bring over 20 years of hands-on experience architecting enterprise systems, leading technical teams, and delivering scalable software solutions. My career spans from enlisted Air Force service to senior technical leadership, always focused on building robust, maintainable systems that solve real problems.
+
+### Background That Matters
+- **Military Foundation**: U.S. Air Force veteran who understands discipline, service, and mission-critical system reliability
+- **Enterprise Architecture**: 20+ years designing and implementing large-scale distributed systems
+- **Full-Stack Development**: From database design to user interfaces, with expertise across the entire technology stack
+
+</div>
+<div class="col-md-6">
+
+![Mark Gingrass](images/markandollie1.webp){.img-fluid .rounded-xl .shadow-lg}
+
+</div>
+</div>
+
+## Core Strengths
+
+::: {.app-showcase}
+::: {.app-card}
+<div class="experience-icon">
+<i class="bi bi-shield-fill-check"></i>
+</div>
+
+### Military Service
+U.S. Air Force veteran who learned the value of discipline, teamwork, and getting the mission done right the first time.
+:::
+
+::: {.app-card}
+<div class="experience-icon">
+<i class="bi bi-graph-up"></i>
+</div>
+
+### Business Leadership
+20+ years managing complex federal contracts, ensuring taxpayer money delivers real value through efficient, scalable solutions.
+:::
+
+::: {.app-card}
+<div class="experience-icon">
+<i class="bi bi-lightbulb"></i>
+</div>
+
+### System Architecture
+Computer Science and MBA graduate specializing in distributed systems, microservices, and scalable cloud architectures.
+:::
+
+::: {.app-card}
+<div class="experience-icon">
+<i class="bi bi-people"></i>
+</div>
+
+### Technology Leadership
+Full-stack developer with expertise in multiple languages, frameworks, and cloud platforms, leveraging modern DevOps practices and AI-assisted development.
+:::
+:::
+
+## Philosophy & Approach
+
+<div class="row mt-12">
+<div class="col-md-6">
+
+### What Drives Me
+- **Scalable Architecture**: Building systems that grow with business needs
+- **Technology Agnostic**: Choosing the right tool for the job, not the trendy one
+- **DevOps Culture**: Continuous integration, delivery, and infrastructure as code
+- **Clean Code**: Maintainable, testable, and well-documented solutions
+
+</div>
+<div class="col-md-6">
+
+::: {.card}
+*"Great architecture isn't about using the latest technology—it's about building systems that are reliable, scalable, and maintainable for the long term."*
+:::
+
+</div>
+</div>
+
+## The Path Here
+
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-marker"></div>
+<div class="timeline-content">
+
+### **Humble Beginnings**
+Started with paper routes and McDonald's, learning that every job teaches you something valuable about work ethic and problem-solving.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-marker"></div>
+<div class="timeline-content">
+
+### **Military Service**
+U.S. Air Force service taught discipline, attention to detail, and how to work under pressure with mission-critical systems.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-marker"></div>
+<div class="timeline-content">
+
+### **Education & Growth**
+Earned degrees in Computer Science and MBA while working full-time, proving that learning never stops and skills build on each other.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-marker"></div>
+<div class="timeline-content">
+
+### **Federal Leadership**
+Rose to senior technical roles, handling complex enterprise solutions and leading Agile transformations in high-stakes environments.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-marker"></div>
+<div class="timeline-content">
+
+### **Modern Architecture**
+Embracing cloud-native development, microservices, and AI-assisted workflows, applying decades of experience to building scalable systems.
+
+</div>
+</div>
+</div>
+
+## Beyond the Code
+
+<div class="row mt-12">
+<div class="col-md-4">
+
+### **Outdoor Enthusiast**
+Active hiker who tackles steep climbs and overnighters. Mountain biking and skateboarding keep things interesting. My partially built-out van sees weekend vanlifer adventures.
+
+</div>
+<div class="col-md-4">
+
+### **Trail Buddy**
+Ollie, my Golden Retriever, is my constant companion on trails and road trips. He's got better trail instincts than most humans I know.
+
+</div>
+<div class="col-md-4">
+
+### **Lifelong Learner**
+Fascinated by policy, governance, efficiency, and technology intersection. Always seeking ways to combine experience with passion for optimal outcomes.
+
+</div>
+</div>
+
+## Current Focus
+
+::: {.card .card-featured .mb-8}
+### Building Scalable Solutions That Matter
+
+Whether it's distributed systems, cloud architecture, or enterprise applications, I focus on creating robust technology solutions that solve real problems at scale.
+
+**Core Expertise:**
+- **Cloud Platforms**: AWS, Azure, and hybrid cloud architectures
+- **Backend Systems**: Microservices, APIs, database design, and message queues
+- **DevOps & CI/CD**: Infrastructure as code, containerization, and automated deployment pipelines
+- **Full-Stack Development**: From database optimization to responsive web interfaces
+- **Enterprise Integration**: System-to-system communication, ETL processes, and data architecture
+
+[Explore My Apps](/apps/){.btn .btn-primary} [Connect With Me](/contact.html){.btn .btn-secondary}
+:::
+
+:::
+
+<style>
+/* Timeline Styles */
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--accent-color);
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+  margin-right: 55%;
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  margin-left: 55%;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  transform: translateX(-50%);
+  border: 4px solid var(--bg-primary);
+  box-shadow: 0 0 0 4px var(--accent-color);
+  z-index: 1;
+}
+
+.timeline-content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.timeline-content p {
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Experience Icons */
+.experience-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-hover) 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Responsive Timeline */
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 30px;
+  }
+  
+  .timeline-item .timeline-content {
+    margin-left: 60px !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+  }
+  
+  .timeline-marker {
+    left: 30px;
+  }
+}
+</style>
