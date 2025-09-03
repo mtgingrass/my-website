@@ -2,7 +2,7 @@
 title: "The Ultimate Desk Setup: Apple Studio Display, Stand Desk, and Strategic Pet Placement"
 description: "A look at my newl workspace - an Apple Studio Display, dual computer setup, and pet zones"
 author: "Mark Gingrass"
-date: "2025-01-03"
+date: "2025-09-03"
 categories: [workspace, productivity, tech]
 image: "images/desk-setup-1.webp"
 format:
@@ -13,7 +13,7 @@ format:
 
 After months of me complaining about my 1080p monitor and speghetti cable, I finally upgraded and cleaned everyting up. I went for it, and finally purchased the Apple Studio Display that serves as the command center for both my MacBook Pro and work Dell machine.
 
-![The complete desk setup with Apple Studio Display](images/desk-setup-1.webp)
+![The complete desk setup with Apple Studio Display](images/MG_0398.web)
 
 ## The Hardware Foundation
 
