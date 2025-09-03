@@ -1,0 +1,52 @@
+---
+title: "The Ultimate Desk Setup: Apple Studio Display, Stand Desk, and Strategic Pet Placement"
+description: "A look at my newl workspace - an Apple Studio Display, dual computer setup, and pet zones"
+author: "Mark Gingrass"
+date: "2025-01-03"
+categories: [workspace, productivity, tech]
+image: "images/desk-setup-1.webp"
+format:
+  html:
+    code-fold: false
+---
+
+
+After months of me complaining about my 1080p monitor and speghetti cable, I finally upgraded and cleaned everyting up. I went for it, and finally purchased the Apple Studio Display that serves as the command center for both my MacBook Pro and work Dell machine.
+
+![The complete desk setup with Apple Studio Display](images/desk-setup-1.webp)
+
+## The Hardware Foundation
+
+The Fully standing desk provides the literal foundation for everything. Height adjustability means I can switch between sitting and standing throughout the day, though let's be honest—the sitting position gets more use than it should.
+
+Mounted on an ergonomic monitor arm, the Apple Studio Display floats at perfect eye level. This single screen serves double duty, seamlessly switching between my personal MacBook Pro and the work Dell. When absolutely necessary, I can run both the laptop screen and the ASD simultaneously, but I resist the temptation. Single-tasking beats multi-tasking every time.
+
+## Input Device Strategy
+
+Each system gets its own pointing device. The MX Master mouse handles the Dell's Windows environment with precision, while the Apple Magic Trackpad provides those buttery-smooth gestures for macOS. No KVM switch needed—just grab the right device for the current machine.
+
+## The Analog Corner
+
+Physical books haven't been forgotten in this digital command center. One side of the desk remains dedicated to whatever technical tome I'm currently working through. There's something about having a physical reference book open beside the screen that beats endless tab switching.
+
+A small plant occupies the opposite corner, providing a splash of life and a reminder that not everything needs electricity to function.
+
+## The Forgotten Giant
+
+Looming on the wall: a massive 4x3 foot dry erase board. It's perfect for diagramming system architectures, sketching out ideas, or planning projects. Do I use it as much as I should? Absolutely not. But it's there, waiting patiently for the next burst of inspiration that demands more real estate than a screen can provide.
+
+## Strategic Pet Placement
+
+The real genius of this setup lies below deck. The cat has claimed the left underside of the desk as her domain—close enough to supervise, far enough to avoid accidental kicks. The dog, more social by nature, sprawls in the middle where foot rubs are just a stretch away.
+
+This arrangement solves the eternal home office dilemma: how to keep pets close without having them constantly on the keyboard. They get their proximity fix, I get my workspace, everybody wins.
+
+## Clean Lines, Clear Mind
+
+![Another angle of the clean workspace](images/desk-setup-2.webp)
+
+With the wire management finally tamed, the visual noise has dropped to near zero. Every cable has its path, every device its place. The mental overhead of workspace chaos—that low-level static of disorganization—has vanished.
+
+Is it perfect? No setup ever is. But with the Apple Studio Display as the visual anchor, the Fully desk providing flexibility, and dedicated zones for work, learning, and pets, it's close enough.
+
+Now if I could just remember to use that whiteboard more often.
