@@ -24,14 +24,17 @@ Building solutions that matter—from enterprise software to personal habit-trac
 
 ## Professional
 
-Technical leader with 20+ years in the federal sector, specializing in enterprise software solutions, Agile transformation, and government contracting. Track record of leading high-stakes technical initiatives, responding to RFPs/RFIs, and translating complex technical concepts into actionable business strategies. 
+Product leader with 20+ years in the federal sector. For the past eight years, I have been specializing in product strategy, user-centered innovation, and delivering solutions with tangible outcomes. I have a track record of defining product vision for complex enterprise systems, translating ambiguous stakeholder needs into actionable roadmaps, and leading cross-functional teams to build products that people actually use and value.
 
-I love building relationships with stakeholders at all levels. Extensive experience working with defense, regulatory, and federal agencies.
+I am the connector and translator across disciplines. I work with user needs, business goals, and technical experts daily. I focus on building trust with stakeholders at every level—from end users to division directors and key decision-makers.
+Extensive experience partnering with defense, regulatory, and federal agencies to modernize legacy systems and prove that government technology can be world-class.
 
 ### Current Focus
-- **iOS Development**: Building SwiftUI apps with MVVM architecture as a hobbiest
-- **Enterprise Solutions**: Leading Agile teams and product strategy
-- **Software Contracting & Architecture**: Planning and executing custom software solutions with a focus on system architecture, scalability, and integration
+
+* Leading product strategy for FDA modernization initiatives that serve 400+ regulatory scientists
+* Building platforms that reduce manual workflows and accelerate decisions
+* Championing AI-powered solutions that unlock decades of trapped regulatory data
+* Staying technically credible through hands-on iOS development (SwiftUI, because learning keeps me humble)
 
 </div>
 <div class="col-md-6">
