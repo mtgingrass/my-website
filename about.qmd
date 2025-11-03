@@ -22,10 +22,11 @@ From Air Force service to federal contracting to full-stack development—buildi
 
 I bring over 20 years of hands-on experience architecting enterprise systems, leading technical teams, and delivering scalable software solutions. My career spans from enlisted Air Force service to senior technical leadership, always focused on building robust, maintainable systems that solve real problems.
 
-### Background That Matters
-- **Military Foundation**: U.S. Air Force veteran who understands discipline, service, and mission-critical system reliability
-- **Enterprise Architecture**: 20+ years designing and implementing large-scale distributed systems
-- **Full-Stack Development**: From database design to user interfaces, with expertise across the entire technology stack
+### Background Summary
+- **Military Foundation** - U.S. Air Force veteran who understands discipline, service, and mission-critical system reliability
+- **Enterprise Architecture** - 20+ years designing and implementing large-scale distributed systems
+- **Product Leadership** - 20+ years translating ambiguous business problems into clear product strategies, roadmaps, and measurable outcomes
+- **End-to-End Product Thinking** - User research to technical architecture to KPIs, I connect the dots across the entire product lifecycle
 
 </div>
 <div class="col-md-6">
