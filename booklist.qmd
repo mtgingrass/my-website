@@ -32,6 +32,12 @@ I'll try to keep up with the books I have read and add them here. From this poin
 ::: {.book-status}
 Currently Reading
 :::
+
+-->
+```
+
+# Completed Books
+
 ### [**The Professional Product Owner: Leveraging Scrum as a Competitive Advantage**](https://www.amazon.com/dp/0134686470?tag=hatro-20)
 **by Don McGreal and Ralph Jocham**
 
@@ -60,10 +66,6 @@ In this comprehensive analysis, Kurt Andersen explores America's 500-year histor
 This Pulitzer Prize-winning biography delves into the life of Robert Moses, the influential urban planner who shaped much of modern New York City. Caro meticulously examines how Moses wielded power to build infrastructure, often at the expense of communities. The book offers profound insights into urban development and political dynamics.
 
 *Personal Note*: This book has been a beast. I've been switching back and forth between audio and text, and this is my third attempt at reading it. It's a very good book—I love it. I've loved all of Robert Caro's books so far, but for some reason, this one has been a challenge to continue. I think it has to do with the fact that I keep wanting to read other books, so I might just need to take a break on this one.
--->
-```
-
-# Completed Books
 
 ### [**Abundance** by Ezra Klein and Derek Thompson](https://www.amazon.com/dp/1668023482?tag=hatro-20)
 
