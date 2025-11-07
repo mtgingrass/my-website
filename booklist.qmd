@@ -51,7 +51,7 @@ A practical guide to modern product management that cuts through the theory to f
 ### [**The Professional Product Owner: Leveraging Scrum as a Competitive Advantage**](https://www.amazon.com/dp/0134686470?tag=hatro-20)
 **by Don McGreal and Ralph Jocham**
 
-[![The Professional Product Owner book cover](/book_images/professional-product-owner.png){alt="The Professional Product Owner book cover" .book-cover}](https://www.amazon.com/dp/0134686470?tag=hatro-20)
+[![The Professional Product Owner book cover](/book_images/professional-product-owner.jpg){alt="The Professional Product Owner book cover" .book-cover}](https://www.amazon.com/dp/0134686470?tag=hatro-20)
 
 This book offers a comprehensive guide to maximizing value through effective Scrum product ownership. Drawing on decades of experience, the authors provide practical insights into aligning vision, value, and validation in agile product management. It's a valuable resource for anyone looking to deepen their understanding of the Product Owner role and leverage Scrum as a competitive advantage.
 
