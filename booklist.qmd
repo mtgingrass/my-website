@@ -33,8 +33,18 @@ I'll try to keep up with the books I have read and add them here. From this poin
 Currently Reading
 :::
 
--->
-```
+### [**Product Management in Practice: A Real-World Guide to the Key Connective Role of the 21st Century**](https://www.amazon.com/dp/149197320X?tag=hatro-20)
+**by Matt LeMay**
+
+[![Product Management in Practice book cover](/book_images/product-management-practice.png){alt="Product Management in Practice book cover" .book-cover}](https://www.amazon.com/dp/149197320X?tag=hatro-20)
+
+A practical guide to modern product management that cuts through the theory to focus on real-world application. LeMay draws from his experience working with companies of all sizes to provide actionable frameworks for product managers navigating the complexities of cross-functional collaboration, stakeholder management, and strategic decision-making in today's fast-paced business environment.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/149197320X?tag=hatro-20){.btn .btn-primary}
+:::
+:::
+:::
 
 # Completed Books
 
