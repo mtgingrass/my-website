@@ -28,6 +28,11 @@ I'll try to keep up with the books I have read and add them here. From this poin
 
 ::: {.book-grid}
 
+::: {.book-card}
+::: {.book-status}
+Currently Reading
+:::
+
 ### [**Product Management in Practice: A Real-World Guide to the Key Connective Role of the 21st Century**](https://www.amazon.com/dp/149197320X?tag=hatro-20)
 **by Matt LeMay**
 
@@ -37,6 +42,74 @@ A practical guide to modern product management that cuts through the theory to f
 
 ::: {.book-actions}
 [View on Amazon](https://www.amazon.com/dp/149197320X?tag=hatro-20){.btn .btn-primary}
+:::
+:::
+
+::: {.book-card}
+::: {.book-status}
+Currently Reading
+:::
+
+### [**Outcomes Over Output: Why Customer Behavior Is the Key Metric**](https://www.amazon.com/dp/1091173265?tag=hatro-20)
+**by Josh Selden**
+
+[![Outcomes Over Output book cover](/book_images/outcomes-over-output.jpg){alt="Outcomes Over Output book cover" .book-cover}](https://www.amazon.com/dp/1091173265?tag=hatro-20)
+
+A practical guide that challenges teams to move beyond measuring outputs and focus on the outcomes that truly matter. Selden provides frameworks for understanding customer behavior and designing products that create real value, emphasizing how to measure success through meaningful customer interactions rather than feature delivery.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/1091173265?tag=hatro-20){.btn .btn-primary}
+:::
+:::
+
+::: {.book-card}
+::: {.book-status}
+Currently Reading
+:::
+
+### [**Influence: The Psychology of Persuasion**](https://www.amazon.com/dp/006124189X?tag=hatro-20)
+**by Robert B. Cialdini**
+
+[![Influence book cover](/book_images/influence-psychology-persuasion.jpg){alt="Influence: The Psychology of Persuasion book cover" .book-cover}](https://www.amazon.com/dp/006124189X?tag=hatro-20)
+
+A groundbreaking exploration of the psychology behind why people say "yes" and how to apply these insights ethically. Cialdini identifies six key principles of persuasion through decades of research, providing valuable insights for anyone looking to understand human behavior and decision-making processes.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/006124189X?tag=hatro-20){.btn .btn-primary}
+:::
+:::
+
+::: {.book-card}
+::: {.book-status}
+Currently Reading
+:::
+
+### [**Never Split the Difference: Negotiating As If Your Life Depended On It**](https://www.amazon.com/dp/0062407805?tag=hatro-20)
+**by Chris Voss**
+
+[![Never Split the Difference book cover](/book_images/never-split-the-difference.jpg){alt="Never Split the Difference book cover" .book-cover}](https://www.amazon.com/dp/0062407805?tag=hatro-20)
+
+A former FBI hostage negotiator shares proven strategies for high-stakes conversations. Voss reveals tactical empathy techniques and psychological insights that can transform any negotiation, from business deals to everyday interactions, by understanding what drives human behavior in conflict situations.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/0062407805?tag=hatro-20){.btn .btn-primary}
+:::
+:::
+
+::: {.book-card}
+::: {.book-status}
+Currently Reading
+:::
+
+### [**The Mom Test: How to Talk to Customers & Learn if Your Business is a Good Idea When Everyone is Lying to You**](https://www.amazon.com/dp/1492180742?tag=hatro-20)
+**by Rob Fitzpatrick**
+
+[![The Mom Test book cover](/book_images/mom-test.jpg){alt="The Mom Test book cover" .book-cover}](https://www.amazon.com/dp/1492180742?tag=hatro-20)
+
+A practical guide to conducting effective customer interviews that reveal genuine insights rather than polite lies. Fitzpatrick teaches entrepreneurs how to ask the right questions to validate business ideas, understand real customer problems, and build products people actually want.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/1492180742?tag=hatro-20){.btn .btn-primary}
 :::
 :::
 :::
