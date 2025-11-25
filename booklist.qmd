@@ -96,10 +96,9 @@ A former FBI hostage negotiator shares proven strategies for high-stakes convers
 :::
 :::
 
-::: {.book-card}
-::: {.book-status}
-Currently Reading
 :::
+
+# Completed Books
 
 ### [**The Mom Test: How to Talk to Customers & Learn if Your Business is a Good Idea When Everyone is Lying to You**](https://www.amazon.com/dp/1492180742?tag=hatro-20)
 **by Rob Fitzpatrick**
@@ -111,10 +110,15 @@ A practical guide to conducting effective customer interviews that reveal genuin
 ::: {.book-actions}
 [View on Amazon](https://www.amazon.com/dp/1492180742?tag=hatro-20){.btn .btn-primary}
 :::
-:::
-:::
 
-# Completed Books
+### [**Erasing History: How Fascists Rewrite the Past to Control the Future**](https://www.amazon.com/dp/1668013878?tag=hatro-20)
+**by Jason Stanley**
+
+A critical examination of how authoritarian movements systematically distort historical narratives to consolidate power. Stanley explores the tactics used by fascist regimes to rewrite the past, manipulate collective memory, and shape public understanding in service of their political goals. An essential read for understanding the relationship between historical truth and democratic institutions.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/1668013878?tag=hatro-20){.btn .btn-primary}
+:::
 
 ### [**The Professional Product Owner: Leveraging Scrum as a Competitive Advantage**](https://www.amazon.com/dp/0134686470?tag=hatro-20)
 **by Don McGreal and Ralph Jocham**
