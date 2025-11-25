@@ -14,7 +14,7 @@ format:
 
 My bookshelf reflects my curiosity. I choose many books that explore history, politics, philosophy, and the human condition. These books challenge me to think, question assumptions, and connect dots between unrelated ideas. The more I read, the more connections I make.
 
-[Currently Reading](#currently-reading){.btn .btn-primary} [View All Books](#completed-books){.btn .btn-secondary}
+[Currently Reading](#currently-reading){.btn .btn-primary} [Up Next](#up-next){.btn .btn-secondary} [View All Books](#completed-books){.btn .btn-secondary}
 :::
 :::
 
@@ -50,6 +50,46 @@ A practical guide to modern product management that cuts through the theory to f
 Currently Reading
 :::
 
+### [**The New China Playbook: Beyond Socialism and Capitalism**](https://www.amazon.com/dp/0197604153?tag=hatro-20)
+**by Keyu Jin**
+
+[![The New China Playbook book cover](/book_images/new-china-playbook.jpg){alt="The New China Playbook book cover" .book-cover}](https://www.amazon.com/dp/0197604153?tag=hatro-20)
+
+An insider's perspective on China's economic model that challenges Western assumptions about the country's development path. Jin, a Harvard-trained economist, explores how China has created a unique system that blends state intervention with market mechanisms, offering insights into the country's rise and what it means for the global economy.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/0197604153?tag=hatro-20){.btn .btn-primary}
+:::
+:::
+
+:::
+
+# Up Next
+
+::: {.book-grid}
+
+::: {.book-card}
+::: {.book-status}
+Up Next
+:::
+
+### [**Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value**](https://www.amazon.com/dp/1736633309?tag=hatro-20)
+**by Teresa Torres**
+
+[![Continuous Discovery Habits book cover](/book_images/continuous-discovery-habits.jpg){alt="Continuous Discovery Habits book cover" .book-cover}](https://www.amazon.com/dp/1736633309?tag=hatro-20)
+
+A practical framework for building customer discovery into your weekly routine. Torres provides structured methods for consistently engaging with customers, understanding their needs, and validating product decisions. Essential reading for product teams looking to make discovery a habit rather than a one-time activity.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/1736633309?tag=hatro-20){.btn .btn-primary}
+:::
+:::
+
+::: {.book-card}
+::: {.book-status}
+Up Next
+:::
+
 ### [**Outcomes Over Output: Why Customer Behavior Is the Key Metric**](https://www.amazon.com/dp/1091173265?tag=hatro-20)
 **by Josh Selden**
 
@@ -64,7 +104,7 @@ A practical guide that challenges teams to move beyond measuring outputs and foc
 
 ::: {.book-card}
 ::: {.book-status}
-Currently Reading
+Up Next
 :::
 
 ### [**Influence: The Psychology of Persuasion**](https://www.amazon.com/dp/006124189X?tag=hatro-20)
@@ -81,7 +121,7 @@ A groundbreaking exploration of the psychology behind why people say "yes" and h
 
 ::: {.book-card}
 ::: {.book-status}
-Currently Reading
+Up Next
 :::
 
 ### [**Never Split the Difference: Negotiating As If Your Life Depended On It**](https://www.amazon.com/dp/0062407805?tag=hatro-20)
