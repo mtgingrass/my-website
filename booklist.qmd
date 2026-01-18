@@ -102,6 +102,23 @@ A former FBI hostage negotiator shares proven strategies for high-stakes convers
 :::
 :::
 
+::: {.book-card}
+::: {.book-status}
+Up Next
+:::
+
+### [**The Coddling of the American Mind: How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure**](https://www.amazon.com/dp/0735224897?tag=hatro-20)
+**by Greg Lukianoff and Jonathan Haidt**
+
+[![The Coddling of the American Mind book cover](/book_images/coddling-american-mind.jpg){alt="The Coddling of the American Mind book cover" .book-cover}](https://www.amazon.com/dp/0735224897?tag=hatro-20)
+
+An examination of how well-intentioned efforts to protect young people from discomfort and offense may be undermining their resilience and critical thinking abilities. Lukianoff and Haidt explore three "Great Untruths" that they argue are harming students and society, offering insights into how we can better prepare young minds for the challenges of adult life.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/0735224897?tag=hatro-20){.btn .btn-primary}
+:::
+:::
+
 :::
 
 # Completed Books
