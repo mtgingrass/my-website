@@ -50,6 +50,8 @@ An insider's perspective on China's economic model that challenges Western assum
 
 # Completed Books
 
+## 2026
+
 ### [**The Coddling of the American Mind: How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure**](https://www.amazon.com/dp/0735224897?tag=hatro-20)
 **by Greg Lukianoff and Jonathan Haidt**
 
@@ -61,17 +63,6 @@ An examination of how well-intentioned efforts to protect young people from disc
 [View on Amazon](https://www.amazon.com/dp/0735224897?tag=hatro-20){.btn .btn-primary}
 :::
 
-### [**Never Split the Difference: Negotiating As If Your Life Depended On It**](https://www.amazon.com/dp/0062407805?tag=hatro-20)
-**by Chris Voss**
-
-[![Never Split the Difference book cover](/book_images/never-split-the-difference.jpg){alt="Never Split the Difference book cover" .book-cover}](https://www.amazon.com/dp/0062407805?tag=hatro-20)
-
-A former FBI hostage negotiator shares proven strategies for high-stakes conversations. Voss reveals tactical empathy techniques and psychological insights that can transform any negotiation, from business deals to everyday interactions, by understanding what drives human behavior in conflict situations.
-
-::: {.book-actions}
-[View on Amazon](https://www.amazon.com/dp/0062407805?tag=hatro-20){.btn .btn-primary}
-:::
-
 ### [**Influence: The Psychology of Persuasion**](https://www.amazon.com/dp/006124189X?tag=hatro-20)
 **by Robert B. Cialdini**
 
@@ -81,6 +72,19 @@ A groundbreaking exploration of the psychology behind why people say "yes" and h
 
 ::: {.book-actions}
 [View on Amazon](https://www.amazon.com/dp/006124189X?tag=hatro-20){.btn .btn-primary}
+:::
+
+## 2025
+
+### [**Never Split the Difference: Negotiating As If Your Life Depended On It**](https://www.amazon.com/dp/0062407805?tag=hatro-20)
+**by Chris Voss**
+
+[![Never Split the Difference book cover](/book_images/never-split-the-difference.jpg){alt="Never Split the Difference book cover" .book-cover}](https://www.amazon.com/dp/0062407805?tag=hatro-20)
+
+A former FBI hostage negotiator shares proven strategies for high-stakes conversations. Voss reveals tactical empathy techniques and psychological insights that can transform any negotiation, from business deals to everyday interactions, by understanding what drives human behavior in conflict situations.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/0062407805?tag=hatro-20){.btn .btn-primary}
 :::
 
 ### [**Outcomes Over Output: Why Customer Behavior Is the Key Metric**](https://www.amazon.com/dp/1091173265?tag=hatro-20)
