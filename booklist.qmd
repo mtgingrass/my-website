@@ -14,7 +14,7 @@ format:
 
 My bookshelf reflects my curiosity. I choose many books that explore history, politics, philosophy, and the human condition. These books challenge me to think, question assumptions, and connect dots between unrelated ideas. The more I read, the more connections I make.
 
-[Currently Reading](#currently-reading){.btn .btn-primary} [Up Next](#up-next){.btn .btn-secondary} [View All Books](#completed-books){.btn .btn-secondary}
+[Currently Reading](#currently-reading){.btn .btn-primary} [View All Books](#completed-books){.btn .btn-secondary}
 :::
 :::
 
@@ -47,47 +47,18 @@ An insider's perspective on China's economic model that challenges Western assum
 
 :::
 
-# Up Next
 
-::: {.book-grid}
+# Completed Books
 
-::: {.book-card}
-::: {.book-status}
-Up Next
-:::
+### [**The Coddling of the American Mind: How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure**](https://www.amazon.com/dp/0735224897?tag=hatro-20)
+**by Greg Lukianoff and Jonathan Haidt**
 
-### [**Outcomes Over Output: Why Customer Behavior Is the Key Metric**](https://www.amazon.com/dp/1091173265?tag=hatro-20)
-**by Josh Selden**
+[![The Coddling of the American Mind book cover](/book_images/coddling-american-mind.jpg){alt="The Coddling of the American Mind book cover" .book-cover}](https://www.amazon.com/dp/0735224897?tag=hatro-20)
 
-[![Outcomes Over Output book cover](/book_images/outcomes-over-output.jpg){alt="Outcomes Over Output book cover" .book-cover}](https://www.amazon.com/dp/1091173265?tag=hatro-20)
-
-A practical guide that challenges teams to move beyond measuring outputs and focus on the outcomes that truly matter. Selden provides frameworks for understanding customer behavior and designing products that create real value, emphasizing how to measure success through meaningful customer interactions rather than feature delivery.
+An examination of how well-intentioned efforts to protect young people from discomfort and offense may be undermining their resilience and critical thinking abilities. Lukianoff and Haidt explore three "Great Untruths" that they argue are harming students and society, offering insights into how we can better prepare young minds for the challenges of adult life.
 
 ::: {.book-actions}
-[View on Amazon](https://www.amazon.com/dp/1091173265?tag=hatro-20){.btn .btn-primary}
-:::
-:::
-
-::: {.book-card}
-::: {.book-status}
-Up Next
-:::
-
-### [**Influence: The Psychology of Persuasion**](https://www.amazon.com/dp/006124189X?tag=hatro-20)
-**by Robert B. Cialdini**
-
-[![Influence book cover](/book_images/influence-psychology-persuasion.jpg){alt="Influence: The Psychology of Persuasion book cover" .book-cover}](https://www.amazon.com/dp/006124189X?tag=hatro-20)
-
-A groundbreaking exploration of the psychology behind why people say "yes" and how to apply these insights ethically. Cialdini identifies six key principles of persuasion through decades of research, providing valuable insights for anyone looking to understand human behavior and decision-making processes.
-
-::: {.book-actions}
-[View on Amazon](https://www.amazon.com/dp/006124189X?tag=hatro-20){.btn .btn-primary}
-:::
-:::
-
-::: {.book-card}
-::: {.book-status}
-Up Next
+[View on Amazon](https://www.amazon.com/dp/0735224897?tag=hatro-20){.btn .btn-primary}
 :::
 
 ### [**Never Split the Difference: Negotiating As If Your Life Depended On It**](https://www.amazon.com/dp/0062407805?tag=hatro-20)
@@ -100,28 +71,28 @@ A former FBI hostage negotiator shares proven strategies for high-stakes convers
 ::: {.book-actions}
 [View on Amazon](https://www.amazon.com/dp/0062407805?tag=hatro-20){.btn .btn-primary}
 :::
-:::
 
-::: {.book-card}
-::: {.book-status}
-Up Next
-:::
+### [**Influence: The Psychology of Persuasion**](https://www.amazon.com/dp/006124189X?tag=hatro-20)
+**by Robert B. Cialdini**
 
-### [**The Coddling of the American Mind: How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure**](https://www.amazon.com/dp/0735224897?tag=hatro-20)
-**by Greg Lukianoff and Jonathan Haidt**
+[![Influence book cover](/book_images/influence-psychology-persuasion.jpg){alt="Influence: The Psychology of Persuasion book cover" .book-cover}](https://www.amazon.com/dp/006124189X?tag=hatro-20)
 
-[![The Coddling of the American Mind book cover](/book_images/coddling-american-mind.jpg){alt="The Coddling of the American Mind book cover" .book-cover}](https://www.amazon.com/dp/0735224897?tag=hatro-20)
-
-An examination of how well-intentioned efforts to protect young people from discomfort and offense may be undermining their resilience and critical thinking abilities. Lukianoff and Haidt explore three "Great Untruths" that they argue are harming students and society, offering insights into how we can better prepare young minds for the challenges of adult life.
+A groundbreaking exploration of the psychology behind why people say "yes" and how to apply these insights ethically. Cialdini identifies six key principles of persuasion through decades of research, providing valuable insights for anyone looking to understand human behavior and decision-making processes.
 
 ::: {.book-actions}
-[View on Amazon](https://www.amazon.com/dp/0735224897?tag=hatro-20){.btn .btn-primary}
-:::
-:::
-
+[View on Amazon](https://www.amazon.com/dp/006124189X?tag=hatro-20){.btn .btn-primary}
 :::
 
-# Completed Books
+### [**Outcomes Over Output: Why Customer Behavior Is the Key Metric**](https://www.amazon.com/dp/1091173265?tag=hatro-20)
+**by Josh Selden**
+
+[![Outcomes Over Output book cover](/book_images/outcomes-over-output.jpg){alt="Outcomes Over Output book cover" .book-cover}](https://www.amazon.com/dp/1091173265?tag=hatro-20)
+
+A practical guide that challenges teams to move beyond measuring outputs and focus on the outcomes that truly matter. Selden provides frameworks for understanding customer behavior and designing products that create real value, emphasizing how to measure success through meaningful customer interactions rather than feature delivery.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/1091173265?tag=hatro-20){.btn .btn-primary}
+:::
 
 ### [**The Republic**](https://www.amazon.com/dp/0140455116?tag=hatro-20)
 **by Plato**
