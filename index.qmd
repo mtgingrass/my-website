@@ -13,8 +13,6 @@ resources:
 **Technical Leader • Developer • Problem Solver**
 
 Building solutions that matter—from enterprise software to personal habit-tracking apps. 20+ years of federal sector experience meets modern iOS development.
-
-[View My Apps](/apps/){.btn .btn-primary} [Read My Blog](/posts.html){.btn .btn-secondary}
 :::
 :::
 
@@ -43,21 +41,6 @@ Extensive experience partnering with defense, regulatory, and federal agencies t
 
 </div>
 </div>
-
-## Latest Project
-
-::: {.card .card-featured .mb-8}
-### [GreenvilleRunClubs – Community Running Platform](https://markgingrass.com/apps/greenville-run-clubs/)
-
-Connect with Greenville's vibrant running community. Built in SwiftUI with a focus on local connections and event discovery.
-
-✅ Club discovery based on pace and interests  
-✅ Local event calendar and race information  
-✅ Route sharing and community features  
-✅ Privacy-first design with clean, intuitive UI
-
-[👉 Download on the App Store](https://apps.apple.com/us/app/greenvillerunclubs/id6749022264){.btn .btn-primary}
-:::
 
 <div class="row mt-12">
 <div class="col-md-4">
@@ -208,8 +191,6 @@ Comprehensive habit tracking with multiple counters and detailed analytics.
 
 ::: {#recent-posts}
 :::
-
-[View All Posts](/posts.html){.btn .btn-secondary}
 
 <script>
 // Dynamic Recent Posts Loading

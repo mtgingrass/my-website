@@ -9,8 +9,6 @@ toc: false
 **Developer • Technical Leader • Problem Solver**
 
 From Air Force service to federal contracting to full-stack development—building scalable solutions that matter through decades of real-world experience.
-
-[View My Apps](/apps/){.btn .btn-primary} [Read My Blog](/posts.html){.btn .btn-secondary}
 :::
 :::
 
@@ -187,8 +185,6 @@ Whether it's distributed systems, cloud architecture, or enterprise applications
 - **DevOps & CI/CD**: Infrastructure as code, containerization, and automated deployment pipelines
 - **Full-Stack Development**: From database optimization to responsive web interfaces
 - **Enterprise Integration**: System-to-system communication, ETL processes, and data architecture
-
-[Explore My Apps](/apps/){.btn .btn-primary} [Connect With Me](/contact.html){.btn .btn-secondary}
 :::
 
 :::

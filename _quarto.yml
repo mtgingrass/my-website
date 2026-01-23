@@ -10,10 +10,7 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: posts.qmd
       - href: booklist.qmd
-      - href: apps/index.qmd
-        text: Custom Apps
 
     right:
       - icon: github
