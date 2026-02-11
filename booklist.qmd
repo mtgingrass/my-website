@@ -9,16 +9,12 @@ format:
 
 ::: {.hero}
 ::: {.hero-content}
-# Books
-**My Reading Collection**
-
-My bookshelf reflects my curiosity. I choose many books that explore history, politics, philosophy, and the human condition. These books challenge me to think, question assumptions, and connect dots between unrelated ideas. The more I read, the more connections I make.
-
+I choose many books that explore science, programming, history, politics, philosophy, and the human condition. These books challenge me to think, question assumptions, and connect dots between unrelated ideas. The more I read, the more connections I make.
 [View All Books](#completed-books){.btn .btn-primary}
 :::
 :::
 
-I'll try to keep up with the books I have read and add them here. From this point on, I will add them in the order I read them.
+I'll try to keep up with the books I have read and add them here.
 
 *The links are Amazon Affiliate links and I make a tiny commission if you choose to purchase one at no cost to you. This helps keep me motivated to update this site.*
 
@@ -26,26 +22,26 @@ I'll try to keep up with the books I have read and add them here. From this poin
 
 ## 2026
 
-### [**The New China Playbook: Beyond Socialism and Capitalism**](https://www.amazon.com/dp/0197604153?tag=hatro-20)
+### [**The New China Playbook: Beyond Socialism and Capitalism**](https://www.amazon.com/dp/198487828X?tag=hatro-20)
 **by Keyu Jin**
 
-[![The New China Playbook book cover](/book_images/new-china-playbook.jpg){alt="The New China Playbook book cover" .book-cover}](https://www.amazon.com/dp/0197604153?tag=hatro-20)
+[![The New China Playbook book cover](/book_images/new-china-playbook.jpg){alt="The New China Playbook book cover" .book-cover}](https://www.amazon.com/dp/198487828X?tag=hatro-20)
 
 An insider's perspective on China's economic model that challenges Western assumptions about the country's development path. Jin, a Harvard-trained economist, explores how China has created a unique system that blends state intervention with market mechanisms, offering insights into the country's rise and what it means for the global economy.
 
 ::: {.book-actions}
-[View on Amazon](https://www.amazon.com/dp/0197604153?tag=hatro-20){.btn .btn-primary}
+[View on Amazon](https://www.amazon.com/dp/198487828X?tag=hatro-20){.btn .btn-primary}
 :::
 
-### [**Alcohol Explained**](https://www.amazon.com/dp/B077Q2RKZD?tag=hatro-20)
+### [**Alcohol Explained**](https://www.amazon.com/dp/1516997190?tag=hatro-20)
 **by William Porter**
 
-[![Alcohol Explained book cover](/book_images/alcohol-explained.jpg){alt="Alcohol Explained book cover" .book-cover}](https://www.amazon.com/dp/B077Q2RKZD?tag=hatro-20)
+[![Alcohol Explained book cover](/book_images/alcohol-explained.jpg){alt="Alcohol Explained book cover" .book-cover}](https://www.amazon.com/dp/1516997190?tag=hatro-20)
 
 A clear, scientific explanation of alcohol addiction and its effects on the human body and mind. Porter breaks down complex addiction mechanisms into understandable terms, exploring how alcohol affects the brain, why it becomes addictive, and how understanding these processes can help people make informed decisions about drinking. Essential reading for anyone seeking to understand the science behind alcohol addiction.
 
 ::: {.book-actions}
-[View on Amazon](https://www.amazon.com/dp/B077Q2RKZD?tag=hatro-20){.btn .btn-primary}
+[View on Amazon](https://www.amazon.com/dp/1516997190?tag=hatro-20){.btn .btn-primary}
 :::
 
 ### [**American Nations: A History of the Eleven Rival Regional Cultures of North America**](https://www.amazon.com/dp/0143122029?tag=hatro-20)
