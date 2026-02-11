@@ -9,7 +9,8 @@ format:
 
 ::: {.hero}
 ::: {.hero-content}
-I choose many books that explore science, programming, history, politics, philosophy, and the human condition. These books challenge me to think, question assumptions, and connect dots between unrelated ideas. The more I read, the more connections I make.
+I read books that explore science, programming, history, politics, philosophy, and human psychology. These books challenge me to think, question assumptions, and view the world through a wider lens.
+
 [View All Books](#completed-books){.btn .btn-primary}
 :::
 :::
@@ -25,8 +26,6 @@ I'll try to keep up with the books I have read and add them here.
 ### [**The New China Playbook: Beyond Socialism and Capitalism**](https://www.amazon.com/dp/198487828X?tag=hatro-20)
 **by Keyu Jin**
 
-[![The New China Playbook book cover](/book_images/new-china-playbook.jpg){alt="The New China Playbook book cover" .book-cover}](https://www.amazon.com/dp/198487828X?tag=hatro-20)
-
 An insider's perspective on China's economic model that challenges Western assumptions about the country's development path. Jin, a Harvard-trained economist, explores how China has created a unique system that blends state intervention with market mechanisms, offering insights into the country's rise and what it means for the global economy.
 
 ::: {.book-actions}
@@ -35,8 +34,6 @@ An insider's perspective on China's economic model that challenges Western assum
 
 ### [**Alcohol Explained**](https://www.amazon.com/dp/1516997190?tag=hatro-20)
 **by William Porter**
-
-[![Alcohol Explained book cover](/book_images/alcohol-explained.jpg){alt="Alcohol Explained book cover" .book-cover}](https://www.amazon.com/dp/1516997190?tag=hatro-20)
 
 A clear, scientific explanation of alcohol addiction and its effects on the human body and mind. Porter breaks down complex addiction mechanisms into understandable terms, exploring how alcohol affects the brain, why it becomes addictive, and how understanding these processes can help people make informed decisions about drinking. Essential reading for anyone seeking to understand the science behind alcohol addiction.
 
@@ -47,8 +44,6 @@ A clear, scientific explanation of alcohol addiction and its effects on the huma
 ### [**American Nations: A History of the Eleven Rival Regional Cultures of North America**](https://www.amazon.com/dp/0143122029?tag=hatro-20)
 **by Colin Woodard**
 
-[![American Nations book cover](/book_images/american-nations.jpg){alt="American Nations book cover" .book-cover}](https://www.amazon.com/dp/0143122029?tag=hatro-20)
-
 Woodard presents a compelling argument that North America is not a single nation but rather eleven distinct regional cultures, each with its own values, political leanings, and worldviews. Drawing on historical evidence, he traces how these cultural differences have shaped American politics, from colonial times to the present day. This book offers valuable insights into understanding contemporary American political divisions through the lens of regional cultural identity.
 
 ::: {.book-actions}
@@ -57,8 +52,6 @@ Woodard presents a compelling argument that North America is not a single nation
 
 ### [**Be Useful: Seven Tools for Life**](https://www.amazon.com/dp/0593655036?tag=hatro-20)
 **by Arnold Schwarzenegger**
-
-[![Be Useful book cover](/book_images/be-useful.jpg){alt="Be Useful book cover" .book-cover}](https://www.amazon.com/dp/0593655036?tag=hatro-20)
 
 Arnold Schwarzenegger shares the seven principles that guided his success across bodybuilding, acting, business, and politics. Drawing from his unique experiences as an immigrant who achieved the American Dream multiple times over, Schwarzenegger offers practical wisdom on vision, hard work, resilience, and giving back. His straightforward approach to personal development emphasizes action over excuses and usefulness to others as the path to fulfillment.
 
@@ -69,8 +62,6 @@ Arnold Schwarzenegger shares the seven principles that guided his success across
 ### [**The Coddling of the American Mind: How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure**](https://www.amazon.com/dp/0735224897?tag=hatro-20)
 **by Greg Lukianoff and Jonathan Haidt**
 
-[![The Coddling of the American Mind book cover](/book_images/coddling-american-mind.jpg){alt="The Coddling of the American Mind book cover" .book-cover}](https://www.amazon.com/dp/0735224897?tag=hatro-20)
-
 An examination of how well-intentioned efforts to protect young people from discomfort and offense may be undermining their resilience and critical thinking abilities. Lukianoff and Haidt explore three "Great Untruths" that they argue are harming students and society, offering insights into how we can better prepare young minds for the challenges of adult life.
 
 ::: {.book-actions}
@@ -79,8 +70,6 @@ An examination of how well-intentioned efforts to protect young people from disc
 
 ### [**Influence: The Psychology of Persuasion**](https://www.amazon.com/dp/006124189X?tag=hatro-20)
 **by Robert B. Cialdini**
-
-[![Influence book cover](/book_images/influence-psychology-persuasion.jpg){alt="Influence: The Psychology of Persuasion book cover" .book-cover}](https://www.amazon.com/dp/006124189X?tag=hatro-20)
 
 A groundbreaking exploration of the psychology behind why people say "yes" and how to apply these insights ethically. Cialdini identifies six key principles of persuasion through decades of research, providing valuable insights for anyone looking to understand human behavior and decision-making processes.
 
@@ -93,8 +82,6 @@ A groundbreaking exploration of the psychology behind why people say "yes" and h
 ### [**Never Split the Difference: Negotiating As If Your Life Depended On It**](https://www.amazon.com/dp/0062407805?tag=hatro-20)
 **by Chris Voss**
 
-[![Never Split the Difference book cover](/book_images/never-split-the-difference.jpg){alt="Never Split the Difference book cover" .book-cover}](https://www.amazon.com/dp/0062407805?tag=hatro-20)
-
 A former FBI hostage negotiator shares proven strategies for high-stakes conversations. Voss reveals tactical empathy techniques and psychological insights that can transform any negotiation, from business deals to everyday interactions, by understanding what drives human behavior in conflict situations.
 
 ::: {.book-actions}
@@ -103,8 +90,6 @@ A former FBI hostage negotiator shares proven strategies for high-stakes convers
 
 ### [**Outcomes Over Output: Why Customer Behavior Is the Key Metric**](https://www.amazon.com/dp/1091173265?tag=hatro-20)
 **by Josh Selden**
-
-[![Outcomes Over Output book cover](/book_images/outcomes-over-output.jpg){alt="Outcomes Over Output book cover" .book-cover}](https://www.amazon.com/dp/1091173265?tag=hatro-20)
 
 A practical guide that challenges teams to move beyond measuring outputs and focus on the outcomes that truly matter. Selden provides frameworks for understanding customer behavior and designing products that create real value, emphasizing how to measure success through meaningful customer interactions rather than feature delivery.
 
@@ -115,8 +100,6 @@ A practical guide that challenges teams to move beyond measuring outputs and foc
 ### [**The Republic**](https://www.amazon.com/dp/0140455116?tag=hatro-20)
 **by Plato**
 
-[![The Republic book cover](/book_images/the-republic.jpg){alt="The Republic book cover" .book-cover}](https://www.amazon.com/dp/0140455116?tag=hatro-20)
-
 Plato's foundational work of political philosophy explores the nature of justice, the ideal state, and the philosopher-king concept. Through Socratic dialogue, Plato examines fundamental questions about governance, morality, and the relationship between individual virtue and societal order. This timeless classic remains essential reading for understanding Western political thought and the philosophical foundations of democracy and justice.
 
 ::: {.book-actions}
@@ -125,8 +108,6 @@ Plato's foundational work of political philosophy explores the nature of justice
 
 ### [**Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value**](https://www.amazon.com/dp/1736633309?tag=hatro-20)
 **by Teresa Torres**
-
-[![Continuous Discovery Habits book cover](/book_images/continuous-discovery-habits.jpg){alt="Continuous Discovery Habits book cover" .book-cover}](https://www.amazon.com/dp/1736633309?tag=hatro-20)
 
 A practical framework for building customer discovery into your weekly routine. Torres provides structured methods for consistently engaging with customers, understanding their needs, and validating product decisions. Essential reading for product teams looking to make discovery a habit rather than a one-time activity.
 
@@ -137,8 +118,6 @@ A practical framework for building customer discovery into your weekly routine. 
 ### [**Product Management in Practice: A Real-World Guide to the Key Connective Role of the 21st Century**](https://www.amazon.com/dp/149197320X?tag=hatro-20)
 **by Matt LeMay**
 
-[![Product Management in Practice book cover](/book_images/product-management-practice.jpg){alt="Product Management in Practice book cover" .book-cover}](https://www.amazon.com/dp/149197320X?tag=hatro-20)
-
 A practical guide to modern product management that cuts through the theory to focus on real-world application. LeMay draws from his experience working with companies of all sizes to provide actionable frameworks for product managers navigating the complexities of cross-functional collaboration, stakeholder management, and strategic decision-making in today's fast-paced business environment.
 
 ::: {.book-actions}
@@ -147,8 +126,6 @@ A practical guide to modern product management that cuts through the theory to f
 
 ### [**Genghis Khan: The Making of the Modern World**](https://www.amazon.com/dp/0609809644?tag=hatro-20)
 **by Jack Weatherford**
-
-[![Genghis Khan book cover](/book_images/genghis-khan.jpg){alt="Genghis Khan book cover" .book-cover}](https://www.amazon.com/dp/0609809644?tag=hatro-20)
 
 A fascinating reexamination of the Mongol Empire's impact on world history. Weatherford challenges traditional Western perceptions of Genghis Khan, revealing how the Mongols created the world's largest contiguous empire and established many foundations of modern global culture including international trade, diplomatic immunity, and religious freedom. The book demonstrates how Mongol innovations in warfare, governance, and cultural exchange shaped the modern world.
 
@@ -159,8 +136,6 @@ A fascinating reexamination of the Mongol Empire's impact on world history. Weat
 ### [**Erasing History: How Fascists Rewrite the Past to Control the Future**](https://www.amazon.com/dp/1668013878?tag=hatro-20)
 **by Jason Stanley**
 
-[![Erasing History book cover](/book_images/erasing-history.jpg){alt="Erasing History book cover" .book-cover}](https://www.amazon.com/dp/1668013878?tag=hatro-20)
-
 A critical examination of how authoritarian movements systematically distort historical narratives to consolidate power. Stanley explores the tactics used by fascist regimes to rewrite the past, manipulate collective memory, and shape public understanding in service of their political goals. An essential read for understanding the relationship between historical truth and democratic institutions.
 
 ::: {.book-actions}
@@ -169,8 +144,6 @@ A critical examination of how authoritarian movements systematically distort his
 
 ### [**The Mom Test: How to Talk to Customers & Learn if Your Business is a Good Idea When Everyone is Lying to You**](https://www.amazon.com/dp/1492180742?tag=hatro-20)
 **by Rob Fitzpatrick**
-
-[![The Mom Test book cover](/book_images/mom-test.jpg){alt="The Mom Test book cover" .book-cover}](https://www.amazon.com/dp/1492180742?tag=hatro-20)
 
 A practical guide to conducting effective customer interviews that reveal genuine insights rather than polite lies. Fitzpatrick teaches entrepreneurs how to ask the right questions to validate business ideas, understand real customer problems, and build products people actually want.
 
@@ -181,8 +154,6 @@ A practical guide to conducting effective customer interviews that reveal genuin
 ### [**The Professional Product Owner: Leveraging Scrum as a Competitive Advantage**](https://www.amazon.com/dp/0134686470?tag=hatro-20)
 **by Don McGreal and Ralph Jocham**
 
-[![The Professional Product Owner book cover](/book_images/professional-product-owner.jpg){alt="The Professional Product Owner book cover" .book-cover}](https://www.amazon.com/dp/0134686470?tag=hatro-20)
-
 This book offers a comprehensive guide to maximizing value through effective Scrum product ownership. Drawing on decades of experience, the authors provide practical insights into aligning vision, value, and validation in agile product management. It's a valuable resource for anyone looking to deepen their understanding of the Product Owner role and leverage Scrum as a competitive advantage.
 
 ::: {.book-actions}
@@ -191,8 +162,6 @@ This book offers a comprehensive guide to maximizing value through effective Scr
 
 ### [**The Righteous Mind: Why Good People Are Divided by Politics and Religion**](https://www.amazon.com/dp/0307455777?tag=hatro-20)
 **by Jonathan Haidt**
-
-[![The Righteous Mind book cover](/book_images/righteous-mind.jpg){alt="The Righteous Mind book cover" .book-cover}](https://www.amazon.com/dp/0307455777?tag=hatro-20)
 
 In this insightful work, social psychologist Jonathan Haidt explores the roots of our moral divisions, arguing that moral judgments stem more from intuition than reason. Haidt introduces concepts like moral foundations theory and the "rider and elephant" metaphor to explain how different political and religious groups prioritize values differently. By understanding these moral underpinnings, the book offers a path toward greater empathy and constructive dialogue across ideological divides.
 
@@ -203,8 +172,6 @@ In this insightful work, social psychologist Jonathan Haidt explores the roots o
 ### [**Fantasyland: How America Went Haywire**](https://www.amazon.com/dp/1400067219?tag=hatro-20)
 **by Kurt Andersen**
 
-[![Fantasyland book cover](/book_images/fantasyland.jpg){alt="Fantasyland book cover" .book-cover}](https://www.amazon.com/dp/1400067219?tag=hatro-20)
-
 In this comprehensive analysis, Kurt Andersen explores America's 500-year history of embracing fantasy and its impact on contemporary society. He argues that the nation's foundation on dreamers and believers has led to a blurred line between reality and illusion, culminating in today's post-truth era. Andersen traces this phenomenon from the early settlers to modern times, examining how magical thinking has shaped politics, religion, and culture. A thought-provoking read for those seeking to understand the roots of America's current challenges.
 
 ::: {.book-actions}
@@ -213,8 +180,6 @@ In this comprehensive analysis, Kurt Andersen explores America's 500-year histor
 
 ### [**The Color of Law: A Forgotten History of How Our Government Segregated America**](https://www.amazon.com/dp/1631494538?tag=hatro-20)
 **by Richard Rothstein**
-
-[![The Color of Law book cover](/book_images/color-of-law.jpg){alt="The Color of Law book cover" .book-cover}](https://www.amazon.com/dp/1631494538?tag=hatro-20)
 
 In this compelling work, Richard Rothstein examines how federal, state, and local governments systematically imposed residential segregation in the United States. Challenging the notion of de facto segregation, Rothstein provides extensive evidence of de jure segregation—segregation by law—and its lasting impact on African American communities. This book is essential for understanding the historical roots of racial disparities in housing and the ongoing consequences of these policies.
 
@@ -225,8 +190,6 @@ In this compelling work, Richard Rothstein examines how federal, state, and loca
 ### [**Let's Get Real or Let's Not Play: Transforming the Buyer/Seller Relationship**](https://www.amazon.com/dp/1591842263?tag=hatro-20)
 **by Mahan Khalsa and Randy Illig**
 
-[![Let's Get Real book cover](/book_images/lets-get-real.jpg){alt="Let's Get Real book cover" .book-cover}](https://www.amazon.com/dp/1591842263?tag=hatro-20)
-
 This insightful guide introduces a fresh approach to sales, emphasizing clarity, authenticity, and emotional intelligence. Khalsa and Illig argue that salespeople achieve the best results by focusing entirely on helping clients succeed, leading to mutual benefits for both buyer and seller. The book provides practical strategies to transform the sales process into a collaborative and trust-building experience.
 
 ::: {.book-actions}
@@ -235,8 +198,6 @@ This insightful guide introduces a fresh approach to sales, emphasizing clarity,
 
 ### [**The Policy-Making Process**](https://www.amazon.com/dp/0136823602?tag=hatro-20)
 **by Charles E. Lindblom and Edward J. Woodhouse**
-
-[![The Policy-Making Process book cover](/book_images/policy-making-process.jpg){alt="The Policy-Making Process book cover" .book-cover}](https://www.amazon.com/dp/0136823602?tag=hatro-20)
 
 A foundational text on how public policy is formed, examining the complexities of decision-making in government. Lindblom and Woodhouse explore the incremental nature of policymaking and the factors that shape it, making this an essential read for those interested in governance and public administration.
 
@@ -247,8 +208,6 @@ A foundational text on how public policy is formed, examining the complexities o
 ### [**Jesus and John Wayne: How White Evangelicals Corrupted a Faith and Fractured a Nation**](https://www.amazon.com/dp/1631495739?tag=hatro-20)
 **by Kristin Kobes Du Mez**
 
-[![Jesus and John Wayne book cover](/book_images/jesus-john-wayne.jpg){alt="Jesus and John Wayne book cover" .book-cover}](https://www.amazon.com/dp/1631495739?tag=hatro-20)
-
 In this compelling analysis, historian Kristin Kobes Du Mez examines how white evangelical culture in America has embraced a militant masculinity, intertwining Christian faith with rugged individualism and nationalism. Tracing developments over the past 75 years, she reveals how figures like John Wayne have become emblematic of this shift, influencing religious and political dynamics. This book offers a critical perspective on the intersections of faith, gender, and power in contemporary evangelicalism.
 
 ::: {.book-actions}
@@ -257,8 +216,6 @@ In this compelling analysis, historian Kristin Kobes Du Mez examines how white e
 
 ### [**A People's History of the United States**](https://www.amazon.com/dp/0062397346?tag=hatro-20)
 **by Howard Zinn**
-
-[![A People's History book cover](/book_images/peoples-history.jpg){alt="A People's History book cover" .book-cover}](https://www.amazon.com/dp/0062397346?tag=hatro-20)
 
 A groundbreaking work that reinterprets American history from the perspective of the marginalized and oppressed. Zinn challenges traditional narratives by highlighting the struggles of workers, women, Black Americans, and Indigenous peoples, offering a critical and thought-provoking look at the past. An essential read for those seeking a deeper understanding of U.S. history beyond textbooks.
 
@@ -269,8 +226,6 @@ A groundbreaking work that reinterprets American history from the perspective of
 ### [**On Tyranny: Twenty Lessons from the Twentieth Century**](https://www.amazon.com/dp/0804190119?tag=hatro-20)
 **by Timothy Snyder**
 
-[![On Tyranny book cover](/book_images/on-tyranny.jpg){alt="On Tyranny book cover" .book-cover}](https://www.amazon.com/dp/0804190119?tag=hatro-20)
-
 A concise, powerful guide on resisting authoritarianism, drawing lessons from history to protect democracy and individual freedoms. Snyder distills complex historical patterns into actionable steps for modern citizens.
 
 ::: {.book-actions}
@@ -280,8 +235,6 @@ A concise, powerful guide on resisting authoritarianism, drawing lessons from hi
 ### [**The Men With the Pink Triangle**](https://www.amazon.com/dp/1555830064?tag=hatro-20)
 **by Heinz Heger**
 
-[![The Men With the Pink Triangle book cover](/book_images/men-pink-triangle.jpg){alt="The Men With the Pink Triangle book cover" .book-cover}](https://www.amazon.com/dp/1555830064?tag=hatro-20)
-
 A harrowing account of the persecution of homosexuals in Nazi concentration camps, shedding light on a lesser-known aspect of history.
 
 ::: {.book-actions}
@@ -290,8 +243,6 @@ A harrowing account of the persecution of homosexuals in Nazi concentration camp
 
 ### [**They Thought They Were Free**](https://www.amazon.com/dp/022652583X?tag=hatro-20)
 **by Milton Mayer**
-
-[![They Thought They Were Free book cover](/book_images/they-thought-free.jpg){alt="They Thought They Were Free book cover" .book-cover}](https://www.amazon.com/dp/022652583X?tag=hatro-20)
 
 An exploration of how ordinary Germans came to accept and support the Nazi regime, offering insights into the nature of conformity.
 
@@ -304,8 +255,6 @@ An exploration of how ordinary Germans came to accept and support the Nazi regim
 ### [**The Limits of Power**](https://www.amazon.com/dp/0805088156?tag=hatro-20)
 **by Andrew Bacevich**
 
-[![The Limits of Power book cover](/book_images/limits-of-power.jpg){alt="The Limits of Power book cover" .book-cover}](https://www.amazon.com/dp/0805088156?tag=hatro-20)
-
 A critical examination of America's foreign policy and its overreliance on military power. Bacevich delves into the consequences of unchecked national ambitions.
 
 ::: {.book-actions}
@@ -314,8 +263,6 @@ A critical examination of America's foreign policy and its overreliance on milit
 
 ### [**Easy Spanish Step-By-Step**](https://www.amazon.com/dp/0071463380?tag=hatro-20)
 **by Barbara Bregstein**
-
-[![Easy Spanish book cover](/book_images/easy-spanish.jpg){alt="Easy Spanish book cover" .book-cover}](https://www.amazon.com/dp/0071463380?tag=hatro-20)
 
 An accessible guide for beginners aiming to learn Spanish, focusing on essential grammar and vocabulary to build a strong foundation.
 
@@ -326,8 +273,6 @@ An accessible guide for beginners aiming to learn Spanish, focusing on essential
 ### [**Four Thousand Weeks**](https://www.amazon.com/dp/0374159122?tag=hatro-20)
 **by Oliver Burkeman**
 
-[![Four Thousand Weeks book cover](/book_images/four-thousand-weeks.jpg){alt="Four Thousand Weeks book cover" .book-cover}](https://www.amazon.com/dp/0374159122?tag=hatro-20)
-
 A profound reflection on time management, urging readers to embrace the limitations of life and focus on what truly matters.
 
 ::: {.book-actions}
@@ -336,8 +281,6 @@ A profound reflection on time management, urging readers to embrace the limitati
 
 ### [**How to Win Friends and Influence People**](https://www.amazon.com/dp/0671027034?tag=hatro-20)
 **by Dale Carnegie**
-
-[![How to Win Friends book cover](/book_images/win-friends.jpg){alt="How to Win Friends book cover" .book-cover}](https://www.amazon.com/dp/0671027034?tag=hatro-20)
 
 A timeless classic offering practical advice on effective communication and building meaningful relationships.
 
@@ -348,8 +291,6 @@ A timeless classic offering practical advice on effective communication and buil
 ### [**Master of the Senate**](https://www.amazon.com/dp/0394720954?tag=hatro-20)
 **by Robert Caro**
 
-[![Master of the Senate book cover](/book_images/master-senate.jpg){alt="Master of the Senate book cover" .book-cover}](https://www.amazon.com/dp/0394720954?tag=hatro-20)
-
 An in-depth biography of Lyndon B. Johnson, focusing on his tenure in the U.S. Senate and his mastery of legislative power.
 
 ::: {.book-actions}
@@ -358,8 +299,6 @@ An in-depth biography of Lyndon B. Johnson, focusing on his tenure in the U.S. S
 
 ### [**Means of Ascent**](https://www.amazon.com/dp/067973371X?tag=hatro-20)
 **by Robert Caro**
-
-[![Means of Ascent book cover](/book_images/means-ascent.jpg){alt="Means of Ascent book cover" .book-cover}](https://www.amazon.com/dp/067973371X?tag=hatro-20)
 
 The second volume in Caro's series on Lyndon B. Johnson, detailing his controversial 1948 Senate campaign.
 
@@ -370,8 +309,6 @@ The second volume in Caro's series on Lyndon B. Johnson, detailing his controver
 ### [**The Passage of Power**](https://www.amazon.com/dp/0375713255?tag=hatro-20)
 **by Robert Caro**
 
-[![The Passage of Power book cover](/book_images/passage-power.jpg){alt="The Passage of Power book cover" .book-cover}](https://www.amazon.com/dp/0375713255?tag=hatro-20)
-
 This volume chronicles Johnson's vice presidency and the transition to his unexpected presidency after JFK's assassination.
 
 ::: {.book-actions}
@@ -380,8 +317,6 @@ This volume chronicles Johnson's vice presidency and the transition to his unexp
 
 ### [**The Path to Power**](https://www.amazon.com/dp/0679729453?tag=hatro-20)
 **by Robert Caro**
-
-[![The Path to Power book cover](/book_images/path-power.jpg){alt="The Path to Power book cover" .book-cover}](https://www.amazon.com/dp/0679729453?tag=hatro-20)
 
 The first installment in the series, exploring Johnson's early life and political rise in Texas.
 
@@ -392,8 +327,6 @@ The first installment in the series, exploring Johnson's early life and politica
 ### [**Man's Search for Meaning**](https://www.amazon.com/dp/080701429X?tag=hatro-20)
 **by Viktor E. Frankl**
 
-[![Man's Search for Meaning book cover](/book_images/mans-search-meaning.jpg){alt="Man's Search for Meaning book cover" .book-cover}](https://www.amazon.com/dp/080701429X?tag=hatro-20)
-
 A moving memoir by a Holocaust survivor, discussing finding purpose amidst suffering and the importance of meaning in life.
 
 ::: {.book-actions}
@@ -402,8 +335,6 @@ A moving memoir by a Holocaust survivor, discussing finding purpose amidst suffe
 
 ### [**Sapiens**](https://www.amazon.com/dp/0062316095?tag=hatro-20)
 **by Yuval Noah Harari**
-
-[![Sapiens book cover](/book_images/sapiens.jpg){alt="Sapiens book cover" .book-cover}](https://www.amazon.com/dp/0062316095?tag=hatro-20)
 
 A sweeping narrative of human history, examining how Homo sapiens came to dominate the world.
 
@@ -414,8 +345,6 @@ A sweeping narrative of human history, examining how Homo sapiens came to domina
 ### [**Dreyer's English**](https://www.amazon.com/dp/0812995708?tag=hatro-20)
 **by Benjamin Dreyer**
 
-[![Dreyer's English book cover](/book_images/dreyers-english.jpg){alt="Dreyer's English book cover" .book-cover}](https://www.amazon.com/dp/0812995708?tag=hatro-20)
-
 An informative and entertaining guide to writing and grammar, offering tips from a seasoned copy editor.
 
 ::: {.book-actions}
@@ -424,8 +353,6 @@ An informative and entertaining guide to writing and grammar, offering tips from
 
 ### [**Lean Enterprise**](https://www.amazon.com/dp/1449368425?tag=hatro-20)
 **by Jez Humble, Joanne Molesky, and Barry O'Reilly**
-
-[![Lean Enterprise book cover](/book_images/lean-enterprise.jpg){alt="Lean Enterprise book cover" .book-cover}](https://www.amazon.com/dp/1449368425?tag=hatro-20)
 
 A guide for organizations aiming to adopt lean principles to drive innovation and achieve sustainable growth.
 
@@ -436,8 +363,6 @@ A guide for organizations aiming to adopt lean principles to drive innovation an
 ### [**Remarkably Bright Creatures**](https://www.amazon.com/dp/0063204150?tag=hatro-20)
 **by Shelby Van Pelt**
 
-[![Remarkably Bright Creatures book cover](/book_images/remarkably-bright-creatures.jpg){alt="Remarkably Bright Creatures book cover" .book-cover}](https://www.amazon.com/dp/0063204150?tag=hatro-20)
-
 A heartwarming story about unexpected friendships and healing, featuring a giant Pacific octopus.
 
 ::: {.book-actions}
@@ -446,8 +371,6 @@ A heartwarming story about unexpected friendships and healing, featuring a giant
 
 ### [**Animal Farm**](https://www.amazon.com/dp/0451526341?tag=hatro-20)
 **by George Orwell**
-
-[![Animal Farm book cover](/book_images/animal-farm.jpg){alt="Animal Farm book cover" .book-cover}](https://www.amazon.com/dp/0451526341?tag=hatro-20)
 
 A satirical allegory on totalitarianism and power dynamics, as relevant today as when it was written.
 
@@ -458,8 +381,6 @@ A satirical allegory on totalitarianism and power dynamics, as relevant today as
 ### [**How We Learn: Why Brains Learn Better Than Any Machine . . . for Now**](https://www.amazon.com/dp/0525559884?tag=hatro-20)
 **by Stanislas Dehaene**
 
-[![How We Learn book cover](/book_images/how-we-learn.jpg){alt="How We Learn book cover" .book-cover}](https://www.amazon.com/dp/0525559884?tag=hatro-20)
-
 In this enlightening work, cognitive neuroscientist Stanislas Dehaene explores the mechanisms of learning, combining insights from computer science, neurobiology, and psychology. He delves into how our brains process and retain information, offering practical strategies to enhance learning at any age. Dehaene emphasizes the brain's remarkable plasticity and provides evidence-based techniques to harness its potential, making this an essential read for educators, students, and lifelong learners.
 
 ::: {.book-actions}
@@ -468,8 +389,6 @@ In this enlightening work, cognitive neuroscientist Stanislas Dehaene explores t
 
 ### [**A Walk in the Woods: Rediscovering America on the Appalachian Trail**](https://www.amazon.com/dp/0767902521?tag=hatro-20)
 **by Bill Bryson**
-
-[![A Walk in the Woods book cover](/book_images/walk-in-woods.jpg){alt="A Walk in the Woods book cover" .book-cover}](https://www.amazon.com/dp/0767902521?tag=hatro-20)
 
 In this captivating memoir, Bill Bryson recounts his ambitious attempt to hike the Appalachian Trail, a 2,190-mile footpath stretching from Georgia to Maine. With his trademark humor and wit, Bryson explores the trail's history, ecology, and the challenges he faces, offering readers an entertaining and insightful look into one of America's most iconic hiking routes.
 
@@ -482,8 +401,6 @@ In this captivating memoir, Bill Bryson recounts his ambitious attempt to hike t
 ### [**Salt: A World History**](https://www.amazon.com/dp/0142001619?tag=hatro-20)
 **by Mark Kurlansky**
 
-[![Salt book cover](/book_images/salt.jpg){alt="Salt book cover" .book-cover}](https://www.amazon.com/dp/0142001619?tag=hatro-20)
-
 In this compelling narrative, Mark Kurlansky explores the profound impact of salt on civilization. Once a highly prized commodity, salt has influenced trade routes, economies, wars, and revolutions throughout history. Kurlansky delves into the cultural, economic, and political significance of this common mineral, revealing its role in shaping human society. A fascinating read for those interested in history, economics, and the unexpected influences of everyday substances.
 
 ::: {.book-actions}
@@ -492,8 +409,6 @@ In this compelling narrative, Mark Kurlansky explores the profound impact of sal
 
 ### [**Dataclysm: Who We Are (When We Think No One's Looking)**](https://www.amazon.com/dp/0385347375?tag=hatro-20)
 **by Christian Rudder**
-
-[![Dataclysm book cover](/book_images/dataclysm.jpg){alt="Dataclysm book cover" .book-cover}](https://www.amazon.com/dp/0385347375?tag=hatro-20)
 
 In this insightful exploration, Christian Rudder, co-founder of OkCupid, delves into the vast amounts of data generated by our online interactions to reveal patterns about human behavior, relationships, and society. By analyzing data from social media platforms and dating sites, Rudder uncovers surprising truths about how we present ourselves and what our preferences say about us. A thought-provoking read for those interested in data science, sociology, and the digital age.
 
@@ -504,8 +419,6 @@ In this insightful exploration, Christian Rudder, co-founder of OkCupid, delves 
 ### [**The Phoenix Project**](https://www.amazon.com/dp/1942788290?tag=hatro-20)
 **by Gene Kim, Kevin Behr, and George Spafford**
 
-[![The Phoenix Project book cover](/book_images/phoenix-project.jpg){alt="The Phoenix Project book cover" .book-cover}](https://www.amazon.com/dp/1942788290?tag=hatro-20)
-
 A novel that illustrates the challenges of IT operations and DevOps implementation. Through the story of a struggling IT department, the authors demonstrate how to improve efficiency and deliver value in technology organizations.
 
 ::: {.book-actions}
@@ -514,8 +427,6 @@ A novel that illustrates the challenges of IT operations and DevOps implementati
 
 ### [**The Reason I Jump: The Inner Voice of a Thirteen-Year-Old Boy with Autism**](https://www.amazon.com/dp/081298515X?tag=hatro-20)
 **by Naoki Higashida**
-
-[![The Reason I Jump book cover](/book_images/reason-i-jump.jpg){alt="The Reason I Jump book cover" .book-cover}](https://www.amazon.com/dp/081298515X?tag=hatro-20)
 
 Written by Naoki Higashida, a thirteen-year-old boy with autism, this memoir offers an extraordinary insight into the mind and experiences of someone living with autism. Through a series of questions and answers, Higashida provides profound explanations of his behaviors and challenges, breaking down misconceptions and fostering empathy. This book is a valuable resource for anyone seeking to understand autism from an insider's perspective.
 
@@ -526,8 +437,6 @@ Written by Naoki Higashida, a thirteen-year-old boy with autism, this memoir off
 ### [**Who Moved My Cheese?: An Amazing Way to Deal with Change in Your Work and in Your Life**](https://www.amazon.com/dp/0399144463?tag=hatro-20)
 **by Spencer Johnson**
 
-[![Who Moved My Cheese book cover](/book_images/who-moved-cheese.jpg){alt="Who Moved My Cheese book cover" .book-cover}](https://www.amazon.com/dp/0399144463?tag=hatro-20)
-
 This motivational business fable explores how individuals react to change and offers insights into managing it effectively. Through the story of two mice and two "Littlepeople" searching for cheese in a maze, Johnson illustrates the importance of adaptability, flexibility, and proactive thinking in the face of life's uncertainties. A quick yet profound read, it's widely regarded as a classic in personal development literature.
 
 ::: {.book-actions}
@@ -536,8 +445,6 @@ This motivational business fable explores how individuals react to change and of
 
 ### [**The Bogleheads' Guide to Investing**](https://www.amazon.com/dp/1118921283?tag=hatro-20)
 **by Taylor Larimore, Mel Lindauer, and Michael LeBoeuf**
-
-[![The Bogleheads' Guide book cover](/book_images/bogleheads-guide.jpg){alt="The Bogleheads' Guide book cover" .book-cover}](https://www.amazon.com/dp/1118921283?tag=hatro-20)
 
 Authored by followers of Vanguard founder John C. Bogle, this comprehensive guide offers straightforward advice on investing. It covers topics such as asset allocation, retirement planning, and the importance of low-cost investing. The book emphasizes a long-term, passive investment strategy, making it an invaluable resource for both novice and seasoned investors aiming to build wealth sensibly.
 
@@ -548,8 +455,6 @@ Authored by followers of Vanguard founder John C. Bogle, this comprehensive guid
 ### [**The Surprising Science of Meetings: How You Can Lead Your Team to Peak Performance**](https://www.amazon.com/dp/0190689218?tag=hatro-20)
 **by Steven G. Rogelberg**
 
-[![The Surprising Science of Meetings book cover](/book_images/science-meetings.jpg){alt="The Surprising Science of Meetings book cover" .book-cover}](https://www.amazon.com/dp/0190689218?tag=hatro-20)
-
 Drawing from extensive research, Rogelberg examines why meetings often fail and how to make them more productive. He provides evidence-based strategies to enhance meeting quality, including setting clear agendas, keeping participants engaged, and ensuring actionable outcomes. This book is essential for leaders and professionals seeking to transform meetings into efficient and effective tools for collaboration.
 
 ::: {.book-actions}
@@ -559,8 +464,6 @@ Drawing from extensive research, Rogelberg examines why meetings often fail and 
 ### [**Can't Hurt Me: Master Your Mind and Defy the Odds**](https://www.amazon.com/dp/1544512287?tag=hatro-20)
 **by David Goggins**
 
-[![Can't Hurt Me book cover](/book_images/cant-hurt-me.jpg){alt="Can't Hurt Me book cover" .book-cover}](https://www.amazon.com/dp/1544512287?tag=hatro-20)
-
 In this memoir, former Navy SEAL David Goggins shares his incredible life story, from overcoming poverty and abuse to becoming one of the world's top endurance athletes. Goggins reveals the mental strategies he developed to push past pain, fear, and self-doubt, encouraging readers to tap into their own potential. His experience exemplifies how relentless determination and mental toughness can lead to extraordinary achievements.
 
 ::: {.book-actions}
@@ -569,8 +472,6 @@ In this memoir, former Navy SEAL David Goggins shares his incredible life story,
 
 ### [**The Demon-Haunted World: Science as a Candle in the Dark**](https://www.amazon.com/dp/0345409469?tag=hatro-20)
 **by Carl Sagan**
-
-[![The Demon-Haunted World book cover](/book_images/demon-haunted-world.jpg){alt="The Demon-Haunted World book cover" .book-cover}](https://www.amazon.com/dp/0345409469?tag=hatro-20)
 
 Astrophysicist Carl Sagan makes a compelling case for scientific literacy and critical thinking in this thought-provoking work. He discusses the dangers of pseudoscience and superstition, advocating for the scientific method as a means to navigate and understand the world. Sagan's eloquent writing inspires readers to question, explore, and appreciate the wonders of science, making this book a timeless defense of rational thought.
 
