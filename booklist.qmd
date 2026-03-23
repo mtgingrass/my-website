@@ -23,6 +23,24 @@ I'll try to keep up with the books I have read and add them here.
 
 ## 2026
 
+### [**Congress: The Electoral Connection**](https://www.amazon.com/dp/0300168438?tag=hatro-20)
+**by David R. Mayhew**
+
+A landmark work in political science that argues a single goal drives nearly all congressional behavior: reelection. Mayhew breaks down the structural incentives that shape how legislators act — from credit-claiming and advertising to position-taking — offering a clear-eyed framework for understanding why Congress works the way it does. Essential reading for anyone trying to make sense of American legislative politics.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/0300168438?tag=hatro-20){.btn .btn-primary}
+:::
+
+### [**Identity Crisis: The 2016 Presidential Campaign and the Battle for the Meaning of America**](https://www.amazon.com/dp/0691196076?tag=hatro-20)
+**by John Sides, Michael Tesler, and Lynn Vavreck**
+
+A data-driven autopsy of the 2016 presidential election that challenges simple narratives about why Trump won. Sides, Tesler, and Vavreck argue that the campaign was fundamentally shaped by attitudes toward race, religion, and identity — not just economic anxiety. Drawing on extensive polling and survey data, they show how identity politics transformed the electorate and what it means for American democracy going forward.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/0691196076?tag=hatro-20){.btn .btn-primary}
+:::
+
 ### [**The New China Playbook: Beyond Socialism and Capitalism**](https://www.amazon.com/dp/198487828X?tag=hatro-20)
 **by Keyu Jin**
 
