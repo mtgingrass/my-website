@@ -12,8 +12,8 @@ resources:
 ::: {.hero-content}
 **Technical Leader • Developer • Problem Solver**
 
-Product Manager • Translating complexity into usable product.
-Aligning users, business goals, and engineering to deliver practical solutions.
+Product Manager • Turning complexity into clarity.
+Aligning users, business goals, and engineering to ship solutions that matter.
 
 :::
 :::
