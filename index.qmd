@@ -12,7 +12,9 @@ resources:
 ::: {.hero-content}
 **Technical Leader • Developer • Problem Solver**
 
-Building solutions that matter—from enterprise software to personal habit-tracking apps. 20+ years of federal sector experience meets modern iOS development.
+Product Manager • Translating complexity into usable product.
+Aligning users, business goals, and engineering to deliver practical solutions.
+
 :::
 :::
 
