@@ -23,6 +23,15 @@ I'll try to keep up with the books I have read and add them here.
 
 ## 2026
 
+### [**The Metamorphosis**](https://www.amazon.com/dp/1557427666?tag=hatro-20)
+**by Franz Kafka**
+
+A surrealist novella in which traveling salesman Gregor Samsa wakes one morning to find himself transformed into a monstrous insect. Kafka uses the absurd premise to dissect alienation, family obligation, and the erasure of identity when a person loses their economic usefulness. Short, unsettling, and precise — one of the most affecting works of 20th-century fiction.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/1557427666?tag=hatro-20){.btn .btn-primary}
+:::
+
 ### [**How to Hide an Empire: A History of the Greater United States**](https://www.amazon.com/dp/0374172145?tag=hatro-20)
 **by Daniel Immerwahr**
 
