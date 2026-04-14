@@ -67,10 +67,10 @@ At the end of the day, I'm always seeking ways to combine what I know with what 
 
 ## What I'm Learning
 
-- **Swift & SwiftUI**: Building native iOS experiences
-- **AI-Assisted Development**: Leveraging tools like Cursor and ChatGPT
-- **System Architecture**: Scalable, maintainable code patterns
-- **Modern Web**: Staying current with 2025 design trends
+- **AI Agent Workflows**: Building multi-step agentic pipelines with Claude and GPT-4o
+- **Regulatory Data Science**: Connecting structured policy data to actionable product insights
+- **Prompt Engineering**: Treating prompts like product specs — precise, testable, iterable
+- **Political Economy**: Reading deeply across institutions, power structures, and democratic theory
 
 </div>
 </div>
@@ -78,7 +78,7 @@ At the end of the day, I'm always seeking ways to combine what I know with what 
 ## Skills & Technologies
 
 ::: {.tech-stack}
-**Senior Technology Leader** with expertise spanning enterprise architecture, mobile development, and AI-assisted workflows
+**Senior Technology Leader** with expertise spanning federal enterprise modernization, AI-powered product strategy, and human-centered design at scale
 :::
 
 <div class="row mt-8">
@@ -86,40 +86,44 @@ At the end of the day, I'm always seeking ways to combine what I know with what 
 
 ### **Leadership & Strategy**
 - **20+ Years** Federal Sector Experience
-- **Agile Transformation** & Team Leadership
-- **RFP/RFI Response** & Contract Management
-- **Stakeholder Engagement** at All Levels
-- **Process Optimization** (Lean, Six Sigma)
+- **Product Vision** for Complex Enterprise Systems
+- **Agile & Lean Transformation** at Scale
+- **RFP/RFI Strategy** & Contract Stewardship
+- **Stakeholder Alignment** from End User to Executive
+- **Six Sigma** Process Optimization
 
 </div>
 <div class="col-md-3">
 
-### **Development & Architecture**
-- **Swift & SwiftUI** (Native iOS Apps)
-- **MVVM Architecture** & Design Patterns
-- **Git & TestFlight** Deployment
-- **System Architecture** & Scalability
-- **API Design** & Integration
+### **Product & Systems Thinking**
+- **Outcome-Driven Roadmaps** tied to real user needs
+- **Legacy Modernization** in high-compliance environments
+- **Human-Centered Design** & Discovery Frameworks
+- **API & Platform Thinking** for scalable architecture
+- **Static Site & JAMstack** development (Quarto, Git)
+- **Data Workflow Automation** & toolchain integration
 
 </div>
 <div class="col-md-3">
 
-### **AI & Modern Tools**
-- **Cursor AI** & AI-Assisted Development
-- **ChatGPT** for Code Review & Optimization
-- **Prompt Engineering** & Workflow Automation
-- **Claude Code** for Technical Writing
-- **Markdown-Driven** Development Strategies
+### **AI & Emerging Technology**
+- **Agentic AI Workflows** with Claude & GPT-4o
+- **Prompt Engineering** as a product discipline
+- **Claude Code & Cursor AI** for accelerated delivery
+- **AI-Assisted Documentation** & knowledge capture
+- **LLM Evaluation** & responsible deployment thinking
+- **Regulatory AI Applications** in federal science domains
 
 </div>
 <div class="col-md-4">
 
-### **Technical Writing & Communication**
-- **Technical Documentation** & Process Guides
-- **Blog Writing** on Development & AI
-- **Cross-Functional** Communication
-- **Training & Mentorship**
-- **Public Speaking** & Presentations
+### **Communication & Influence**
+- **Technical Writing** that non-technical stakeholders actually read
+- **Cross-Functional Translation** between engineers, policy leads, and users
+- **Public Blog** covering AI, development, and governance
+- **Training & Mentorship** of product and technical teams
+- **Narrative Strategy** for complex program justification
+- **Congressional & Agency-Level** briefing experience
 
 </div>
 </div>
