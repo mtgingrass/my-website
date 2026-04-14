@@ -147,6 +147,16 @@ Embracing cloud-native development, microservices, and AI-assisted workflows, ap
 
 </div>
 </div>
+
+<div class="timeline-item">
+<div class="timeline-marker"></div>
+<div class="timeline-content">
+
+### **The AI Era**
+Operating at the intersection of artificial intelligence and high-stakes federal product work. Building agentic workflows, applying prompt engineering as a product discipline, and championing AI-powered solutions that unlock decades of trapped regulatory data — while most organizations are still figuring out what to ask the chatbot.
+
+</div>
+</div>
 </div>
 
 ## Beyond the Code
