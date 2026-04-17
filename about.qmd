@@ -29,7 +29,7 @@ I bring over 20 years of hands-on experience architecting enterprise systems, le
 </div>
 <div class="col-md-6">
 
-![Mark Gingrass](images/mark_gingrass_pink_shirt.png){.img-fluid .rounded-xl .shadow-lg}
+![Mark Gingrass](images/markhikebig.webp){.img-fluid .rounded-xl .shadow-lg}
 
 </div>
 </div>
@@ -289,5 +289,3 @@ Distributed systems, cloud architecture, or enterprise applications, I focus on 
   }
 }
 </style>
-
-![Mark Gingrass](images/markhikebig.webp){.img-fluid .rounded-xl .shadow-lg}
