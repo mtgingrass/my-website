@@ -290,4 +290,4 @@ Distributed systems, cloud architecture, or enterprise applications, I focus on 
 }
 </style>
 
-![Mark Gingrass](images/MarkTreeUpstate01.webp){.img-fluid .rounded-xl .shadow-lg}
+![Mark Gingrass](images/markhikebig.webp){.img-fluid .rounded-xl .shadow-lg}
