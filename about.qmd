@@ -187,7 +187,7 @@ Fascinated by policy, governance, efficiency, and technology intersection. Alway
 ::: {.card .card-featured .mb-8}
 ### Building Scalable Solutions That Matter
 
-Whether it's distributed systems, cloud architecture, or enterprise applications, I focus on creating robust technology solutions that solve real problems at scale.
+Distributed systems, cloud architecture, or enterprise applications, I focus on creating technology solutions that solve real problems at scale.
 
 **Core Expertise:**
 - **Cloud Platforms**: AWS, Azure, and hybrid cloud architectures
