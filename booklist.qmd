@@ -44,6 +44,15 @@ A Stanford seminar examining the economics at each layer of the AI stack — fro
 
 ## 2026
 
+### [**State and Revolution**](https://www.amazon.com/dp/1608464989?tag=hatro-20)
+**by V.I. Lenin**
+
+Written in 1917 on the eve of the Russian Revolution, Lenin lays out his theory of the state as an instrument of class domination — one that cannot be reformed from within but must be smashed and replaced by a transitional workers' state that eventually withers away. Drawing directly on Marx and Engels, Lenin attacks both liberal reformism and anarchism, arguing that real revolutionary change requires dismantling bourgeois state machinery entirely. One of the most consequential political texts of the 20th century, and a natural companion to Capital. This edition includes extensive annotations and a critical introduction by Todd Chretien.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/1608464989?tag=hatro-20){.btn .btn-primary}
+:::
+
 ### [**The Metamorphosis**](https://www.amazon.com/dp/1557427666?tag=hatro-20)
 **by Franz Kafka**
 
