@@ -1,0 +1,75 @@
+---
+title: "The AI Solution Trap"
+author: "Mark Gingrass"
+date: "2026-04-26"
+categories: [AI & Technology]
+description: "Federal agencies are spending real money on AI without asking the basic questions. The result: expensive tools layered on broken processes."
+---
+
+I tried to have an LLM write this post for me. It failed.
+
+The draft was cleaner than mine, but it was hollow. Every sharp point got softened into a "balanced perspective." Every real opinion got buried under caveats. It sounded polished, professional, and completely forgettable. Like most AI-written commentary, it used all the right words and said almost nothing.
+
+The federal AI space has the same problem. Real money chasing solutions. No patience for basic questions: What problem are we solving? Who is this for? What changes if this actually works?
+
+That's how you end up spending serious money to automate confusion.
+
+## The Speed Trap
+
+The program managers are usually the quietest people in the room. They see the weak requirements, the bad assumptions, and the missing data. They know what's actually broken.
+
+But by the time they're in that room, the decision has already been blessed three levels up. The budget is allocated. The contract vehicle is picked. Staying quiet and buying the tool is the safest career move left.
+
+So that's what happens. Leadership gets movement. Vendors get paid. Agencies get a modern interface on top of a broken process.
+
+A broken process that now demos better.
+
+## The Process Problem
+
+This is where most of the waste lives.
+
+Federal agencies are layering expensive technology onto workflows that should've been simplified, redesigned, or deleted years ago. Instead of asking whether a process deserves to exist, they ask how AI can be inserted into it.
+
+One team uses AI to scrape updates from a tracker and generate a 40-slide deck. Leadership uses AI to summarize that deck into three bullets. Someone uses AI to draft a reply: "Thanks, keep going." At every step, work is being done, time is being saved, and none of it creates value.
+
+It's the digital equivalent of putting a turbocharger on a shopping cart.
+
+Automating waste doesn't make it strategic. It just produces useless output faster and with more confidence. When something actually goes wrong, nobody trusts the polished dashboard. They call the person closest to the problem and ask what's happening.
+
+That should tell us everything we need to know.
+
+## The Ownership Trap
+
+When agencies buy AI, they aren't just buying software. Unlike a legacy system that fails the same way every time, an AI model degrades. It drifts. Inputs change, policies change, user behavior shifts — and a model that worked on day one quietly becomes wrong at scale.
+
+If the contract is weak on data rights, the agency ends up paying for a capability it can use but can't control. That's how the duplication loop starts. One office pays to develop a model. Another office has the same need, but the implementation is locked in a vendor's proprietary stack. It can't be reused.
+
+The government buys the same answer twice.
+
+If you can't inspect it, retrain it, or fix it without calling the original vendor, you don't have a solution. You have a rental with a degradation clock running in the background.
+
+## The Talent Gap
+
+Upskilling efforts in the federal AI space are mostly theater. The gap isn't closed by hiring a few specialists or teaching staff to prompt a chatbot. Prompting isn't strategy.
+
+The people agencies need are the ones who understand how these systems behave in production — how they fail, how they drift, when to shut them off. People who can maintain a model through a recompete, an ATO renewal, a policy change, and two rounds of staffing turnover without losing the thread of what it was built to do.
+
+That talent walks out the door. A contractor team builds something promising, leadership celebrates, and a few months later the expertise is gone. The PM is left holding a tool they can operate on a good day but can't troubleshoot when the outputs start looking wrong.
+
+The organization didn't build capability. It outsourced the brain and called it progress.
+
+## The Work Comes First
+
+Cut the process before you automate it. If a workflow improves when you remove two steps, those steps never needed a model — they needed a leader willing to delete them.
+
+Define what you're actually buying. Not "AI capability." A result. Faster grant reviews. Fewer manual reconciliations. Shorter time from intake to decision. If the outcome can't be stated in plain English, the acquisition is too vague to survive.
+
+Secure real ownership. Data rights, retraining rights, documentation. If the agency needs to call the vendor to understand what the system is doing, it doesn't own the solution. It's just paying for access.
+
+A prototype is easy. A production system that survives a policy change, an audit, and a change in administration is hard. That's where the actual work gets done.
+
+We keep buying complexity because clarity is harder to defend in a budget hearing. Saying "we deleted two approval steps and cut processing time in half" doesn't land the same way as "we deployed an AI-enabled workflow modernization platform." But one of those actually solved something.
+
+The hard part isn't buying the AI. The hard part is knowing when not to.
+
+*The views expressed here are my own and do not represent any federal agency.*

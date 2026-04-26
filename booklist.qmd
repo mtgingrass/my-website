@@ -1,5 +1,5 @@
 ---
-title: "Books"
+title: "Books & Playlists"
 format:
   html:
     toc: true
@@ -9,15 +9,36 @@ format:
 
 ::: {.hero}
 ::: {.hero-content}
-I read books that explore science, programming, history, politics, philosophy, and human psychology. These books challenge me to think, question assumptions, and view the world through a wider lens.
+I read books and watch courses that explore science, programming, history, politics, philosophy, and human psychology. These resources challenge me to think, question assumptions, and view the world through a wider lens.
 
 [View All Books](#completed-books){.btn .btn-primary}
+[View Playlists](#playlists){.btn .btn-secondary}
 :::
 :::
 
 I'll try to keep up with the books I have read and add them here.
 
 *The links are Amazon Affiliate links and I make a tiny commission if you choose to purchase one at no cost to you. This helps keep me motivated to update this site.*
+
+# Playlists
+
+### [**Capital: Critique of Political Economy**](https://www.youtube.com/playlist?list=PLh9mgdi4rNewd_0qe4c2lkzXZZQka_QnZ)
+**Yale University — Paul North**
+
+A chapter-by-chapter study of Marx's *Capital, Volume 1* — still one of the most rigorous frameworks for analyzing how capitalist economies extract value, structure labor, and reproduce inequality. Taught by Paul North, Maurice Natanson Professor of German at Yale University and co-editor of the new 2024 Princeton University Press English translation and critical edition of *Capital Volume 1*.
+
+::: {.book-actions}
+[Watch on YouTube](https://www.youtube.com/playlist?list=PLh9mgdi4rNewd_0qe4c2lkzXZZQka_QnZ){.btn .btn-primary}
+:::
+
+### [**MS&E 435: Economics of the AI Supercycle**](https://www.youtube.com/@MSE435EconomicsofAI)
+**Stanford University — Apoorv Agrawal, Partner at Altimeter Capital**
+
+A Stanford seminar examining the economics at each layer of the AI stack — from GPU markets and semiconductor infrastructure to data centers, application platforms, and deployment services. Taught by Apoorv Agrawal of Altimeter Capital, the course features guest practitioners from Databricks, Vercel, Groq, OpenAI, Anthropic, and others. Framed around what Agrawal calls the biggest technology supercycle since the PC, Internet, and Mobile eras.
+
+::: {.book-actions}
+[Watch on YouTube](https://www.youtube.com/@MSE435EconomicsofAI){.btn .btn-primary}
+:::
 
 # Completed Books
 

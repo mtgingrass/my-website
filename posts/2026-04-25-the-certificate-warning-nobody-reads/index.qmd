@@ -1,0 +1,67 @@
+---
+title: "The Certificate Warning Nobody Reads"
+author: "Mark Gingrass"
+date: "2026-04-25"
+categories: [Career]
+description: "Federal IT security theater: how certificate click-throughs became compliance artifacts that protect auditors, not systems."
+---
+
+You've seen it. The browser throws up a wall of text — "Do you trust this certificate?" — followed by a string of hex digits that are meaningless to humans. You're on a government computer. You're inside a federal building.
+
+You click *yes*.
+
+Of course you click yes. Name one person who doesn't.
+
+This screen only exists so somebody can prove you clicked it. The ATO (Authority to Operate: the formal authorization a federal system needs before going live, issued after a security assessment package is reviewed) package has a control that says users must validate certificate trust. The system records the click and calls that a control. Nobody in that chain ever stopped to ask whether clicking yes changes anything.
+
+That's not security. That's paperwork with a button. Worthless.
+
+Click *yes* enough times and it becomes muscle memory. Which means the one time the warning actually matters, a legitimate attack could happen.
+
+A warning everyone ignores isn't a safeguard in any sense. It's camouflage for bean counters. The auditor gets the screenshot. The attacker gets the goods.
+
+## Why the Popup Exists
+
+Here's how it usually goes. Someone stood up TLS inspection (**Transport Layer Security**: the protocol that encrypts network traffic between a client and a server). Nobody pushed the root certificate cleanly to managed devices. The browser complained. So the workaround became policy: click yes, carry on. Six months later, nobody remembers why the warning appears or whose job it is to fix it. It's just part of the environment.
+
+The popup isn't adding any value.
+
+## This Is the Standard Playbook
+
+The cert warning isn't a one-off failure. It's how federal IT security operates.
+
+The annual security awareness training everyone clicks through in under an hour to clear the compliance flag? Same mechanic. The forced password change cycle that kept government sticky-note suppliers in business for a decade? Same mechanic. The enterprise-wide Zero Trust mandate in the strategy document while users manually bypass session hygiene every morning? Same mechanic.
+
+In every case, a real security requirement got translated into a user interaction that nobody takes seriously. The box gets checked. The behavior doesn't change.
+
+It's cheaper to make 80,000 people click through nonsense than to fix one broken enterprise service. So nobody fixes the service. Federal IT has spent two decades building for the audit and breaking for the mission. If a control generates a log, a screenshot, or a completion record, it survives budget cycles. If it requires fixing the underlying infrastructure, it gets deferred.
+
+## What the System Rewards
+
+Nobody gets promoted for eliminating the popup.
+
+The Authorizing Official signs a Risk Acceptance, documents the residual risk, and calls it managed. The control owner gets credit for the artifact. The help desk absorbs the tickets. The user absorbs the risk. The fix request dies in the intake queue.
+
+This is what happens when control owners can pass audits without owning user behavior. The program office buys the system. Enterprise IT breaks the trust chain. Security signs off on the control language. Nobody owns what the user sees on the other end.
+
+When the breach happens — and the logs show the warning appeared six hundred times and the user clicked through every single one — nobody is responsible. It was documented. The user was informed.
+
+## We Blame the Wrong People
+
+We call it a workforce problem. Users don't take security seriously. They click through warnings without reading them.
+
+We designed it that way.
+
+We built systems that produce compliance artifacts instead of secure behavior, then blamed the people who adapted to the environment we built. The annual training is forgettable by design — anything longer doesn't clear the flag on time. The cert warning is ignorable by design — if it blocked access, it would generate more tickets than IT could handle. Every friction point that was too inconvenient got softened into a checkbox and called a control.
+
+The workforce is doing exactly what the system trained them to do.
+
+## The Control Was Fake From the Start
+
+If your security control depends on a user interpreting a certificate thumbprint, you don't have a security control. You have a ritual.
+
+A real control removes the decision from the user. It's rare enough that when it fires, people notice. It doesn't need to explain itself with a wall of hex digits no one will ever read.
+
+The warning was fake the day it shipped. All it ever protected was the agency's ability to say it tried.
+
+*The views expressed here are my own and do not represent any federal agency.*

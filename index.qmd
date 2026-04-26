@@ -139,28 +139,20 @@ document.addEventListener('DOMContentLoaded', function() {
   // Recent posts data (this would ideally come from a build-time JSON file)
   const recentPosts = [
     {
-      title: "Round Two: Working with AI",
-      url: "posts/2025-05-30-round-two-working-with-ai/",
+      title: "The AI Solution Trap",
+      url: "posts/2026-04-26-the-ai-solution-trap/",
       category: "AI & Technology",
-      description: "Reflecting on learning Swift and iOS development while working with AI tools like Cursor, Claude Code, and ChatGPT. Exploring the balance between leveraging AI assistance and maintaining fundamental programming skills.",
-      date: "May 30, 2025",
+      description: "Federal agencies are spending real money on AI without asking the basic questions. The result: expensive tools layered on broken processes.",
+      date: "April 26, 2026",
       readTime: "5 min read"
     },
     {
-      title: "Working with AI, Habit Tracker - Round Two",
-      url: "posts/2025-05-19-simple-habit-tracker-round-two-app/",
-      category: "Career & Programming",
-      description: "Experimenting with an AI-assisted development workflow for iOS using SwiftUI, Git, and Cursor AI. This post explores my shift toward a Markdown-driven architecture strategy.",
-      date: "May 19, 2025",
+      title: "The Certificate Warning Nobody Reads",
+      url: "posts/2026-04-25-the-certificate-warning-nobody-reads/",
+      category: "Career",
+      description: "Federal IT security theater: how certificate click-throughs became compliance artifacts that protect auditors, not systems.",
+      date: "April 25, 2026",
       readTime: "4 min read"
-    },
-    {
-      title: "Simple Habit Tracker App",
-      url: "posts/2025-05-14-simple-habit-tracker-app/",
-      category: "Career & Programming",
-      description: "Building a custom iOS habit tracker app using SwiftUI and Xcode—with help from large language models to accelerate design, debug Swift code, and iterate features faster.",
-      date: "May 14, 2025",
-      readTime: "6 min read"
     }
   ];
 
