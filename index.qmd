@@ -136,37 +136,31 @@ At the end of the day, I'm always seeking ways to combine what I know with what 
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const feedUrl = 'https://newsletter.markgingrass.com/feed';
-  const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(feedUrl);
   const container = document.getElementById('newsletter-posts');
   if (!container) return;
 
-  fetch(proxyUrl)
+  fetch('/.netlify/functions/newsletter-feed')
     .then(function(res) { return res.json(); })
     .then(function(data) {
       container.innerHTML = '';
-      if (!data.contents) return;
-
-      const xml = new DOMParser().parseFromString(data.contents, 'text/xml');
-      const items = Array.from(xml.getElementsByTagName('item')).slice(0, 3);
-      if (!items.length) return;
+      if (!data.items || !data.items.length) return;
 
       const grid = document.createElement('div');
       grid.className = 'blog-grid';
 
-      items.forEach(function(item) {
-        const title = item.getElementsByTagName('title')[0]?.textContent || '';
-        const link = item.getElementsByTagName('link')[0]?.textContent || '';
-        const pubDate = item.getElementsByTagName('pubDate')[0]?.textContent || '';
-        const desc = item.getElementsByTagName('description')[0]?.textContent || '';
-        const date = pubDate ? new Date(pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
-        const snippet = desc.replace(/<[^>]*>/g, '').substring(0, 150).trim() + '…';
+      data.items.forEach(function(item) {
+        const date = item.pubDate
+          ? new Date(item.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+          : '';
+        const snippet = item.description
+          ? item.description.replace(/<[^>]*>/g, '').substring(0, 150).trim() + '…'
+          : '';
 
         const card = document.createElement('div');
         card.className = 'blog-card';
         card.innerHTML =
-          '<h3><a href="' + link + '" target="_blank" rel="noopener">' + title + '</a></h3>' +
-          '<p>' + snippet + '</p>' +
+          '<h3><a href="' + item.link + '" target="_blank" rel="noopener">' + item.title + '</a></h3>' +
+          (snippet ? '<p>' + snippet + '</p>' : '') +
           (date ? '<div class="blog-meta">' + date + '</div>' : '');
         grid.appendChild(card);
       });
