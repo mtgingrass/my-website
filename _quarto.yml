@@ -11,6 +11,8 @@ website:
       - href: about.qmd
         text: About
       - href: booklist.qmd
+      - href: https://newsletter.markgingrass.com
+        text: Newsletter
 
     right:
       - icon: github

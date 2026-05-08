@@ -128,60 +128,49 @@ At the end of the day, I'm always seeking ways to combine what I know with what 
 </div>
 </div>
 
-## Recent Writing
+## Recent Newsletter Posts
 
-::: {#recent-posts}
+<div id="newsletter-posts"><p style="color: var(--text-muted, #888);">Loading posts…</p></div>
+
 :::
 
 <script>
-// Dynamic Recent Posts Loading
 document.addEventListener('DOMContentLoaded', function() {
-  // Recent posts data (this would ideally come from a build-time JSON file)
-  const recentPosts = [
-    {
-      title: "The AI Solution Trap",
-      url: "posts/2026-04-26-the-ai-solution-trap/",
-      category: "AI & Technology",
-      description: "Federal agencies are spending real money on AI without asking the basic questions. The result: expensive tools layered on broken processes.",
-      date: "April 26, 2026",
-      readTime: "5 min read"
-    },
-    {
-      title: "The Certificate Warning Nobody Reads",
-      url: "posts/2026-04-25-the-certificate-warning-nobody-reads/",
-      category: "Career",
-      description: "Federal IT security theater: how certificate click-throughs became compliance artifacts that protect auditors, not systems.",
-      date: "April 25, 2026",
-      readTime: "4 min read"
-    }
-  ];
+  const feedUrl = 'https://newsletter.markgingrass.com/feed';
+  const apiUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(feedUrl) + '&count=3';
 
-  // Generate HTML for recent posts
-  const recentPostsContainer = document.getElementById('recent-posts');
-  if (recentPostsContainer) {
-    const blogGrid = document.createElement('div');
-    blogGrid.className = 'blog-grid';
-    
-    recentPosts.forEach(post => {
-      const blogCard = document.createElement('div');
-      blogCard.className = 'blog-card';
-      
-      blogCard.innerHTML = `
-        <div class="blog-category">${post.category}</div>
-        <h3><a href="${post.url}">${post.title}</a></h3>
-        <p>${post.description}</p>
-        <div class="blog-meta">${post.date} • ${post.readTime}</div>
-      `;
-      
-      blogGrid.appendChild(blogCard);
+  fetch(apiUrl)
+    .then(function(res) { return res.json(); })
+    .then(function(data) {
+      const container = document.getElementById('newsletter-posts');
+      if (!container || data.status !== 'ok' || !data.items.length) return;
+
+      const grid = document.createElement('div');
+      grid.className = 'blog-grid';
+
+      data.items.forEach(function(item) {
+        const date = new Date(item.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        const snippet = item.description
+          ? item.description.replace(/<[^>]*>/g, '').substring(0, 150).trim() + '…'
+          : '';
+        const card = document.createElement('div');
+        card.className = 'blog-card';
+        card.innerHTML =
+          '<h3><a href="' + item.link + '" target="_blank" rel="noopener">' + item.title + '</a></h3>' +
+          (snippet ? '<p>' + snippet + '</p>' : '') +
+          '<div class="blog-meta">' + date + '</div>';
+        grid.appendChild(card);
+      });
+
+      container.innerHTML = '';
+      container.appendChild(grid);
+    })
+    .catch(function() {
+      const container = document.getElementById('newsletter-posts');
+      if (container) container.innerHTML = '';
     });
-    
-    recentPostsContainer.appendChild(blogGrid);
-  }
 });
 </script>
-
-:::
 
 <script>
 // Add scroll animations
