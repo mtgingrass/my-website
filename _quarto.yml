@@ -11,6 +11,7 @@ website:
       - href: about.qmd
         text: About
       - href: booklist.qmd
+        text: Learn
       - href: https://newsletter.markgingrass.com
         text: Newsletter
 

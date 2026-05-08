@@ -1,5 +1,5 @@
 ---
-title: "Books"
+title: "Learn"
 format:
   html:
     toc: true
@@ -9,17 +9,27 @@ format:
 
 ::: {.hero}
 ::: {.hero-content}
-I read books that explore science, programming, history, politics, philosophy, and human psychology. These books challenge me to think, question assumptions, and view the world through a wider lens.
+A running log of books read, courses completed, and certifications earned. Topics span science, programming, history, politics, philosophy, and technology leadership.
 
-[View All Books](#completed-books){.btn .btn-primary}
+[Certifications](#certifications){.btn .btn-primary}
+[Books & Courses](#completed){.btn .btn-secondary}
 :::
 :::
 
-I'll try to keep up with the books I have read and add them here.
+*Book links are Amazon Affiliate links — I make a small commission if you purchase, at no cost to you.*
 
-*The links are Amazon Affiliate links and I make a tiny commission if you choose to purchase one at no cost to you. This helps keep me motivated to update this site.*
+# Certifications
 
-# Completed Books
+## [**Professional Scrum Product Owner™ I (PSPO I)**](https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification)
+**Scrum.org**
+
+Validates a solid understanding of the Scrum framework and the Product Owner role — including backlog management, stakeholder engagement, and maximizing value delivery. Unlike certifications awarded for attendance, Scrum.org's PSPO requires passing a rigorous knowledge assessment. One of the most recognized credentials in the product and agile community.
+
+::: {.book-actions}
+[View Certification](https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification){.btn .btn-primary}
+:::
+
+# Completed
 
 ## 2026
 
