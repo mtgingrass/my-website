@@ -11,23 +11,11 @@ format:
 ::: {.hero-content}
 A running log of books read, courses completed, and certifications earned. Topics span science, programming, history, politics, philosophy, and technology leadership.
 
-[Certifications](#certifications){.btn .btn-primary}
-[Books & Courses](#completed){.btn .btn-secondary}
+[Books & Courses](#completed){.btn .btn-primary}
 :::
 :::
 
 *Book links are Amazon Affiliate links — I make a small commission if you purchase, at no cost to you.*
-
-# Certifications
-
-## [**Professional Scrum Product Owner™ I (PSPO I)**](https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification)
-**Scrum.org**
-
-Validates a solid understanding of the Scrum framework and the Product Owner role — including backlog management, stakeholder engagement, and maximizing value delivery. Unlike certifications awarded for attendance, Scrum.org's PSPO requires passing a rigorous knowledge assessment. One of the most recognized credentials in the product and agile community.
-
-::: {.book-actions}
-[View Certification](https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification){.btn .btn-primary}
-:::
 
 # Completed
 
@@ -168,7 +156,34 @@ A groundbreaking exploration of the psychology behind why people say "yes" and h
 [View on Amazon](https://www.amazon.com/dp/006124189X?tag=hatro-20){.btn .btn-primary}
 :::
 
+### [**Bullshit Jobs: A Theory**](https://www.amazon.com/dp/1501143336?tag=hatro-20)
+**by David Graeber**
+
+Anthropologist David Graeber makes the provocative argument that a large and growing portion of modern work — administrative roles, box-checking positions, layers of middle management — serves no meaningful social function, and that many people privately know it. Drawing on surveys and firsthand accounts, Graeber explores why these jobs exist, who benefits from their existence, and what it reveals about the values embedded in modern capitalism. A sharp, sometimes uncomfortable read about the politics of work.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/1501143336?tag=hatro-20){.btn .btn-primary}
+:::
+
+### [**The Emperor of All Maladies: A Biography of Cancer**](https://www.amazon.com/dp/1439170916?tag=hatro-20)
+**by Siddhartha Mukherjee**
+
+A Pulitzer Prize-winning history of cancer — its biology, its treatment, and the scientists, physicians, and patients who have shaped our understanding of it over millennia. Mukherjee traces the disease from ancient Egypt through the chemotherapy era to modern targeted therapies, weaving together science, medicine, and human stories with clarity and purpose. One of the best works of medical history written in the last two decades.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/1439170916?tag=hatro-20){.btn .btn-primary}
+:::
+
 ## 2025
+
+### [**Professional Scrum Product Owner™ I (PSPO I)**](https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification)
+**Scrum.org — Certification**
+
+Validates a solid understanding of the Scrum framework and the Product Owner role — including backlog management, stakeholder engagement, and maximizing value delivery. Unlike certifications awarded for attendance, Scrum.org's PSPO requires passing a rigorous knowledge assessment. One of the most recognized credentials in the product and agile community.
+
+::: {.book-actions}
+[View Certification](https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification){.btn .btn-primary}
+:::
 
 ### [**Never Split the Difference: Negotiating As If Your Life Depended On It**](https://www.amazon.com/dp/0062407805?tag=hatro-20)
 **by Chris Voss**

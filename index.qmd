@@ -49,9 +49,11 @@ Extensive experience partnering with defense, regulatory, and federal agencies t
 
 ## Outdoor Enthusiast
 
- I have been hiking for several years now. Lately, I have been focused on overnight trips and more grueling terrain. I also dabble with mountain biking, running, fitness, and skateboarding.
+I have been hiking for several years now, lately focused on overnight trips and more grueling terrain. I also dabble with mountain biking, running, fitness, and skateboarding.
 
-I try to include my dog, Ollie, who  joins me on trails and camping.
+I make annual trips to the Upper Gauley in West Virginia for Class 5 whitewater, have completed a solo skydive, and volunteer regularly to plant trees and clean up trails.
+
+My dog Ollie joins me on trails and camping whenever possible.
 
 </div>
 <div class="col-md-4">
@@ -69,61 +71,8 @@ At the end of the day, I'm always seeking ways to combine what I know with what 
 
 - **AI Agent Workflows**: Building multi-step agentic pipelines with Claude and GPT-4o
 - **Regulatory Data Science**: Connecting structured policy data to actionable product insights
-- **Prompt Engineering**: Treating prompts like product specs — precise, testable, iterable
+- **AWS Solutions Architect Associate**: Working toward certification in cloud architecture, infrastructure design, and AWS services
 - **Political Economy**: Reading deeply across institutions, power structures, and democratic theory
-
-</div>
-</div>
-
-## Skills & Technologies
-
-::: {.tech-stack}
-**Senior Technology Leader** with expertise spanning federal enterprise modernization, AI-powered product strategy, and human-centered design at scale
-:::
-
-<div class="row mt-8">
-<div class="col-md-3">
-
-### **Leadership & Strategy**
-- **20+ Years** Federal Sector Experience
-- **Product Vision** for Complex Enterprise Systems
-- **Agile & Lean Transformation** at Scale
-- **RFP/RFI Strategy** & Contract Stewardship
-- **Stakeholder Alignment** from End User to Executive
-- **Six Sigma** Process Optimization
-
-</div>
-<div class="col-md-3">
-
-### **Product & Systems Thinking**
-- **Outcome-Driven Roadmaps** tied to real user needs
-- **Legacy Modernization** in high-compliance environments
-- **Human-Centered Design** & Discovery Frameworks
-- **API & Platform Thinking** for scalable architecture
-- **Static Site & JAMstack** development (Quarto, Git)
-- **Data Workflow Automation** & toolchain integration
-
-</div>
-<div class="col-md-3">
-
-### **AI & Emerging Technology**
-- **Agentic AI Workflows** with Claude & GPT-4o
-- **Prompt Engineering** as a product discipline
-- **Claude Code & Cursor AI** for accelerated delivery
-- **AI-Assisted Documentation** & knowledge capture
-- **LLM Evaluation** & responsible deployment thinking
-- **Regulatory AI Applications** in federal science domains
-
-</div>
-<div class="col-md-4">
-
-### **Communication & Influence**
-- **Technical Writing** that non-technical stakeholders actually read
-- **Cross-Functional Translation** between engineers, policy leads, and users
-- **Public Blog** covering AI, development, and governance
-- **Training & Mentorship** of product and technical teams
-- **Narrative Strategy** for complex program justification
-- **Congressional & Agency-Level** briefing experience
 
 </div>
 </div>
