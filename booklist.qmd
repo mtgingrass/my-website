@@ -21,6 +21,15 @@ A running log of books read, courses completed, and certifications earned. Topic
 
 ## 2026
 
+### [**The Wager: A Tale of Shipwreck, Mutiny and Murder**](https://www.amazon.com/dp/0385534264?tag=hatro-20)
+**by David Grann**
+
+In 1740, the British warship HMS Wager set out to intercept a Spanish treasure galleon in the Pacific — and wrecked on a desolate island off the coast of Patagonia instead. Grann reconstructs what followed: months of starvation, disintegrating discipline, and a mutiny that fractured the surviving crew. Those who made it back to England told irreconcilable stories, each accusing the other of crimes. Drawing on firsthand accounts and naval records, Grann uses the wreck as a lens on empire, authority, and what undoes men under extreme conditions. From the author of *Killers of the Flower Moon* — tight, propulsive narrative nonfiction.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/0385534264?tag=hatro-20){.btn .btn-primary}
+:::
+
 ### [**Bullshit Jobs: A Theory**](https://www.amazon.com/dp/1501143336?tag=hatro-20)
 **by David Graeber**
 

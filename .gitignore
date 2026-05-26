@@ -15,3 +15,4 @@
 **/*.jpg
 **/*.jpeg
 !apps/iwndwytoday/images/IWNDWY_icon.png
+**/*.quarto_ipynb
