@@ -185,6 +185,15 @@ A groundbreaking exploration of the psychology behind why people say "yes" and h
 
 ## 2025
 
+### [**Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed**](https://www.amazon.com/dp/0300078153?tag=hatro-20)
+**by James C. Scott**
+
+A sweeping critique of how modern states and institutions have repeatedly failed when they impose simplified, legible order onto complex, local systems — whether in agriculture, urban planning, or collectivization. Scott argues that "high modernist" schemes go wrong when they discount the practical knowledge (what he calls *mētis*) embedded in local practice and tradition. From Soviet collectivization to Le Corbusier's urban designs, the case studies are damning and the core argument has become foundational in political science, economics, and urban theory. Essential reading for anyone thinking seriously about how institutions work and why top-down plans so often backfire.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/0300078153?tag=hatro-20){.btn .btn-primary}
+:::
+
 ### [**Professional Scrum Product Owner™ I (PSPO I)**](https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification)
 **Scrum.org — Certification**
 
