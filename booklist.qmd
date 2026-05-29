@@ -19,6 +19,10 @@ A running log of books read, courses completed, and certifications earned. Topic
 
 # In Progress
 
+## AWS Certified Solutions Architect – Associate (SAA-C03)
+
+Working through the AWS Solutions Architect Associate certification. The exam covers designing resilient, high-performing, secure, and cost-optimized architectures across core AWS services — EC2, S3, RDS, VPC, IAM, Lambda, and more. Still in progress.
+
 ## Statistics, Python & Linear Algebra
 
 Currently reinforcing the mathematical foundations that underpin most of modern machine learning and data science. Two books are open simultaneously, and they're complementing each other well.
