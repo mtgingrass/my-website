@@ -17,6 +17,21 @@ A running log of books read, courses completed, and certifications earned. Topic
 
 *Book links are Amazon Affiliate links — I make a small commission if you purchase, at no cost to you.*
 
+# In Progress
+
+## Statistics, Python & Linear Algebra
+
+Currently reinforcing the mathematical foundations that underpin most of modern machine learning and data science. Two books are open simultaneously, and they're complementing each other well.
+
+**[An Introduction to Statistical Learning with Applications in Python](https://www.amazon.com/dp/3031387465?tag=hatro-20)** *(James, Witten, Hastie, Tibshirani, Taylor)* — the Python edition of the widely used ISLR text. Covers regression, classification, resampling methods, regularization, tree-based models, SVMs, clustering, and deep learning, with hands-on Python labs throughout. As a C++ developer, the Python syntax adds a layer — but picking it up in context is faster than studying it in isolation, and it's useful to have.
+
+**[Elementary Linear Algebra with Applications](https://www.amazon.com/dp/0132296543?tag=hatro-20)** *(Kolman & Hill, 9th ed.)* — working back through the linear algebra that sits underneath most of what ISL covers. Vectors, matrix operations, eigenvalues, linear transformations. The kind of material that makes the statistics click at a deeper level when you revisit it alongside applied work.
+
+::: {.book-actions}
+[ISL with Python on Amazon](https://www.amazon.com/dp/3031387465?tag=hatro-20){.btn .btn-primary}
+[Linear Algebra on Amazon](https://www.amazon.com/dp/0132296543?tag=hatro-20){.btn .btn-primary}
+:::
+
 # Completed
 
 ## 2026
