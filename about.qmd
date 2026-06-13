@@ -23,8 +23,9 @@ I bring over 20 years of hands-on experience architecting enterprise systems, le
 ### Background Summary
 - **Military Foundation** - U.S. Air Force veteran who understands discipline, service, and mission-critical system reliability
 - **Enterprise Architecture** - 20+ years designing and implementing large-scale distributed systems
-- **Product Leadership** - 20+ years translating ambiguous business problems into clear product strategies, roadmaps, and measurable outcomes
+- **Product Leadership** - 20+ years translating ambiguous business problems into clear product strategies, roadmaps, and measurable outcomes. Certified Scrum Product Owner (scrum.org)
 - **End-to-End Product Thinking** - User research to technical architecture to KPIs, I connect the dots across the entire product lifecycle
+- **Cloud Architecture** - AWS Certified Solutions Architect – Associate
 
 </div>
 <div class="col-md-6">
