@@ -36,9 +36,35 @@ Currently reinforcing the mathematical foundations that underpin most of modern 
 [Linear Algebra on Amazon](https://www.amazon.com/dp/0132296543?tag=hatro-20){.btn .btn-primary}
 :::
 
+## Site Reliability Engineering: How Google Runs Production Systems
+
+**[Site Reliability Engineering](https://www.amazon.com/dp/149192912X?tag=hatro-20)** *(Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy — editors)* — the foundational O'Reilly text on how Google operates production systems at scale. Covers SLOs and error budgets, toil reduction, on-call practices, incident management, postmortems, capacity planning, and the cultural choices that separate SRE from traditional ops. Actively reading this now — working through it as a complement to the AWS Solutions Architect material above, since the SRE principles cut across whatever cloud you're running on.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/149192912X?tag=hatro-20){.btn .btn-primary}
+:::
+
 # Completed
 
 ## 2026
+
+### [**How to Interpret the Constitution**](https://www.amazon.com/dp/0691252041?tag=hatro-20)
+**by Cass R. Sunstein**
+
+Sunstein lays out the main theories of constitutional interpretation — originalism, textualism, moral readings, common-good constitutionalism, and his own preferred approach — and argues that none of them can be justified by the Constitution itself. The choice between them is a normative one about which theory makes American constitutional democracy work best. A clear, accessible map of a debate that usually gets buried in jargon, from one of the most prolific legal scholars of his generation.
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/0691252041?tag=hatro-20){.btn .btn-primary}
+:::
+
+### [**Debt: The First 5,000 Years**](https://www.amazon.com/dp/1612194192?tag=hatro-20)
+**by David Graeber**
+
+Graeber upends the standard economic story that money emerged from barter, arguing instead that credit and debt long predate coinage — and that the moral weight societies attach to repayment has shaped law, religion, and politics for millennia. Drawing on anthropology, history, and economics, he traces how debt has structured relationships between rulers and ruled, creditors and debtors, empires and peripheries from Mesopotamia through the present. A sweeping, argumentative book that reframes how to think about money, obligation, and power. Pairs naturally with [*Bullshit Jobs*](https://www.amazon.com/dp/1501143336?tag=hatro-20).
+
+::: {.book-actions}
+[View on Amazon](https://www.amazon.com/dp/1612194192?tag=hatro-20){.btn .btn-primary}
+:::
 
 ### [**The Wager: A Tale of Shipwreck, Mutiny and Murder**](https://www.amazon.com/dp/0385534264?tag=hatro-20)
 **by David Grann**
