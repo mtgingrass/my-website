@@ -848,3 +848,229 @@ select:focus {
   background: #1f1f1f;
   border-color: #14532d;
 }
+
+/* ============================================
+   Booklist page — filter bar, year sections, book cards
+   ============================================ */
+
+.book-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0 2.5rem;
+  padding: 0.75rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  position: sticky;
+  top: 70px;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.filter-pill {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 0.45rem 0.95rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  line-height: 1.2;
+}
+
+.filter-pill::after {
+  content: " " attr(data-count);
+  opacity: 0.55;
+  font-weight: 400;
+  margin-left: 0.3rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.filter-pill:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  transform: translateY(-1px);
+}
+
+.filter-pill.active {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+}
+
+.filter-pill.active::after {
+  opacity: 0.85;
+}
+
+.year-section {
+  margin: 2.5rem 0;
+  scroll-margin-top: 120px;
+}
+
+.year-section > h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border-color);
+  letter-spacing: -0.01em;
+}
+
+.year-section.empty {
+  display: none;
+}
+
+.book-card {
+  position: relative;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 1.5rem 1.75rem;
+  margin: 0 0 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -8px var(--shadow-color);
+  border-color: var(--accent-color);
+}
+
+.book-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0 7rem 0.25rem 0;
+  color: var(--text-primary);
+}
+
+.book-card h3 a {
+  color: var(--text-primary);
+  text-decoration: none;
+  background-image: none;
+}
+
+.book-card h3 a:hover {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.book-card > p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0.5rem 0 1rem;
+}
+
+.book-card > p:first-of-type {
+  color: var(--text-tertiary);
+  font-size: 0.875rem;
+  margin: 0.15rem 0 0.75rem;
+}
+
+.book-card .btn {
+  margin: 0.25rem 0.5rem 0 0;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+}
+
+/* Category pill on each card (top-right corner) */
+.book-card::before {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.25rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.book-card.cat-politics::before {
+  content: "Politics & History";
+  background: rgba(239, 68, 68, 0.12);
+  color: #dc2626;
+}
+.book-card.cat-tech::before {
+  content: "Tech";
+  background: rgba(14, 165, 233, 0.12);
+  color: #0284c7;
+}
+.book-card.cat-business::before {
+  content: "Business & Product";
+  background: rgba(249, 115, 22, 0.12);
+  color: #ea580c;
+}
+.book-card.cat-philosophy::before {
+  content: "Philosophy & Society";
+  background: rgba(139, 92, 246, 0.12);
+  color: #7c3aed;
+}
+.book-card.cat-science::before {
+  content: "Science & Health";
+  background: rgba(34, 197, 94, 0.12);
+  color: #16a34a;
+}
+.book-card.cat-personal::before {
+  content: "Personal & Fiction";
+  background: rgba(236, 72, 153, 0.12);
+  color: #db2777;
+}
+
+[data-theme="dark"] .book-card.cat-politics::before { color: #fca5a5; background: rgba(239, 68, 68, 0.15); }
+[data-theme="dark"] .book-card.cat-tech::before { color: #7dd3fc; background: rgba(14, 165, 233, 0.18); }
+[data-theme="dark"] .book-card.cat-business::before { color: #fdba74; background: rgba(249, 115, 22, 0.18); }
+[data-theme="dark"] .book-card.cat-philosophy::before { color: #c4b5fd; background: rgba(139, 92, 246, 0.18); }
+[data-theme="dark"] .book-card.cat-science::before { color: #86efac; background: rgba(34, 197, 94, 0.18); }
+[data-theme="dark"] .book-card.cat-personal::before { color: #f9a8d4; background: rgba(236, 72, 153, 0.18); }
+
+/* In-progress cards: warm left accent stripe instead of a category pill */
+.book-card.in-progress {
+  border-left: 4px solid #f97316;
+  padding-left: 1.5rem;
+}
+
+.book-card.in-progress::before {
+  content: "In Progress";
+  background: rgba(249, 115, 22, 0.12);
+  color: #ea580c;
+}
+
+[data-theme="dark"] .book-card.in-progress::before {
+  color: #fdba74;
+  background: rgba(249, 115, 22, 0.18);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .book-filter {
+    top: 60px;
+    padding: 0.6rem;
+    gap: 0.35rem;
+  }
+  .filter-pill {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8rem;
+  }
+  .book-card {
+    padding: 1.25rem 1.25rem 1.25rem;
+  }
+  .book-card h3 {
+    margin-right: 0;
+    margin-top: 1.75rem;
+    font-size: 1.05rem;
+  }
+  .book-card::before {
+    top: 0.85rem;
+    left: 1.25rem;
+    right: auto;
+  }
+}
