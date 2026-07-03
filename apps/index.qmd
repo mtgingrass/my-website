@@ -9,7 +9,7 @@ toc: false
 # Custom Apps
 **iOS Development Portfolio**
 
-A collection of SwiftUI apps I've developed, each solving real problems with clean, intuitive design and privacy-first principles.
+I set out to prove I could take native iOS apps from idea to the App Store, and shipped them. SwiftUI apps solving real problems with clean, intuitive design and privacy-first principles. See [Projects](/projects/) for the full picture, including my serverless AWS work.
 
 [View Source Code](https://github.com/mtgingrass){.btn .btn-primary} [Contact Me](mailto:mg@markgingrass.com){.btn .btn-secondary}
 :::
@@ -55,12 +55,12 @@ Discover and connect with the vibrant running community in Greenville, South Car
 ### IWNDWYToday
 **Habit Destruction Counter**
 
-I Will Not Destruct With You Today (IWNDWYToday) is a minimalist, powerful day counter designed to help you stay committed to your personal goals—whether it's sobriety, quitting a bad habit, or building a new one.
+I Will Not Destruct With You Today (IWNDWYToday) is a minimalist, powerful day counter designed to help you stay committed to your personal goals, whether it's sobriety, quitting a bad habit, or building a new one.
 
 ::: {.app-features}
 - **Clean Interface**: Distraction-free design focused on your progress
 - **Streak Tracking**: Current streak, longest streak, and detailed history
-- **Motivational Messages**: Encouragement tailored to your journey
+- **Motivational Messages**: Encouragement tailored to your progress
 - **Privacy-First**: All data stays on your device
 - **Custom Start Date**: Begin your streak from any date
 :::
@@ -110,8 +110,6 @@ A financial tracking app designed to help you manage your savings goals and trac
 :::
 
 ::: {.app-card}
-![Habit Tracker Icon](../posts/2025-05-14-simple-habit-tracker-app/images/clipboard-3299487040.png){.app-icon}
-
 ### Habit Tracker
 **Comprehensive Habit Management**
 
@@ -177,9 +175,9 @@ Continuous improvement based on real user needs and feedback.
 
 ## Coming Soon
 
-I'm always working on new projects and improvements. Follow my [blog](/posts.html) for updates on my development journey and upcoming releases.
+I'm always working on new projects and improvements. Follow my [newsletter](https://newsletter.markgingrass.com) for updates on current work and upcoming releases.
 
-[Subscribe to Updates](/posts.xml){.btn .btn-primary} [View Source Code](https://github.com/mtgingrass){.btn .btn-secondary}
+[Subscribe to the Newsletter](https://newsletter.markgingrass.com){.btn .btn-primary} [View Source Code](https://github.com/mtgingrass){.btn .btn-secondary}
 
 :::
 

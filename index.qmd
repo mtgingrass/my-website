@@ -10,10 +10,11 @@ resources:
 
 ::: {.hero}
 ::: {.hero-content}
-**Technical Leader • Developer • Problem Solver**
+**Technical Leader • Builder • Problem Solver**
 
-Product Manager • Turning complexity into clarity.
-Aligning users, business goals, and engineering to ship solutions that matter.
+Federal program leader who ships real systems: a live serverless platform on AWS, apps on the App Store, and modernization programs serving hundreds of scientists.
+
+[See Projects](/projects/){.btn .btn-primary} [About Me](/about.html){.btn .btn-secondary}
 
 :::
 :::
@@ -24,17 +25,18 @@ Aligning users, business goals, and engineering to ship solutions that matter.
 
 ## Professional
 
-Product leader with 20+ years in the federal sector. For the past eight years, I have been specializing in product strategy, user-centered innovation, and delivering solutions with tangible outcomes. I have a track record of defining product vision for complex enterprise systems, translating ambiguous stakeholder needs into actionable roadmaps, and leading cross-functional teams to build products that people actually use and value.
+GS-14 Program Manager at the FDA with a Computer Science background I've kept sharp by shipping real systems. Twenty-plus years in federal technology, from enlisted Air Force service through senior program leadership, gives me something most cloud candidates don't have: I understand how agencies actually buy, approve, and operate technology. I know what a COR does, what an ATO means in practice, and how to move a program through procurement without it dying in review.
 
-I am the connector and translator across disciplines. I work with user needs, business goals, and technical experts daily. I focus on building trust with stakeholders at every level—from end users to division directors and key decision-makers.
-Extensive experience partnering with defense, regulatory, and federal agencies to modernize legacy systems and prove that government technology can be world-class.
+Now I'm moving that background into Solutions Architect and senior TPM roles in GovTech and defense tech, where the combination is rare: federal domain depth, hands-on cloud work, and a track record of finishing what I start.
+
+I translate between the people who fund systems and the people who build them. I can read an architecture diagram, push back on a vendor proposal, and write a user story for the same system in the same week.
 
 ### Current Focus
 
 * Leading product strategy for FDA modernization initiatives that serve 400+ regulatory scientists
 * Building platforms that reduce manual workflows and accelerate decisions
 * Championing AI-powered solutions that unlock decades of trapped regulatory data
-* Staying technically credible through hands-on iOS development (SwiftUI, because learning keeps me humble)
+* Pursuing the AWS SAA-C03 certification with production architecture as the hands-on lab, not a sandbox. [See what that means](/projects/)
 
 </div>
 <div class="col-md-6">
@@ -60,9 +62,9 @@ My dog Ollie joins me on trails and camping whenever possible.
 
 ## Curious Mind
 
-I have interests in technology, policy, governance, and efficiency. I enjoy learning about Lean, Six Sigma, and anything related to improving efficiency and eliminating wasteful processes.
+Interested in how systems, organizational and technical, succeed or fail. Lean, Six Sigma, and process improvement aren't abstract to me; I've applied them in environments where inefficiency has real regulatory consequences.
 
-At the end of the day, I'm always seeking ways to combine what I know with what I love.
+Always looking for the more efficient path, and usually finding it.
 
 </div>
 <div class="col-md-4">
@@ -71,8 +73,8 @@ At the end of the day, I'm always seeking ways to combine what I know with what 
 
 - **AI Agent Workflows**: Building multi-step agentic pipelines with Claude and GPT-4o
 - **Regulatory Data Science**: Connecting structured policy data to actionable product insights
-- **AWS Solutions Architect Associate**: Working toward certification in cloud architecture, infrastructure design, and AWS services
-- **Political Economy**: Reading deeply across institutions, power structures, and democratic theory
+- **AWS Solutions Architect Associate**: Working toward certification on the same services I already run in production at [PetShots](https://petshots.app)
+
 
 </div>
 </div>

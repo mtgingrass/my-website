@@ -4,3 +4,13 @@
 
 [[plugins]]
 package = "@quarto/netlify-plugin-quarto"
+
+[[redirects]]
+  from = "/posts.html"
+  to = "https://newsletter.markgingrass.com"
+  status = 301
+
+[[redirects]]
+  from = "/posts.xml"
+  to = "https://newsletter.markgingrass.com"
+  status = 301

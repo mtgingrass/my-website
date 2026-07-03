@@ -4,12 +4,18 @@ project:
 website:
   title: "Mark Gingrass"
   site-url: "https://markgingrass.com"
+  drafts:
+    - posts/2026-04-25-the-certificate-warning-nobody-reads/index.qmd
+    - posts/2026-04-26-the-ai-solution-trap/index.qmd
+  draft-mode: unlinked
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
+      - href: projects/index.qmd
+        text: Projects
       - href: booklist.qmd
         text: Learn
       - href: https://newsletter.markgingrass.com
@@ -31,7 +37,7 @@ website:
       - icon: envelope-arrow-up-fill
         href: "mailto:mg@markgingrass.com"
   page-footer: 
-    left: "Copyright 2025, Mark Gingrass" 
+    left: "Copyright 2026, Mark Gingrass"
     right: 
       - icon: github
         href: https://github.com/mtgingrass

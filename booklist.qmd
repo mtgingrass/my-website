@@ -7,7 +7,7 @@ format:
 
 ::: {.hero}
 ::: {.hero-content}
-A running log of books read, courses completed, and certifications earned. Topics span science, programming, history, politics, philosophy, and technology leadership.
+A running log of books read, courses completed, and certifications earned. Topics span science, programming, history, philosophy, and technology leadership.
 
 [Browse Books](#completed){.btn .btn-primary}
 :::
@@ -52,7 +52,7 @@ The foundational O'Reilly text on how Google operates production systems at scal
 ```{=html}
 <div class="book-filter" role="tablist" aria-label="Filter books by category">
   <button class="filter-pill active" data-filter="all">All</button>
-  <button class="filter-pill" data-filter="politics">Politics &amp; History</button>
+  <button class="filter-pill" data-filter="politics">History</button>
   <button class="filter-pill" data-filter="tech">Tech &amp; Engineering</button>
   <button class="filter-pill" data-filter="business">Business &amp; Product</button>
   <button class="filter-pill" data-filter="philosophy">Philosophy &amp; Society</button>

@@ -1,0 +1,105 @@
+---
+title: "Projects"
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+::: {.hero-content}
+# Projects
+**I decide to build something, and then it ships.**
+
+Production software I've designed, built, and deployed: a live serverless platform on AWS and native iOS apps on the App Store.
+
+[PetShots.app](https://petshots.app){.btn .btn-primary} [GitHub](https://github.com/mtgingrass){.btn .btn-secondary}
+:::
+:::
+
+::: {.container}
+
+## PetShots: Pet Records, Solved
+
+**Live at [petshots.app](https://petshots.app)** • Serverless AWS • Designed and deployed end-to-end with CDK
+
+It started at the door of a dog bar. They wanted proof of my dog's rabies vaccination, and the certificate was in a folder somewhere at home. PetShots fixes that: secure storage for your pet's records, with shareable QR "pet passports" that let a vet, boarder, or dog bar verify vaccinations from a link; no account required, and the link expires or can be revoked.
+
+I architected the entire platform and run it in production:
+
+<div class="row mt-12">
+<div class="col-md-6">
+
+### Architecture
+
+- **Frontend**: React (Vite + TypeScript) SPA served from a private S3 bucket behind CloudFront with Origin Access Control; ACM certificates and Route 53 for apex + www, IPv4 and IPv6
+- **Auth**: Cognito User Pool with a PreSignUp Lambda that verifies Cloudflare Turnstile (secret in Secrets Manager) to block bot signups
+- **API**: API Gateway HTTP API with Cognito JWT authorizer routing to a single Lambda router (Node 20, ARM64, esbuild), 15 routes including the public `/passport/{token}` endpoint
+- **Storage**: Pet metadata as JSON objects in S3 under per-user prefixes; documents uploaded via size-limited presigned POST and viewed via presigned GET
+- **Automation**: EventBridge daily cron triggers a reminder Lambda that sends vaccination-expiry emails through SES
+
+</div>
+<div class="col-md-6">
+
+### Architecture Decisions
+
+Every piece of this stack was a deliberate trade-off:
+
+- **Serverless over three-tier**: I first built the classic VPC + Aurora + EC2 Auto Scaling architecture as AWS Solutions Architect exam prep, then made the production call to go serverless. Near-zero idle cost, no servers to patch.
+- **S3 as the database**: Metadata lives as JSON in S3 instead of DynamoDB. At this access pattern the simplicity wins; the migration path exists if it stops winning.
+- **JWT at the gateway**: Authorization happens at API Gateway, so unauthenticated requests never invoke a Lambda.
+- **Presigned uploads**: Clients upload directly to S3 with size limits enforced; file bytes never pass through the API.
+- **Retain on delete**: User data buckets are set to `RemovalPolicy.RETAIN`, so no stack operation can destroy customer records.
+
+</div>
+</div>
+
+::: {.app-actions}
+[Visit PetShots.app](https://petshots.app){.btn .btn-primary}
+[Source on GitHub](https://github.com/mtgingrass/petshots){.btn .btn-secondary}
+:::
+
+## iOS Apps
+
+Before PetShots, I set out to prove I could take native iOS apps from idea to the App Store, and did, twice.
+
+::: {.app-showcase}
+::: {.app-card}
+### GreenvilleRunClubs
+**On the App Store**
+
+Find running clubs, group runs, and local races in Greenville, South Carolina.
+
+::: {.app-actions}
+[Details](/apps/greenville-run-clubs/){.btn .btn-primary}
+[App Store](https://apps.apple.com/us/app/greenvillerunclubs/id6749022264){.btn .btn-accent}
+:::
+:::
+
+::: {.app-card}
+### IWNDWYToday
+**On the App Store**
+
+A minimalist day counter for commitment: sobriety, quitting a habit, or building one.
+
+::: {.app-actions}
+[Details](/apps/iwndwytoday/){.btn .btn-primary}
+[App Store](https://apps.apple.com/us/app/iwndwytoday/id6747836739){.btn .btn-accent}
+:::
+:::
+
+::: {.app-card}
+### Piggy Piggy & Habit Tracker
+**In Development**
+
+A savings-goal tracker and a habit tracker, both in progress.
+
+::: {.app-actions}
+[All Apps](/apps/){.btn .btn-primary}
+:::
+:::
+:::
+
+## What's Next
+
+Working toward the AWS Solutions Architect – Associate certification while PetShots runs in production; the exam prep and the platform sharpen each other. Follow the build on the [newsletter](https://newsletter.markgingrass.com).
+
+:::

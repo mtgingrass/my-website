@@ -5,9 +5,10 @@
 - Prefer direct, concise language over flowery descriptions
 
 ## Project Structure
-This is a personal website/blog built with Quarto, featuring:
-- Blog posts listing page (posts.qmd)
+This is a personal portfolio site built with Quarto, featuring:
+- Projects portfolio page (projects/index.qmd) — the flagship page
 - Reading list page (booklist.qmd)
+- Legacy posts under posts/ kept as unlisted drafts — no blog listing page; the newsletter (newsletter.markgingrass.com) replaced the blog
 - Static site generation with Quarto
 
 ## Code Conventions
@@ -16,7 +17,6 @@ This is a personal website/blog built with Quarto, featuring:
 - Maintain consistency with existing button styles (`.btn .btn-primary`, `.btn .btn-secondary`)
 
 ## Common Tasks
-- Adding blog posts to site
 - Updating home page with resume style language
 - Maintaining consistent styling across pages
 - Working with Quarto markdown files (.qmd)

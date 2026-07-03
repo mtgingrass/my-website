@@ -6,9 +6,9 @@ toc: false
 
 ::: {.hero}
 ::: {.hero-content}
-**Developer • Technical Leader • Problem Solver**
+**Technical Leader • Builder • Problem Solver**
 
-From Air Force service to federal contracting to full-stack development—building scalable solutions that matter through decades of real-world experience.
+Air Force enlisted to GS-14 federal program leader, with a habit of setting a goal, doing the work, and shipping the result.
 :::
 :::
 
@@ -18,14 +18,14 @@ From Air Force service to federal contracting to full-stack development—buildi
 
 ## Real-World Experience
 
-I bring over 20 years of hands-on experience architecting enterprise systems, leading technical teams, and delivering scalable software solutions. My career spans from enlisted Air Force service to senior technical leadership, always focused on building robust, maintainable systems that solve real problems.
+I bring 20+ years in the federal sector, from enlisted Air Force service to senior program leadership at the FDA, and a pattern of finishing what I start: degrees earned while working full-time, complex federal programs delivered, and production software designed, built, and shipped on my own initiative.
 
 ### Background Summary
 - **Military Foundation** - U.S. Air Force veteran who understands discipline, service, and mission-critical system reliability
-- **Enterprise Architecture** - 20+ years designing and implementing large-scale distributed systems
-- **Product Leadership** - 20+ years translating ambiguous business problems into clear product strategies, roadmaps, and measurable outcomes. Certified Scrum Product Owner (scrum.org)
-- **End-to-End Product Thinking** - User research to technical architecture to KPIs, I connect the dots across the entire product lifecycle
-- **Cloud Architecture** - AWS Certified Solutions Architect – Associate
+- **Federal Program Leadership** - GS-14 program manager and COR III at the FDA, leading modernization initiatives that serve 400+ regulatory scientists
+- **Product Leadership** - Translating ambiguous business problems into clear product strategies, roadmaps, and measurable outcomes. Certified Scrum Product Owner (scrum.org)
+- **Builder** - Ships real AWS systems in production (not just cert prep) and iOS apps on the App Store; see [Projects](/projects/) for details
+- **Cloud Architecture** - Pursuing AWS Solutions Architect – Associate certification (SAA-C03) on the same services I run in production
 
 </div>
 <div class="col-md-6">
@@ -52,8 +52,8 @@ U.S. Air Force veteran who learned the value of discipline, teamwork, and gettin
 <i class="bi bi-graph-up"></i>
 </div>
 
-### Business Leadership
-20+ years managing complex federal contracts, ensuring taxpayer money delivers real value through efficient, scalable solutions.
+### Federal Program Delivery
+Led modernization at FDA scale, with COR III authority to oversee contractor performance and hold vendors accountable. The programs I manage serve the scientists who regulate tobacco products for the entire U.S. market.
 :::
 
 ::: {.app-card}
@@ -62,7 +62,7 @@ U.S. Air Force veteran who learned the value of discipline, teamwork, and gettin
 </div>
 
 ### System Architecture
-Computer Science and MBA graduate specializing in distributed systems, microservices, and scalable cloud architectures.
+Computer Science and MBA graduate who designs real cloud systems: a production serverless architecture on AWS, built and deployed with CDK.
 :::
 
 ::: {.app-card}
@@ -71,7 +71,7 @@ Computer Science and MBA graduate specializing in distributed systems, microserv
 </div>
 
 ### Technology Leadership
-Full-stack developer with expertise in multiple languages, frameworks, and cloud platforms, leveraging modern DevOps practices and AI-assisted development.
+Hands-on builder who stays technically credible: AWS, TypeScript, and CDK in personal projects; AI and modern tooling directed deliberately, not leaned on.
 :::
 :::
 
@@ -81,16 +81,16 @@ Full-stack developer with expertise in multiple languages, frameworks, and cloud
 <div class="col-md-6">
 
 ### What Drives Me
-- **Scalable Architecture**: Building systems that grow with business needs
-- **Technology Agnostic**: Choosing the right tool for the job, not the trendy one
-- **DevOps Culture**: Continuous integration, delivery, and infrastructure as code
-- **Clean Code**: Maintainable, testable, and well-documented solutions
+- **Close the gap**: Government technology is consistently a decade behind where it should be. I've spent 20 years on that problem from the inside and I'm not done.
+- **Credible at the whiteboard**: A PM who can't follow the architecture discussion is a bottleneck. I stay technical enough to be useful, not just present.
+- **Ship, then improve**: A deployed imperfect system beats a perfect plan still in review. I've seen both and know which one moves the mission.
+- **Build for whoever comes next**: Federal programs outlast their PMs. Decisions I make today will be maintained by people who weren't in the room. I design with that in mind.
 
 </div>
 <div class="col-md-6">
 
 ::: {.card}
-*"Great architecture isn't about using the latest technology—it's about building systems that are reliable, scalable, and maintainable for the long term."*
+*"Great architecture isn't about using the latest technology; it's about building systems that are reliable, scalable, and maintainable for the long term."*
 :::
 
 </div>
@@ -134,7 +134,7 @@ Earned degrees in Computer Science and MBA while working full-time, proving that
 <div class="timeline-content">
 
 ### **Federal Leadership**
-Rose to senior technical roles, handling complex enterprise solutions and leading Agile transformations in high-stakes environments.
+Reached GS-14 and earned COR III certification at the FDA, managing programs with real contractor accountability. Led product strategy for modernization systems that serve the scientists who regulate tobacco products for the entire U.S. market.
 
 </div>
 </div>
@@ -144,7 +144,7 @@ Rose to senior technical roles, handling complex enterprise solutions and leadin
 <div class="timeline-content">
 
 ### **Modern Architecture**
-Embracing cloud-native development, microservices, and AI-assisted workflows, applying decades of experience to building scalable systems.
+Set out to build a real cloud product and shipped [PetShots](https://petshots.app), a serverless AWS platform running in production, along with iOS apps on the App Store.
 
 </div>
 </div>
@@ -154,7 +154,7 @@ Embracing cloud-native development, microservices, and AI-assisted workflows, ap
 <div class="timeline-content">
 
 ### **The AI Era**
-Operating at the intersection of artificial intelligence and high-stakes federal product work. Building agentic workflows, applying prompt engineering as a product discipline, and championing AI-powered solutions that unlock decades of trapped regulatory data — while most organizations are still figuring out what to ask the chatbot.
+Operating at the intersection of artificial intelligence and high-stakes federal product work. Building agentic workflows, applying prompt engineering as a product discipline, and championing AI-powered solutions that unlock decades of trapped regulatory data, while most organizations are still figuring out what to ask the chatbot.
 
 </div>
 </div>
@@ -178,7 +178,7 @@ Ollie, my Golden Retriever, is my constant companion on trails and road trips. H
 <div class="col-md-4">
 
 ### **Lifelong Learner**
-Fascinated by policy, governance, efficiency, and technology intersection. Always seeking ways to combine experience with passion for optimal outcomes.
+Fascinated by how systems, organizational or technical, succeed or fail. Always looking for the more efficient path.
 
 </div>
 </div>
@@ -186,16 +186,14 @@ Fascinated by policy, governance, efficiency, and technology intersection. Alway
 ## Current Focus
 
 ::: {.card .card-featured .mb-8}
-### Building Scalable Solutions That Matter
+### Proving It, Not Claiming It
 
-Distributed systems, cloud architecture, or enterprise applications, I focus on creating technology solutions that solve real problems at scale.
+I'd rather show working systems than list buzzwords. Right now that means:
 
-**Core Expertise:**
-- **Cloud Platforms**: AWS, Azure, and hybrid cloud architectures
-- **Backend Systems**: Microservices, APIs, database design, and message queues
-- **DevOps & CI/CD**: Infrastructure as code, containerization, and automated deployment pipelines
-- **Full-Stack Development**: From database optimization to responsive web interfaces
-- **Enterprise Integration**: System-to-system communication, ETL processes, and data architecture
+- **AWS SAA-C03**: Certification in progress, studying services I already run in production, not a sandbox, not simulated
+- **Production AWS**: A live serverless architecture (CloudFront, Cognito, API Gateway, Lambda, S3, EventBridge, SES) I designed with CDK. [See the details →](/projects/)
+- **Federal Modernization**: Leading FDA product strategy that serves 400+ regulatory scientists
+- **Writing**: [Newsletter](https://newsletter.markgingrass.com) on federal IT and GovTech
 :::
 
 :::
