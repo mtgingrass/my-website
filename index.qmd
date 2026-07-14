@@ -10,9 +10,9 @@ resources:
 
 ::: {.hero}
 ::: {.hero-content}
-**Technical Leader • Builder • Problem Solver**
+**Solutions Architecture • Applied AI • Federal Program Leadership**
 
-Federal program leader who ships real systems: a live serverless platform on AWS, apps on the App Store, and modernization programs serving hundreds of scientists.
+I architect and ship real systems: a live serverless platform on AWS, an AI-assisted review workflow inside the FDA firewall, and apps on the App Store.
 
 [See Projects](/projects/){.btn .btn-primary} [About Me](/about.html){.btn .btn-secondary}
 
@@ -29,13 +29,12 @@ GS-14 Program Manager at the FDA with a Computer Science background I've kept sh
 
 Now I'm moving that background into Solutions Architect and senior TPM roles in GovTech and defense tech, where the combination is rare: federal domain depth, hands-on cloud work, and a track record of finishing what I start.
 
-I translate between the people who fund systems and the people who build them. I can read an architecture diagram, push back on a vendor proposal, and write a user story for the same system in the same week.
+I translate between the people who fund systems and the people who build them. I can read an architecture diagram, push back on a vendor proposal, and write a user story for the same system in the same week. And when a problem calls for AI, I design the workflow around it — including who checks the output — rather than bolting a chatbot onto the org chart.
 
 ### Current Focus
 
 * Leading product strategy for FDA modernization initiatives that serve 400+ regulatory scientists
-* Building platforms that reduce manual workflows and accelerate decisions
-* Championing AI-powered solutions that unlock decades of trapped regulatory data
+* Delivered an AI-assisted review workflow for an FDA regulatory tracking system: an in-firewall LLM analyzes each project abstract against the coding manual and returns recommendations with supporting evidence and discrepancy flags — the review team keeps final authority
 * Pursuing the AWS SAA-C03 certification with production architecture as the hands-on lab, not a sandbox. [See what that means](/projects/)
 
 </div>
@@ -69,11 +68,12 @@ Always looking for the more efficient path, and usually finding it.
 </div>
 <div class="col-md-4">
 
-## What I'm Learning
+## AI, In Practice
 
-- **AI Agent Workflows**: Building multi-step agentic pipelines with Claude and GPT-4o
-- **Regulatory Data Science**: Connecting structured policy data to actionable product insights
-- **AWS Solutions Architect Associate**: Working toward certification on the same services I already run in production at [PetShots](https://petshots.app)
+- **Human-in-the-loop AI**: Designed an LLM review workflow now running inside the FDA firewall — recommendations with evidence, humans with authority
+- **AI-assisted engineering**: I direct AI coding agents across [PetShots](https://petshots.app) and my iOS work; the architecture decisions stay mine
+- **Computer vision**: Building an app that counts the stairs in any photo — screenshot a stair set, get the number
+- **AWS Solutions Architect Associate**: Working toward certification on the same services I already run in production
 
 
 </div>

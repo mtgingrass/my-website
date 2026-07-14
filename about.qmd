@@ -6,7 +6,7 @@ toc: false
 
 ::: {.hero}
 ::: {.hero-content}
-**Technical Leader • Builder • Problem Solver**
+**Solutions Architecture • Applied AI • Federal Program Leadership**
 
 Air Force enlisted to GS-14 federal program leader, with a habit of setting a goal, doing the work, and shipping the result.
 :::
@@ -25,6 +25,7 @@ I bring 20+ years in the federal sector, from enlisted Air Force service to seni
 - **Federal Program Leadership** - GS-14 program manager and COR III at the FDA, leading modernization initiatives that serve 400+ regulatory scientists
 - **Product Leadership** - Translating ambiguous business problems into clear product strategies, roadmaps, and measurable outcomes. Certified Scrum Product Owner (scrum.org)
 - **Builder** - Ships real AWS systems in production (not just cert prep) and iOS apps on the App Store; see [Projects](/projects/) for details
+- **Applied AI** - Designed and delivered an AI-assisted review workflow inside the FDA firewall — LLM recommendations with supporting evidence, human reviewers with final authority
 - **Cloud Architecture** - Pursuing AWS Solutions Architect – Associate certification (SAA-C03) on the same services I run in production
 
 </div>
@@ -71,7 +72,7 @@ Computer Science and MBA graduate who designs real cloud systems: a production s
 </div>
 
 ### Technology Leadership
-Hands-on builder who stays technically credible: AWS, TypeScript, and CDK in personal projects; AI and modern tooling directed deliberately, not leaned on.
+Hands-on builder who stays technically credible: AWS, TypeScript, and CDK in personal projects. I treat AI as a tool I direct — I design the workflow, set the guardrails, and keep a human on the final call.
 :::
 :::
 
@@ -153,8 +154,8 @@ Set out to build a real cloud product and shipped [PetShots](https://petshots.ap
 <div class="timeline-marker"></div>
 <div class="timeline-content">
 
-### **The AI Era**
-Operating at the intersection of artificial intelligence and high-stakes federal product work. Building agentic workflows, applying prompt engineering as a product discipline, and championing AI-powered solutions that unlock decades of trapped regulatory data, while most organizations are still figuring out what to ask the chatbot.
+### **Applied AI**
+Designed and delivered an AI-assisted review workflow for an FDA regulatory tracking system: an in-firewall LLM analyzes each project abstract against the coding manual and returns recommendations with supporting evidence snippets and discrepancy flags. Reviewers keep final authority — the AI narrows the discussion to the disagreements instead of replacing it. The same discipline runs through my own projects: AI coding agents build to my architecture on PetShots, and a computer-vision stair counter is in progress.
 
 </div>
 </div>
@@ -192,6 +193,7 @@ I'd rather show working systems than list buzzwords. Right now that means:
 
 - **AWS SAA-C03**: Certification in progress, studying services I already run in production, not a sandbox, not simulated
 - **Production AWS**: A live serverless architecture (CloudFront, Cognito, API Gateway, Lambda, S3, EventBridge, SES) I designed with CDK. [See the details →](/projects/)
+- **Applied AI**: A human-in-the-loop LLM review workflow delivered inside the FDA firewall, plus a computer-vision app in progress that counts the stairs in any photo
 - **Federal Modernization**: Leading FDA product strategy that serves 400+ regulatory scientists
 - **Writing**: [Newsletter](https://newsletter.markgingrass.com) on federal IT and GovTech
 :::

@@ -18,6 +18,8 @@ website:
         text: Projects
       - href: booklist.qmd
         text: Learn
+      - href: https://teach.markgingrass.com
+        text: Teaching
       - href: https://newsletter.markgingrass.com
         text: Newsletter
 
