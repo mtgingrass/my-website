@@ -1,0 +1,167 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import markPortrait from '../../images/MarkPro.webp';
+---
+
+<BaseLayout>
+  <section class="hero-home">
+    <div>
+      <p class="eyebrow">Federal mission systems / cloud / applied AI</p>
+      <h1>I lead where mission, <em>technology</em>, and delivery meet.</h1>
+    </div>
+    <div class="hero-aside" data-reveal>
+      <p>GS-14 program leader doing solutions architecture work inside FDA’s Center for Tobacco Products. I modernize research systems, embed responsible AI into regulatory workflows, and turn high-stakes problems into systems teams can ship and sustain.</p>
+      <div class="button-row">
+        <a class="button primary" href="/work/">See selected work <span aria-hidden="true">↘</span></a>
+        <a class="button" href="mailto:mark@markgingrass.com">Discuss a role <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="proof-rail" aria-label="Career at a glance">
+    <div class="proof-grid">
+      <div class="proof-item"><strong>20+</strong><span>Years in federal technology</span></div>
+      <div class="proof-item"><strong>400+</strong><span>Regulatory scientists served</span></div>
+      <div class="proof-item"><strong>GS-14</strong><span>Program leadership / COR III</span></div>
+      <div class="proof-item"><strong>15M+</strong><span>Records integrated in CIRDS</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <SectionHeading
+        index="01"
+        label="Operating range"
+        title="Technical enough for the architecture. Senior enough for the institution."
+        body="The most consequential federal technology work crosses mission priorities, acquisition, security, data, users, vendors, and operations. I work across that full system—especially for CTP’s regulatory science and research mission."
+      />
+      <div class="role-grid">
+        <article class="role-card" data-reveal>
+          <span class="number">01.A</span>
+          <h3>Program direction</h3>
+          <p>Set outcomes, align stakeholders, manage delivery risk, and keep complex modernization work moving through real federal constraints.</p>
+        </article>
+        <article class="role-card" data-reveal>
+          <span class="number">01.B</span>
+          <h3>Technical translation</h3>
+          <p>Move fluently between an executive brief, a procurement decision, a user workflow, and an architecture review.</p>
+        </article>
+        <article class="role-card" data-reveal>
+          <span class="number">01.C</span>
+          <h3>Product judgment</h3>
+          <p>Find the smallest useful release, make the tradeoffs explicit, ship it, and build evidence for the next decision.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-stage" aria-labelledby="saa-title">
+    <div class="project-inner">
+      <div class="project-copy" data-reveal>
+        <p class="project-label">Featured build / 2026</p>
+        <h3 id="saa-title">SAA—<br />Swipe</h3>
+        <p>A focused iPhone study companion for AWS Solutions Architect candidates. It turns architecture tradeoffs into guided lessons, scenario cards, and a clear readiness signal.</p>
+        <p>This is more than certification prep. It is a product system: content architecture, interaction design, progress modeling, native iOS delivery, and AWS-backed distribution.</p>
+        <div class="project-facts">
+          <span>SwiftUI</span><span>AWS architecture</span><span>Product design</span><span>In active development</span>
+        </div>
+        <div class="button-row">
+          <a class="button primary" href="https://saa-swipe.markgingrass.com" target="_blank" rel="noreferrer">Explore SAA-Swipe <span aria-hidden="true">↗</span></a>
+          <a class="button" href="/work/#saa-swipe">Read the build brief</a>
+        </div>
+      </div>
+      <div class="phone-cluster project-visual" data-reveal>
+        <div class="phone primary-phone">
+          <img src="https://saa-swipe.markgingrass.com/assets/screenshots/home-progress.png" alt="SAA-Swipe home screen showing study progress and an active streak" width="1206" height="2622" loading="lazy" />
+        </div>
+        <div class="phone secondary">
+          <img src="https://saa-swipe.markgingrass.com/assets/screenshots/practice-progress.png" alt="SAA-Swipe practice screen showing an architecture scenario" width="1206" height="2622" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-stage petshots" aria-labelledby="petshots-title">
+    <div class="project-inner">
+      <div class="architecture-card project-visual" data-reveal aria-label="Simplified PetShots architecture diagram">
+        <div class="architecture-head"><span>PetShots / production topology</span><span>Serverless by design</span></div>
+        <div class="architecture-flow">
+          <div class="architecture-node">CloudFront<br />+ S3</div>
+          <div class="architecture-node">Cognito<br />JWT</div>
+          <div class="architecture-node accent">API Gateway<br />+ Lambda</div>
+          <div class="architecture-node">S3 records<br />+ events</div>
+        </div>
+        <div class="architecture-foot">
+          <div><strong>15</strong><span>API routes</span></div>
+          <div><strong>0</strong><span>Idle servers</span></div>
+          <div><strong>CDK</strong><span>Infrastructure as code</span></div>
+        </div>
+      </div>
+      <div class="project-copy" data-reveal>
+        <p class="project-label">Production platform / live</p>
+        <h3 id="petshots-title">PetShots</h3>
+        <p>Secure pet records and revocable QR passports, designed and deployed end to end on AWS. The architecture favors low operational overhead, strong data boundaries, and costs that match an early-stage product.</p>
+        <p>The interesting work is in the decisions: direct-to-S3 uploads, authorization at the gateway, retained user data, and a deliberate migration path when today’s simple storage model stops winning.</p>
+        <div class="project-facts">
+          <span>TypeScript</span><span>AWS CDK</span><span>EventBridge</span><span>Cognito</span>
+        </div>
+        <div class="button-row">
+          <a class="button primary" href="https://petshots.app" target="_blank" rel="noreferrer">Visit the product <span aria-hidden="true">↗</span></a>
+          <a class="button" href="https://github.com/mtgingrass/petshots" target="_blank" rel="noreferrer">Review the source</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell case-grid">
+      <div class="case-intro" data-reveal>
+        <p class="eyebrow">Applied AI / inside the firewall</p>
+        <h3>AI embedded in FDA research tracking—not bolted on.</h3>
+        <p>I led the integration of an in-boundary LLM into CTP research tracking applications. It analyzes project abstracts against the coding manual, surfaces supporting evidence, and flags discrepancies. Regulatory science reviewers keep the final call.</p>
+        <a class="button link" href="/work/#applied-ai">View the operating model <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="case-steps" data-reveal>
+        <div class="case-step"><span>01</span><div><h4>Constrain the task</h4><p>Analyze against an authoritative manual—not an open-ended prompt.</p></div></div>
+        <div class="case-step"><span>02</span><div><h4>Show the evidence</h4><p>Return supporting snippets and discrepancy flags with each recommendation.</p></div></div>
+        <div class="case-step"><span>03</span><div><h4>Preserve accountability</h4><p>Use AI to narrow the discussion; keep decision authority with reviewers.</p></div></div>
+        <div class="case-step"><span>04</span><div><h4>Fit the environment</h4><p>Operate within the agency boundary and the existing review process.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="identity-panel">
+    <div class="portrait-wrap">
+      <Image src={markPortrait} alt="Mark Gingrass seated outdoors" widths={[640, 960, 1280]} sizes="(max-width: 980px) 100vw, 42vw" loading="eager" />
+    </div>
+    <div class="identity-copy">
+      <div>
+        <p class="micro-label">The through-line</p>
+        <blockquote>Make the complicated workable—and make the work matter.</blockquote>
+      </div>
+      <div>
+        <p>Air Force veteran. Computer Science graduate. MBA. GS-14 program manager and COR III. I’ve spent two decades seeing how government technology succeeds, stalls, and survives contact with reality. My FDA work spans research data integration, scientific information retrieval, product delivery, and responsible AI.</p>
+        <a class="button" href="/profile/">More about how I operate <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact">
+    <div class="shell">
+      <SectionHeading index="02" label="Field notes" title="Writing about systems, incentives, and the decisions between them." />
+      <div class="writing-grid">
+        <a class="writing-card" href="https://newsletter.markgingrass.com" target="_blank" rel="noreferrer" data-reveal>
+          <span class="micro-label">Federal IT</span><h3>The certificate warning nobody reads</h3><p>Read on Substack ↗</p>
+        </a>
+        <a class="writing-card" href="https://newsletter.markgingrass.com" target="_blank" rel="noreferrer" data-reveal>
+          <span class="micro-label">Applied AI</span><h3>The AI solution trap</h3><p>Read on Substack ↗</p>
+        </a>
+        <a class="writing-card" href="https://newsletter.markgingrass.com" target="_blank" rel="noreferrer" data-reveal>
+          <span class="micro-label">All dispatches</span><h3>Notes from the intersection of public mission and modern technology.</h3><p>Browse the newsletter ↗</p>
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

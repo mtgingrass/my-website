@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+---
+
+<BaseLayout title="Selected work — Mark Gingrass" description="Selected product, cloud architecture, applied AI, and federal modernization work by Mark Gingrass.">
+  <header class="page-hero">
+    <p class="eyebrow">Selected work / public mission + private execution</p>
+    <h1>Systems built to survive reality.</h1>
+    <p class="lede">Federal research platforms, responsible AI, and production cloud products. The common thread is making clear architecture and delivery decisions under real constraints.</p>
+  </header>
+
+  <section class="section paper" id="fda-mission-systems">
+    <div class="shell">
+      <SectionHeading
+        index="01"
+        label="FDA mission systems"
+        title="Modernizing the information layer behind regulatory science."
+        body="My work at FDA’s Center for Tobacco Products connects research operations, data integration, scientific retrieval, acquisition, and product delivery. Much of the implementation is internal; the mission and several core systems are documented publicly."
+      />
+      <div class="case-grid">
+        <div class="case-intro">
+          <p class="project-label">CTP Integrated Research Data System</p>
+          <h3>CIRDS</h3>
+          <p style="color:#505851">I helped lead CIRDS from proof of concept toward production and am the first author on FDA’s public technical poster about the platform. CIRDS brought previously disconnected tobacco-research sources into a unified search and discovery experience for CTP scientists.</p>
+          <a class="button" href="https://www.fda.gov/media/141989/download" target="_blank" rel="noreferrer" style="color:#0b0d0c;border-color:rgba(11,13,12,.3)">View the FDA technical poster ↗</a>
+        </div>
+        <div class="work-list" style="border-color:rgba(11,13,12,.2)">
+          <div class="work-row"><span style="color:#4b6800">15M+</span><h3>Integrated records</h3><p style="color:#505851">Research projects and documents brought together across four heterogeneous sources.</p><span></span></div>
+          <div class="work-row"><span style="color:#4b6800">04</span><h3>Source systems</h3><p style="color:#505851">RTS, TCKB, iDAT, and the UCSF Truth Tobacco Industry Documents archive.</p><span></span></div>
+          <div class="work-row"><span style="color:#4b6800">OS</span><h3>Mission context</h3><p style="color:#505851">FDA’s current IT plan describes AIRRS as a CTP Office of Science suite supporting scientific and business analysis.</p><a href="https://www.fda.gov/media/185225/download" target="_blank" rel="noreferrer" style="color:#4b6800">FDA IT plan ↗</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="applied-ai">
+    <div class="shell case-grid">
+      <div class="case-intro">
+        <p class="eyebrow">02 / AI inside research tracking</p>
+        <h3>Responsible AI, embedded in the operating workflow.</h3>
+        <p>I led the integration of an in-boundary LLM into CTP research tracking applications. It analyzes regulatory research abstracts against the coding manual and returns recommendations, evidence snippets, and discrepancy flags.</p>
+        <p>The architecture is intentionally human-in-the-loop: AI narrows the review surface; regulatory science staff retain authority.</p>
+      </div>
+      <div class="case-steps">
+        <div class="case-step"><span>WHY</span><div><h4>Reduce low-value comparison work</h4><p>Direct expert attention toward disagreements and edge cases.</p></div></div>
+        <div class="case-step"><span>HOW</span><div><h4>Ground every recommendation</h4><p>Use the governing manual and surface the evidence behind the output.</p></div></div>
+        <div class="case-step"><span>WHO</span><div><h4>Keep reviewers accountable</h4><p>The system recommends. FDA staff decide.</p></div></div>
+        <div class="case-step"><span>FIT</span><div><h4>Design for the agency boundary</h4><p>Integrate into the existing research workflow and security environment.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-stage" id="saa-swipe" aria-labelledby="work-saa-title">
+    <div class="project-inner">
+      <div class="project-copy">
+        <p class="project-label">03 / Native product / active build</p>
+        <h3 id="work-saa-title">SAA—<br />Swipe</h3>
+        <p>AWS certification content is abundant; decision fluency is not. SAA-Swipe is designed around the signals that distinguish a plausible answer from the strongest architecture choice.</p>
+        <div class="project-facts"><span>SwiftUI</span><span>Content system</span><span>Progress model</span><span>AWS</span></div>
+        <a class="button primary" href="https://saa-swipe.markgingrass.com" target="_blank" rel="noreferrer">View live product site ↗</a>
+      </div>
+      <div class="phone-cluster project-visual">
+        <div class="phone primary-phone"><img src="https://saa-swipe.markgingrass.com/assets/screenshots/tutorial-progress.png" alt="SAA-Swipe tutorial progress screen" width="1206" height="2622" /></div>
+        <div class="phone secondary"><img src="https://saa-swipe.markgingrass.com/assets/screenshots/study-progress.png" alt="SAA-Swipe study index screen" width="1206" height="2622" /></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section paper">
+    <div class="shell">
+      <SectionHeading index="03.A" label="Product brief" title="A study system built around architecture judgment." body="The MVP deliberately connects three modes—learn, study, practice—so content is reinforced in context instead of becoming another disconnected question bank." />
+      <div class="work-list">
+        <div class="work-row"><span>01</span><h3>Problem framing</h3><p>Shift exam prep from memorizing services toward recognizing constraints, tradeoffs, and decision fingerprints.</p><a href="https://saa-swipe.markgingrass.com" target="_blank">Product site ↗</a></div>
+        <div class="work-row"><span>02</span><h3>Experience model</h3><p>Keep the daily loop focused: follow the course, practice the clues, and know what needs another pass.</p><span></span></div>
+        <div class="work-row"><span>03</span><h3>Delivery posture</h3><p>Build a coherent native product and content pipeline first; add complexity only when product evidence demands it.</p><span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-stage petshots" aria-labelledby="work-petshots-title">
+    <div class="project-inner">
+      <div class="architecture-card project-visual">
+        <div class="architecture-head"><span>Request path / simplified</span><span>IaC: AWS CDK</span></div>
+        <div class="architecture-flow"><div class="architecture-node">CloudFront<br />OAC</div><div class="architecture-node">Cognito<br />JWT</div><div class="architecture-node accent">HTTP API<br />Lambda</div><div class="architecture-node">S3<br />EventBridge</div></div>
+        <div class="architecture-foot"><div><strong>ARM64</strong><span>Lambda runtime</span></div><div><strong>SES</strong><span>Expiry reminders</span></div><div><strong>RETAIN</strong><span>User data policy</span></div></div>
+      </div>
+      <div class="project-copy">
+        <p class="project-label">04 / AWS platform / production</p>
+        <h3 id="work-petshots-title">PetShots</h3>
+        <p>Pet records with shareable, expiring QR passports. Built as a serverless system to keep idle cost and operational burden close to zero without giving up clean security boundaries.</p>
+        <div class="project-facts"><span>React + TypeScript</span><span>CloudFront</span><span>API Gateway</span><span>Lambda</span><span>S3</span></div>
+        <div class="button-row"><a class="button primary" href="https://petshots.app" target="_blank" rel="noreferrer">Open PetShots ↗</a><a class="button" href="https://github.com/mtgingrass/petshots" target="_blank" rel="noreferrer">Source ↗</a></div>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>

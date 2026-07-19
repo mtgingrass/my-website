@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const apps = {
+  'greenville-run-clubs': {
+    name: 'GreenvilleRunClubs',
+    label: 'Community running / iOS',
+    description: 'A native directory for discovering running clubs, group runs, and local races in Greenville, South Carolina.',
+    features: ['Club and run discovery', 'Local event information', 'Privacy-first, on-device preferences', 'Optional App Store tip jar'],
+    store: 'https://apps.apple.com/us/app/greenvillerunclubs/id6749022264',
+    support: 'greenvillerunclubs@markgingrass.com'
+  },
+  'piggy-piggy': {
+    name: 'Piggy Piggy',
+    label: 'Family finance / iOS',
+    description: 'A straightforward tracker for money a parent is holding on behalf of a child—gifts, purchases, notes, and the remaining balance.',
+    features: ['Multiple balances', 'Transaction notes', 'Simple visual tracking', 'All financial data stored on device'],
+    store: 'https://apps.apple.com/us/app/piggy-piggy/id6746965872',
+    support: 'piggypiggy@markgingrass.com'
+  }
+};
+
+export function getStaticPaths() {
+  return ['greenville-run-clubs', 'piggy-piggy'].map((app) => ({ params: { app } }));
+}
+
+const app = apps[Astro.params.app];
+---
+
+<BaseLayout title={`${app.name} — Mark Gingrass`} description={app.description}>
+  <article class="page-hero app-page">
+    <p class="eyebrow">{app.label}</p>
+    <h1>{app.name}</h1>
+    <p class="lede" style="margin-left:0">{app.description}</p>
+    <div class="button-row" style="margin-top:2.5rem"><a class="button primary" href={app.store} target="_blank" rel="noreferrer">View on the App Store ↗</a><a class="button" href={`mailto:${app.support}`}>Support</a></div>
+    <hr />
+    <h2>Features</h2>
+    <ul>{app.features.map((feature: string) => <li>{feature}</li>)}</ul>
+    <h2>Privacy</h2>
+    <p>The app is designed to minimize data collection. Read the complete <a href={`/apps/${Astro.params.app}/privacy/`}>privacy policy</a>.</p>
+  </article>
+</BaseLayout>

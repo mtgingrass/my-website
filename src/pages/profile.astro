@@ -1,0 +1,69 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import markHiking from '../../images/markhikebig.webp';
+---
+
+<BaseLayout title="Profile — Mark Gingrass" description="Mark Gingrass is a GS-14 program manager, Air Force veteran, MBA, and hands-on technical builder with more than 20 years in federal technology.">
+  <header class="page-hero">
+    <p class="eyebrow">Profile / leadership with technical range</p>
+    <h1>Built for consequential work.</h1>
+    <p class="lede">I understand the institution, stay credible with the technology, and keep both pointed at the mission.</p>
+  </header>
+
+  <section class="section compact">
+    <div class="shell profile-grid">
+      <div class="profile-sticky">
+        <Image class="profile-image" src={markHiking} alt="Mark Gingrass outdoors on a hiking trail" widths={[560, 900]} sizes="(max-width: 720px) 100vw, 42vw" loading="eager" />
+      </div>
+      <div class="profile-copy">
+        <p class="eyebrow">The short version</p>
+        <h2>I translate across the rooms where technology gets decided.</h2>
+        <p>I’m a GS-14 program manager and COR III at the FDA, leading research-system modernization that serves more than 400 regulatory scientists. My work combines product direction, solutions architecture, acquisition, data integration, and the responsible use of AI inside the agency boundary.</p>
+        <p>That mix matters. Government systems do not fail only because of code. They fail at the seams—between the mission and the requirement, the contract and the product, the architecture and the operating environment. I’ve spent more than 20 years working those seams.</p>
+        <p>I’m now focused on senior TPM and Solutions Architect roles in GovTech and DefenseTech where federal fluency and technical judgment belong in the same person.</p>
+
+        <div class="profile-stack">
+          <div class="profile-item"><span>Mission context</span><p>Federal and defense experience, including the constraints of acquisition, security review, governance, and long-lived programs.</p></div>
+          <div class="profile-item"><span>Program scale</span><p>Product strategy and modernization leadership for systems serving 400+ regulatory scientists.</p></div>
+          <div class="profile-item"><span>Accountability</span><p>COR III experience overseeing contractor performance and translating program outcomes into executable delivery.</p></div>
+          <div class="profile-item"><span>Technical range</span><p>Federal research systems, information retrieval, AWS serverless architecture, infrastructure as code, TypeScript, and applied AI workflows—enough depth to challenge assumptions at the whiteboard.</p></div>
+          <div class="profile-item"><span>Education</span><p>Master of Business Administration and Bachelor’s in Computer Science, earned while working full-time.</p></div>
+          <div class="profile-item"><span>Technical education</span><p>Taught C++ to adult learners at Metro Technology Centers and built successful technical courses for YouTube and Udemy. Clear explanation is part of the architecture role, not a side skill.</p></div>
+        </div>
+
+        <div class="button-row" style="margin-top: 2.5rem;">
+          <a class="button primary" href="mailto:mark@markgingrass.com">Start a conversation ↗</a>
+          <a class="button" href="https://www.linkedin.com/in/markgingrass/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section paper">
+    <div class="shell">
+      <SectionHeading index="01" label="Operating principles" title="How I approach the work when the stakes are real." />
+      <div class="role-grid" style="border-color: rgba(11,13,12,.18);">
+        <article class="role-card"><span class="number" style="color:#4b6800">01.A</span><h3>Make the decision visible</h3><p style="color:#555e57">Architecture and program choices should expose the tradeoff, the owner, and what would cause us to revisit them.</p></article>
+        <article class="role-card"><span class="number" style="color:#4b6800">01.B</span><h3>Ship the useful core</h3><p style="color:#555e57">A smaller release in users’ hands creates better evidence than a perfect roadmap still waiting for consensus.</p></article>
+        <article class="role-card"><span class="number" style="color:#4b6800">01.C</span><h3>Build for whoever comes next</h3><p style="color:#555e57">Federal programs outlast their leaders. Systems and decisions need to be understandable, operable, and defensible after the room changes.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact">
+    <div class="shell case-grid">
+      <div class="case-intro">
+        <p class="eyebrow">Away from the whiteboard</p>
+        <h3>Outside, preferably with some elevation.</h3>
+        <p>I hike, camp, mountain bike, run, skateboard, and make an annual trip to West Virginia for Class V whitewater. Ollie, my Golden Retriever, handles trail operations whenever conditions permit.</p>
+      </div>
+      <div class="case-steps">
+        <div class="case-step"><span>01</span><div><h4>Air Force veteran</h4><p>A foundation in service, discipline, and mission accountability.</p></div></div>
+        <div class="case-step"><span>02</span><div><h4>Community volunteer</h4><p>Tree planting and trail cleanup in the places I use.</p></div></div>
+        <div class="case-step"><span>03</span><div><h4>Persistent builder</h4><p>If a useful product does not exist, my instinct is to make the first version.</p></div></div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const apps = {
+  'greenville-run-clubs': { name: 'GreenvilleRunClubs', date: 'July 24, 2025', data: 'club information and personal preferences', email: 'greenvillerunclubs@markgingrass.com' },
+  'iwndwytoday': { name: 'IWNDWYToday', date: 'June 17, 2025', data: 'progress tracking and personal notes', email: 'iwndwytoday@markgingrass.com' },
+  'piggy-piggy': { name: 'Piggy Piggy', date: 'June 17, 2025', data: 'balances and transaction notes', email: 'piggypiggy@markgingrass.com' }
+};
+
+export function getStaticPaths() {
+  return ['greenville-run-clubs', 'iwndwytoday', 'piggy-piggy'].map((app) => ({ params: { app } }));
+}
+
+const app = apps[Astro.params.app];
+---
+
+<BaseLayout title={`Privacy policy for ${app.name}`} description={`${app.name} privacy policy.`}>
+  <article class="page-hero app-page">
+    <p class="eyebrow">Privacy / {app.name}</p>
+    <h1>Privacy policy</h1>
+    <p><strong>Effective date:</strong> {app.date}</p>
+    <p>{app.name} respects your privacy. The app is designed for personal use and does not collect, store, or transmit personal information.</p>
+    <hr />
+    <h2>1. Data collection</h2>
+    <p>{app.name} does not collect names, email addresses, contact information, usage analytics, device information, or location data. All {app.data} are stored locally on your device and are never transmitted to a server.</p>
+    <h2>2. In-app purchases</h2>
+    <p>The app may include an optional Tip Jar. Apple processes all transactions through the App Store. {app.name} does not see, store, or handle payment data.</p>
+    <h2>3. Third-party services</h2>
+    <p>The app does not integrate with third-party advertising networks or analytics services.</p>
+    <h2>4. Children’s privacy</h2>
+    <p>The app does not collect data from children and does not require account registration.</p>
+    <h2>5. Contact</h2>
+    <p>Questions about this policy can be sent to <a href={`mailto:${app.email}`}>{app.email}</a>.</p>
+    <p><a href={`/apps/${Astro.params.app}/`}>← Back to {app.name}</a></p>
+  </article>
+</BaseLayout>

@@ -1,12 +1,63 @@
 [build]
+  command = "npm run build"
   functions = "netlify/functions"
-  publish = "_site"
+  publish = "dist"
 
-[[plugins]]
-package = "@quarto/netlify-plugin-quarto"
+[build.environment]
+  NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/projects/*"
+  to = "/work/"
+  status = 301
+
+[[redirects]]
+  from = "/about.html"
+  to = "/profile/"
+  status = 301
+
+[[redirects]]
+  from = "/volunteerlist.html"
+  to = "/profile/"
+  status = 301
+
+[[redirects]]
+  from = "/apps/greenville-run-clubs/privacy.html"
+  to = "/apps/greenville-run-clubs/privacy/"
+  status = 301
+
+[[redirects]]
+  from = "/apps/iwndwytoday/privacy.html"
+  to = "/apps/iwndwytoday/privacy/"
+  status = 301
+
+[[redirects]]
+  from = "/apps/iwndwytoday/"
+  to = "/work/"
+  status = 301
+
+[[redirects]]
+  from = "/apps/piggy-piggy/privacy.html"
+  to = "/apps/piggy-piggy/privacy/"
+  status = 301
+
+[[redirects]]
+  from = "/apps/habit-tracker/*"
+  to = "/work/"
+  status = 301
+
+[[redirects]]
+  from = "/booklist.html"
+  to = "https://newsletter.markgingrass.com"
+  status = 301
 
 [[redirects]]
   from = "/posts.html"
+  to = "https://newsletter.markgingrass.com"
+  status = 301
+
+[[redirects]]
+  from = "/posts/*"
   to = "https://newsletter.markgingrass.com"
   status = 301
 

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0b0d0c"/>
+  <path d="M0 510L1200 120" stroke="#252a27" stroke-width="1"/>
+  <circle cx="1010" cy="120" r="240" fill="#c8ff3d" opacity=".9"/>
+  <text x="80" y="230" fill="#f2f2ec" font-family="Arial, sans-serif" font-size="86" font-weight="700">Mark Gingrass</text>
+  <text x="80" y="320" fill="#a7ada8" font-family="Arial, sans-serif" font-size="38">Mission × technology × delivery</text>
+  <text x="80" y="530" fill="#c8ff3d" font-family="monospace" font-size="22">FEDERAL PROGRAM LEADERSHIP / CLOUD / APPLIED AI</text>
+</svg>

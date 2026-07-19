@@ -20,7 +20,7 @@ I built this app while sharpening my SwiftUI skills.
 
 ### Support
 
-Having issues or have suggestions? [Contact me](mailto:mg@markgingrass.com) or visit the [GitHub repository](https://github.com/mtgingrass/SimpleHabit).
+Having issues or have suggestions? [Contact me](mailto:mark@markgingrass.com) or visit the [GitHub repository](https://github.com/mtgingrass/SimpleHabit).
 
 ### Privacy
 

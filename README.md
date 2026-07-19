@@ -1,33 +1,41 @@
 # markgingrass.com
 
-Personal portfolio and technical site for Mark Gingrass — live at **[markgingrass.com](https://markgingrass.com)**.
-
-## What this is
-
-I started this site to get hands-on with modern static site tooling and AI-assisted workflows while studying for my AWS Solutions Architect certification. What began as a learning project is now a fully automated production pipeline: write in Markdown, push to GitHub, Netlify deploys in under a minute.
-
-The site itself is the byproduct. The real output was learning to ship.
+Personal portfolio for Mark Gingrass, positioned for senior technical program management and solutions architecture work in GovTech and DefenseTech.
 
 ## Stack
 
-| Layer | Tool |
-|---|---|
-| Content | [Quarto](https://quarto.org) (Markdown + YAML frontmatter) |
-| Theme | Quarto Cosmo + custom SCSS/CSS, dark mode via JS |
-| Hosting | Netlify (auto-deploy on push) |
-| Serverless | Netlify Function (newsletter feed from Substack RSS) |
-| Source | This repo |
+- Astro 7 in static output mode
+- TypeScript
+- Bespoke CSS design system; no UI framework or portfolio template
+- Netlify continuous deployment
+- Netlify Function for the newsletter feed remains available at `/.netlify/functions/newsletter-feed`
 
-## What I'm building alongside this
+## Local development
 
-This site is one piece of a broader set of hands-on work:
+```bash
+npm install
+npm run dev
+```
 
-- **[PetShots](https://petshots.app)** — a production serverless platform on AWS (CloudFront, Cognito, API Gateway, Lambda, S3, EventBridge, SES) built with CDK in TypeScript. That's the deeper AWS showcase.
-- **AWS SAA-C03** — certification in progress, grounded in services I already operate.
-- **AI Agent Workflows** — building multi-step agentic pipelines with Claude and GPT-4o as part of my work in federal IT modernization.
+The development server runs at `http://localhost:4321` by default.
 
-## Background
+## Validation and production build
 
-I'm a GS-14 Program Manager at the FDA's Center for Tobacco Products, pivoting into Solutions Architect and senior TPM roles in GovTech and defense tech. Twenty-plus years in federal technology, a CS degree, and a habit of finishing what I start.
+```bash
+npm run build
+npm run preview
+```
 
-More at [markgingrass.com/about](https://markgingrass.com/about.html).
+The build runs `astro check` before creating the static site in `dist/`.
+
+## Structure
+
+- `src/pages/` — routes
+- `src/layouts/` — shared document shell
+- `src/components/` — shared navigation and section components
+- `src/styles/global.css` — design system and responsive behavior
+- `images/` — source portraits imported through Astro's image pipeline
+- `netlify/functions/` — serverless newsletter feed proxy
+- `*.qmd`, `_quarto.yml`, and `_quarto.scss` — retained legacy Quarto source for content reference; not used by the active build
+
+The old `Learn`/book-list navigation has intentionally been removed. Current writing lives on the newsletter.

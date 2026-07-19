@@ -1,0 +1,28 @@
+---
+const path = Astro.url.pathname;
+const links = [
+  { href: '/work/', label: 'Selected work' },
+  { href: '/profile/', label: 'Profile' },
+  { href: 'https://newsletter.markgingrass.com', label: 'Field notes', external: true }
+];
+---
+
+<header class="site-header">
+  <a class="wordmark" href="/" aria-label="MG Mark Gingrass, home">
+    <span class="wordmark-mark" aria-hidden="true">MG</span>
+    <span class="wordmark-name">Mark Gingrass</span>
+  </a>
+  <nav aria-label="Primary navigation">
+    {links.map((link) => (
+      <a
+        href={link.href}
+        class:list={{ active: !link.external && path.startsWith(link.href) }}
+        target={link.external ? '_blank' : undefined}
+        rel={link.external ? 'noreferrer' : undefined}
+      >
+        {link.label}
+      </a>
+    ))}
+  </nav>
+  <a class="header-contact" href="mailto:mark@markgingrass.com">Start a conversation <span aria-hidden="true">↗</span></a>
+</header>

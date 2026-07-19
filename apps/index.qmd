@@ -11,7 +11,7 @@ toc: false
 
 I set out to prove I could take native iOS apps from idea to the App Store, and shipped them. SwiftUI apps solving real problems with clean, intuitive design and privacy-first principles. See [Projects](/projects/) for the full picture, including my serverless AWS work.
 
-[View Source Code](https://github.com/mtgingrass){.btn .btn-primary} [Contact Me](mailto:mg@markgingrass.com){.btn .btn-secondary}
+[View Source Code](https://github.com/mtgingrass){.btn .btn-primary} [Contact Me](mailto:mark@markgingrass.com){.btn .btn-secondary}
 :::
 :::
 
@@ -264,4 +264,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
-</script> 
+</script>

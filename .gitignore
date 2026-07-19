@@ -10,6 +10,11 @@
 /.quarto/
 /_site/
 
+# Astro / Node build artifacts
+node_modules/
+dist/
+.astro/
+
 # Raw images - only include optimized webp versions
 **/*.png
 **/*.jpg
