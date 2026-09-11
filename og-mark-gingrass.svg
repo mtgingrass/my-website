@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="photo-fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#101512" stop-opacity="1"/>
+      <stop offset="0.18" stop-color="#101512" stop-opacity="0.86"/>
+      <stop offset="0.48" stop-color="#101512" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bottom-fade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0.58" stop-color="#101512" stop-opacity="0"/>
+      <stop offset="1" stop-color="#101512" stop-opacity="0.58"/>
+    </linearGradient>
+    <clipPath id="portrait"><rect x="746" width="454" height="630"/></clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="#101512"/>
+  <path d="M0 630L638 0" stroke="#2b342d" stroke-width="1"/>
+  <path d="M84 0L0 84M260 0L0 260M436 0L0 436" stroke="#202820" stroke-width="1"/>
+  <g clip-path="url(#portrait)">
+    <image href="images/MarkPro.webp" x="746" y="0" width="454" height="630" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <rect x="680" width="520" height="630" fill="url(#photo-fade)" transform="rotate(180 940 315)"/>
+  <rect x="746" width="454" height="630" fill="url(#bottom-fade)"/>
+  <rect x="80" y="81" width="54" height="8" rx="4" fill="#c8ff3d"/>
+  <text x="80" y="150" fill="#c8ff3d" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2.4">MARKGINGRASS.COM</text>
+  <text x="80" y="280" fill="#f5f7f2" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700">Mark</text>
+  <text x="80" y="367" fill="#f5f7f2" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700">Gingrass</text>
+  <text x="80" y="438" fill="#c7cec7" font-family="Arial, Helvetica, sans-serif" font-size="31">Federal digital transformation leader</text>
+  <text x="80" y="530" fill="#f5f7f2" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="1.4">MISSION SYSTEMS  /  APPLIED AI  /  DELIVERY</text>
+</svg>

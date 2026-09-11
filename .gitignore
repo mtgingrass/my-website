@@ -20,4 +20,5 @@ dist/
 **/*.jpg
 **/*.jpeg
 !apps/iwndwytoday/images/IWNDWY_icon.png
+!public/og-mark-gingrass.png
 **/*.quarto_ipynb
