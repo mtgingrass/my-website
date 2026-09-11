@@ -10,7 +10,7 @@ Legacy Quarto files remain in the repository only as a content archive. Do not a
 
 ## Positioning
 
-Mark is a GS-14 program manager, COR III, Air Force veteran, MBA, and Computer Science graduate with 20+ years in federal technology. He operates primarily at the strategy and digital-transformation level, setting product and technical direction and holding delivery accountable. His independent products demonstrate current technical judgment and end-to-end product leadership; do not position him as an individual-contributor developer. The primary audience is hiring leaders for senior digital transformation, TPM, and Solutions Architect roles in GovTech and DefenseTech.
+Mark is a GS-14 program manager, COR III, Air Force veteran, MBA, with an electrical engineering and computer science background, and 20+ years in federal technology. He operates primarily at the strategy and digital-transformation level, setting product and technical direction and holding delivery accountable. His independent products demonstrate current technical judgment and end-to-end product leadership; do not position him as an individual-contributor developer. The primary audience is hiring leaders for senior digital transformation, TPM, and Solutions Architect roles in GovTech and DefenseTech.
 
 Use evidence and decisions instead of certification-prep or beginner language. The primary proof points are FDA CTP research-system modernization, CIRDS, a human-in-the-loop AI workflow in research tracking, SAA-Swipe, and PetShots. The public CIRDS technical poster identifies Mark as first author and documents 15M+ integrated records; use that fact precisely, and do not claim ownership of unrelated FDA or CTP outcomes.
 
