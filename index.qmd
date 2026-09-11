@@ -40,7 +40,7 @@ I translate between the people who fund systems and the people who build them. I
 </div>
 <div class="col-md-6">
 
-![Mark Gingrass Pose](images/MarkPro.webp){.img-fluid .rounded-xl .shadow-lg}
+![Mark Gingrass in his home office](images/MarkPro.webp){.img-fluid .rounded-xl .shadow-lg}
 
 </div>
 </div>
@@ -158,4 +158,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
