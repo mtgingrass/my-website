@@ -184,12 +184,14 @@ button, a { -webkit-tap-highlight-color: transparent; }
   width: min(calc(100% - (var(--gutter) * 2)), var(--max));
   margin-inline: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .proof-item { min-height: 142px; padding: 1.8rem 1.5rem; border-left: 1px solid var(--line); display: flex; flex-direction: column; justify-content: space-between; }
-.proof-item:last-child { border-right: 1px solid var(--line); }
+.proof-item:nth-child(3n) { border-right: 1px solid var(--line); }
+.proof-item:nth-child(n+4) { border-top: 1px solid var(--line); }
 .proof-item strong { font-size: clamp(1.55rem, 2.3vw, 2.2rem); line-height: 1; letter-spacing: -.05em; font-weight: 600; }
 .proof-item span { color: var(--muted); font: .68rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: .08em; }
+.proof-note { width: min(calc(100% - (var(--gutter) * 2)), var(--max)); margin: .75rem auto 1.2rem; color: var(--muted); font-size: .76rem; }
 
 .section { padding: clamp(6rem, 11vw, 11rem) 0; }
 .section.compact { padding-block: clamp(4.5rem, 8vw, 8rem); }
@@ -222,7 +224,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .role-card p { color: var(--muted); margin: 0; }
 
 .project-stage { background: #dce8ee; color: var(--ink); overflow: hidden; }
-.project-stage.petshots { background: #eee9df; }
 .project-inner {
   width: min(calc(100% - (var(--gutter) * 2)), var(--max));
   min-height: 760px;
@@ -454,8 +455,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .hero-home { min-height: auto; padding-block: 5rem 3rem; }
   .hero-home h1 { font-size: clamp(3.1rem, 15vw, 5rem); }
   .proof-grid { grid-template-columns: repeat(2, 1fr); }
-  .proof-item:nth-child(3) { border-top: 1px solid var(--line); }
-  .proof-item:nth-child(4) { border-top: 1px solid var(--line); }
+  .proof-item:nth-child(3n) { border-right: 0; }
+  .proof-item:nth-child(2n) { border-right: 1px solid var(--line); }
+  .proof-item:nth-child(n+3) { border-top: 1px solid var(--line); }
   .section-heading { grid-template-columns: 1fr; gap: 1.5rem; }
   .role-grid, .writing-grid { grid-template-columns: 1fr; }
   .role-card { min-height: auto; padding: 2rem 0 !important; border-right: 0; border-bottom: 1px solid var(--line); }
@@ -490,3 +492,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+.footer-cta { margin-bottom: .5rem; font-weight: 800; }
+.footer-aside { margin: 0 0 2rem; color: var(--muted); font-size: .9rem; }
