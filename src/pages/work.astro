@@ -8,28 +8,10 @@ import AwsArchitecture from '../components/AwsArchitecture.astro';
   <header class="page-hero">
     <p class="eyebrow">AWS architecture / mission systems / delivery</p>
     <h1>Architecture is a set of decisions I can defend.</h1>
-    <p class="lede">I work from the workload outward: access, data, compute, delivery, operations, and the people who will run it. The selected work below shows how that judgment connects to product and federal program leadership.</p>
+    <p class="lede">I work from the workload outward: access, data, compute, delivery, operations, and the people who will run it. My work spans AWS systems and federal research programs with real users and constraints.</p>
   </header>
 
   <AwsArchitecture id="aws-approach" />
-
-  <section class="section fda-lead" id="applied-ai" aria-labelledby="fda-title">
-    <div class="shell case-grid">
-      <div class="case-intro">
-        <p class="eyebrow">Leading AI in government / FDA</p>
-        <h2 id="fda-title">Paving the way for AI in FDA research tracking.</h2>
-        <p class="lead-statement">I’m leading FDA’s first research tracking system integrated with AI. Program management, team leadership, stakeholder alignment, and technical direction sit together in my role.</p>
-        <p>At the Center for Tobacco Products, I’m moving that work forward inside the agency boundary. The AI checks research abstracts against the governing coding manual, returns supporting evidence, and flags disagreements. FDA reviewers make the final call.</p>
-        <p>I use Lean thinking to target the manual comparison work. The system returns recommendations, evidence, and discrepancy flags so regulatory scientists can focus on the cases that need their judgment.</p>
-      </div>
-      <div class="case-steps">
-        <div class="case-step"><span>01</span><div><h3>Lead the program.</h3><p>Set priorities, coordinate teams and vendors, and keep delivery tied to the mission.</p></div></div>
-        <div class="case-step"><span>02</span><div><h3>Manage the stakeholders.</h3><p>Bring scientific, business, and technical needs into the same decision. Work through disagreements and keep people moving.</p></div></div>
-        <div class="case-step"><span>03</span><div><h3>Shape the architecture.</h3><p>Fit AI into the existing research workflow and agency boundary. Require evidence. Keep decision authority with reviewers.</p></div></div>
-        <div class="case-step"><span>04</span><div><h3>Connect funding to delivery.</h3><p>Connect investment and acquisition decisions to scope, ownership, and work the teams can execute.</p></div></div>
-      </div>
-    </div>
-  </section>
 
   <section class="section paper" id="fda-mission-systems">
     <div class="shell">
@@ -43,21 +25,43 @@ import AwsArchitecture from '../components/AwsArchitecture.astro';
         <div class="case-intro">
           <p class="project-label">CTP Integrated Research Data System</p>
           <h3>CIRDS</h3>
-          <p>I helped lead CIRDS from proof of concept toward production and am first author on FDA’s public technical poster about the platform. CIRDS integrated more than 15 million records from four previously disconnected sources into a unified search and discovery experience for CTP scientists.</p>
-          <a class="button" href="https://www.fda.gov/media/141989/download" target="_blank" rel="noreferrer">View the FDA technical poster ↗</a>
+          <p style="color:#505851">I helped lead CIRDS from proof of concept toward production and am first author on FDA’s public technical poster about the platform. CIRDS integrated more than 15 million records from four previously disconnected sources into a unified search and discovery experience for CTP scientists.</p>
+          <a class="button" href="https://www.fda.gov/media/141989/download" target="_blank" rel="noreferrer" style="color:#0b0d0c;border-color:rgba(11,13,12,.3)">View the FDA technical poster ↗</a>
         </div>
-        <div class="work-list">
-          <div class="work-row"><span>15M+</span><h3>Integrated records</h3><p>Research projects and documents brought together across four heterogeneous sources.</p><span></span></div>
-          <div class="work-row"><span>04</span><h3>Source systems</h3><p>RTS, TCKB, iDAT, and the UCSF Truth Tobacco Industry Documents archive.</p><span></span></div>
-          <div class="work-row"><span>OS</span><h3>Mission context</h3><p>FDA’s current IT plan describes AIRRS as a CTP Office of Science suite supporting scientific and business analysis.</p><a href="https://www.fda.gov/media/185225/download" target="_blank" rel="noreferrer">FDA IT plan ↗</a></div>
+        <div class="work-list" style="border-color:rgba(11,13,12,.2)">
+          <div class="work-row"><span style="color:#4b6800">15M+</span><h3>Integrated records</h3><p style="color:#505851">Research projects and documents brought together across four heterogeneous sources.</p><span></span></div>
+          <div class="work-row"><span style="color:#4b6800">04</span><h3>Source systems</h3><p style="color:#505851">RTS, TCKB, iDAT, and the UCSF Truth Tobacco Industry Documents archive.</p><span></span></div>
+          <div class="work-row"><span style="color:#4b6800">OS</span><h3>Mission context</h3><p style="color:#505851">FDA’s current IT plan describes AIRRS as a CTP Office of Science suite supporting scientific and business analysis.</p><a href="https://www.fda.gov/media/185225/download" target="_blank" rel="noreferrer" style="color:#4b6800">FDA IT plan ↗</a></div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="applied-ai">
+    <div class="shell case-grid">
+      <div class="case-intro">
+        <p class="eyebrow">02 / AI inside research tracking</p>
+        <h3>Let AI do the comparison. Let experts make the decision.</h3>
+        <p>I led the integration of an in-boundary LLM into CTP research tracking applications. It analyzes regulatory research abstracts against the governing coding manual and returns recommendations, supporting evidence, and discrepancy flags.</p>
+        <p>The AI cuts down the manual comparison work and shows its reasoning. Regulatory science staff remain responsible for the decision.</p>
+      </div>
+      <div class="case-steps">
+        <div class="case-step"><span>WHY</span><div><h4>Reduce low-value comparison work</h4><p>Direct expert attention toward disagreements and edge cases.</p></div></div>
+        <div class="case-step"><span>HOW</span><div><h4>Ground every recommendation</h4><p>Use the governing manual and surface the evidence behind the output.</p></div></div>
+        <div class="case-step"><span>WHO</span><div><h4>Keep reviewers accountable</h4><p>The system recommends. FDA staff decide.</p></div></div>
+        <div class="case-step"><span>FIT</span><div><h4>Design for the agency boundary</h4><p>Integrate into the existing research workflow and security environment.</p></div></div>
       </div>
     </div>
   </section>
 
   <section class="section paper" id="tutorialrepo">
     <div class="shell">
-      <SectionHeading index="03" label="Architecture in practice / TutorialRepo" title="One platform, connected decisions." body="I direct TutorialRepo across AWS delivery, AI, publishing, a native iOS client, and commercial operation. It is a working example of carrying architecture choices through launch and support." />
+      <SectionHeading
+        index="03"
+        label="Architecture in practice / TutorialRepo"
+        title="One platform, connected decisions."
+        body="I direct TutorialRepo across AWS delivery, AI, publishing, a native iOS client, and commercial operation. It is a working example of carrying architecture choices through launch and support."
+      />
       <div class="work-list">
         <div class="work-row"><span>01</span><h3>Reusable foundation</h3><p>Shared course, practice, review, and progress capabilities support additional subjects without rebuilding the system.</p><span></span></div>
         <div class="work-row"><span>02</span><h3>Cloud to client</h3><p>AWS content and AI delivery connect to the SwiftUI application through a publishing workflow.</p><span></span></div>
@@ -65,6 +69,5 @@ import AwsArchitecture from '../components/AwsArchitecture.astro';
       </div>
     </div>
   </section>
-
 
 </BaseLayout>

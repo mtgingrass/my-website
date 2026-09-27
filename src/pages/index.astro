@@ -8,20 +8,16 @@ import markPortrait from '../../images/MarkPro.webp';
 
 <BaseLayout>
   <section class="hero-home">
-    <div class="hero-copy">
-      <p class="eyebrow">AWS solutions architecture / federal technology leadership</p>
-      <h1><em>I connect the AWS architecture to the mission it serves.</em></h1>
+    <div>
+      <p class="eyebrow">AWS solutions architecture / federal mission systems</p>
+      <h1><em>Architecture that works across the whole system.</em></h1>
+    </div>
     <div class="hero-aside" data-reveal>
-      <p>I work across cloud services, security boundaries, data flows, and operations—and lead the people and decisions that turn an architecture into a working system. My federal program experience keeps technical choices tied to users, funding, and delivery.</p>
-      <p class="capability-line">AWS architecture · Applied AI · Federal mission systems · Program leadership</p>
+      <p>I connect AWS delivery, identity, APIs, workflows, and operations to the mission. I lead the technical and program decisions that carry a system from design into use.</p>
       <div class="button-row">
-        <a class="button primary" href="#aws-architecture">Explore my AWS approach <span aria-hidden="true">↘</span></a>
+        <a class="button primary" href="#aws-architecture">See my AWS approach <span aria-hidden="true">↘</span></a>
         <a class="button" href="https://www.linkedin.com/in/markgingrass/" target="_blank" rel="noreferrer">Hire me <span aria-hidden="true">↗</span></a>
       </div>
-    </div>
-    </div>
-    <div class="hero-portrait">
-      <Image src={markPortrait} alt="Mark Gingrass in his home office" widths={[640, 960, 1280]} sizes="(max-width: 720px) 160px, 260px" loading="eager" />
     </div>
   </section>
 
@@ -39,79 +35,80 @@ import markPortrait from '../../images/MarkPro.webp';
 
   <AwsArchitecture />
 
-  <section class="section fda-lead" aria-labelledby="fda-title">
-    <div class="shell case-grid">
-      <div class="case-intro">
-        <p class="eyebrow">Leading AI in government / FDA</p>
-        <h2 id="fda-title">Paving the way for AI in FDA research tracking.</h2>
-        <p class="lead-statement">I’m leading FDA’s first research tracking system integrated with AI. Program management, team leadership, stakeholder alignment, and technical direction sit together in my role.</p>
-        <p>At the Center for Tobacco Products, I’m moving that work forward inside the agency boundary. The AI checks research abstracts against the governing coding manual, returns supporting evidence, and flags disagreements. FDA reviewers make the final call.</p>
-        <a class="button primary" href="/work/#applied-ai">My role. The decisions. The work. <span aria-hidden="true">→</span></a>
-      </div>
-      <div class="case-steps">
-        <div class="case-step"><span>01</span><div><h3>Lead the program.</h3><p>Set priorities, coordinate teams and vendors, and keep delivery tied to the mission.</p></div></div>
-        <div class="case-step"><span>02</span><div><h3>Manage the stakeholders.</h3><p>Bring scientific, business, and technical needs into the same decision. Work through disagreements and keep people moving.</p></div></div>
-        <div class="case-step"><span>03</span><div><h3>Shape the architecture.</h3><p>Fit AI into the existing research workflow and agency boundary. Require evidence. Keep decision authority with reviewers.</p></div></div>
-        <div class="case-step"><span>04</span><div><h3>Connect funding to delivery.</h3><p>Connect investment and acquisition decisions to scope, ownership, and work the teams can execute.</p></div></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section project-proof" aria-labelledby="tutorialrepo-title">
-    <div class="shell project-proof-inner">
-      <div>
-        <p class="project-label">Architecture in practice / TutorialRepo</p>
-        <h2 id="tutorialrepo-title">A working product is one proof point.</h2>
-      </div>
-      <div>
-        <p>I direct the architecture for TutorialRepo across AWS delivery, AI, a publishing pipeline, and a native iOS client. The platform is designed to support more courses on the same foundation. I carry the decisions through release and ongoing operation.</p>
-        <a class="button" href="/work/#tutorialrepo">See the architecture decisions <span aria-hidden="true">→</span></a>
-      </div>
-    </div>
-  </section>
-
   <section class="section">
     <div class="shell">
       <SectionHeading
-        label="Lean / management / investment"
-        title="Before funding the solution, question the work."
-        body="Before making it faster, ask whether it needs to happen at all. I use Lean thinking to simplify, change, or stop work before committing technology, people, and funding. Then I connect mission priorities to architecture, acquisition, and delivery."
+        label="Operating range"
+        title="Get rid of the buzzwords. I’m solving a real problem. Before spending money on technology, I look at what we can simplify, change, or stop doing altogether."
+        body="I take mission priorities and connect them to the investment, acquisition, architecture, and product decisions needed to move forward. I know where those pieces overlap, where they get stuck, and who to bring together to get things done."
       />
       <div class="role-grid">
         <article class="role-card" data-reveal>
-          <h3>Set the direction.</h3>
+          <h3>Strategic direction</h3>
           <p>I set the direction, prioritize through both an enterprise and product owner lens, get the right people involved, and work with the team all the way through implementation.</p>
         </article>
         <article class="role-card" data-reveal>
-          <h3>Challenge the architecture.</h3>
+          <h3>Technical judgment</h3>
           <p>I look past the technical solution itself, challenge the assumptions behind it, and connect the decisions back to the mission and business need.</p>
         </article>
         <article class="role-card" data-reveal>
-          <h3>Own delivery.</h3>
+          <h3>Delivery accountability</h3>
           <p>I establish clear ownership, address problems early, and keep teams and vendors focused on building something that actually works for the people using it.</p>
         </article>
         <article class="role-card" data-reveal>
-          <h3>Lead teams and vendors.</h3>
+          <h3>Vendor leadership</h3>
           <p>I’ve led complex vendor environments for years, from onboarding new teams to coordinating multiple vendors, subcontractors, and projects running at the same time.</p>
         </article>
       </div>
     </div>
   </section>
 
+  <section class="section paper">
+    <div class="shell">
+      <SectionHeading
+        label="Architecture in practice / TutorialRepo"
+        title="A working system is one proof point."
+        body="I direct TutorialRepo across AWS delivery, AI, a publishing pipeline, and a native iOS client. The platform supports more courses on one foundation, and I carry the architecture decisions through release and operation."
+      />
+      <a class="button dark-button" href="/work/#tutorialrepo">See the architecture decisions <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell case-grid">
+      <div class="case-intro" data-reveal>
+        <p class="eyebrow">Applied AI / inside the firewall</p>
+        <h3>I use AI to speed up the work. Lean thinking decides what work is worth doing.</h3>
+        <p>I orchestrate multiple agents across research, analysis, development, and decision-making to multiply what I can get done.</p>
+        <p>I led the integration of an in-boundary LLM into CTP research tracking applications. It checks project abstracts against the coding manual, shows the evidence behind its recommendations, and flags disagreements. FDA reviewers make the final call.</p>
+        <a class="button link" href="/work/#applied-ai">See how it works <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="case-steps" data-reveal>
+        <div class="case-step"><span>01</span><div><h4>Constrain the task</h4><p>Analyze against an authoritative manual—not an open-ended prompt.</p></div></div>
+        <div class="case-step"><span>02</span><div><h4>Show the evidence</h4><p>Return supporting snippets and discrepancy flags with each recommendation.</p></div></div>
+        <div class="case-step"><span>03</span><div><h4>Preserve accountability</h4><p>Use AI to narrow the discussion; keep decision authority with reviewers.</p></div></div>
+        <div class="case-step"><span>04</span><div><h4>Fit the environment</h4><p>Operate within the agency boundary and the existing review process.</p></div></div>
+      </div>
+    </div>
+  </section>
+
   <section class="identity-panel">
+    <div class="portrait-wrap">
+      <Image src={markPortrait} alt="Mark Gingrass in his home office" widths={[640, 960, 1280]} sizes="(max-width: 980px) 100vw, 42vw" loading="eager" />
+    </div>
     <div class="identity-copy">
       <div>
         <p class="micro-label">The through-line</p>
         <blockquote>Solve the real problem.</blockquote>
       </div>
       <div>
-        <p>Air Force veteran. Former Program Manager in the DoD’s U.S. Air Force Supply Chain Management Wing, working in logistics and Art of the Possible. Electrical engineering and computer science background. MBA. GS-14 program manager and COR III. I’ve spent more than 20 years in federal technology. I know how programs get stuck, how vendors drift, and how good technical decisions get lost. I expect technology investments to produce something useful and justify what they cost. I also know how to get the work moving again.</p>
+        <p>Air Force veteran. Electrical engineering and computer science background. MBA. GS-14 program manager and COR III. I’ve spent more than 20 years in federal technology. I know how programs get stuck, how vendors drift, and how good technical decisions get lost. I expect technology investments to produce something useful and justify what they cost. I also know how to get the work moving again.</p>
         <a class="button" href="/profile/">More about how I operate <span aria-hidden="true">→</span></a>
       </div>
     </div>
   </section>
 
-  <section class="section compact writing-section">
+  <section class="section compact">
     <div class="shell">
       <SectionHeading index="02" label="Field notes" title="Writing about systems, incentives, and the decisions between them." />
       <div class="writing-grid">
