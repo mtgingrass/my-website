@@ -10,8 +10,8 @@ interface Props {
 }
 
 const {
-  title = 'Mark Gingrass — Federal digital transformation leader',
-  description = 'GS-14 program leader and COR III with 20+ years leading federal digital transformation, mission systems, applied AI, and technology delivery.',
+  title = 'Mark Gingrass — AWS solutions architecture & federal technology leadership',
+  description = 'AWS solutions architecture across delivery, identity, APIs, workflows, and operations. Federal technology and AI program leadership by Mark Gingrass.',
   image = '/og-mark-gingrass.png'
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
@@ -23,7 +23,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#0b0d0c" />
+    <meta name="theme-color" content="#faf9f6" />
     <meta name="generator" content={Astro.generator} />
     <link rel="canonical" href={canonical} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -42,27 +42,10 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <div class="page-noise" aria-hidden="true"></div>
     <Header />
     <main id="main">
       <slot />
     </main>
     <Footer />
-    <script is:inline>
-      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      if (!reduceMotion && 'IntersectionObserver' in window) {
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('is-visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.12, rootMargin: '0px 0px -40px' });
-        document.querySelectorAll('[data-reveal]').forEach((element) => observer.observe(element));
-      } else {
-        document.querySelectorAll('[data-reveal]').forEach((element) => element.classList.add('is-visible'));
-      }
-    </script>
   </body>
 </html>

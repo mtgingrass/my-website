@@ -1,7 +1,7 @@
 ---
 const path = Astro.url.pathname;
 const links = [
-  { href: '/work/', label: 'Selected work' },
+  { href: '/work/', label: 'AWS & work' },
   { href: '/profile/', label: 'Profile' },
   { href: 'https://newsletter.markgingrass.com', label: 'Field notes', external: true }
 ];
@@ -16,6 +16,7 @@ const links = [
     {links.map((link) => (
       <a
         href={link.href}
+        aria-current={!link.external && path.startsWith(link.href) ? 'page' : undefined}
         class:list={{ active: !link.external && path.startsWith(link.href) }}
         target={link.external ? '_blank' : undefined}
         rel={link.external ? 'noreferrer' : undefined}
