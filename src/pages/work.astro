@@ -1,22 +1,52 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SectionHeading from '../components/SectionHeading.astro';
-import AwsArchitecture from '../components/AwsArchitecture.astro';
 ---
 
-<BaseLayout title="AWS architecture and selected work — Mark Gingrass" description="AWS solutions architecture, FDA research-system modernization, and accountable AI leadership by Mark Gingrass.">
+<BaseLayout title="FDA RTS, applied AI, and AWS architecture — Mark Gingrass" description="Mark Gingrass leads the first LLM integration into FDA's Research Tracking System and planning to replatform RTS to AWS.">
   <header class="page-hero">
-    <p class="eyebrow">AWS architecture / mission systems / delivery</p>
-    <h1>Architecture is a set of decisions I can defend.</h1>
-    <p class="lede">I work from the workload outward: access, data, compute, delivery, operations, and the people who will run it. My work spans AWS systems and federal research programs with real users and constraints.</p>
+    <p class="eyebrow">FDA research systems / applied AI / AWS architecture</p>
+    <h1>What I’ve led and what I’m building next.</h1>
+    <p class="lede">I’m leading the first LLM integration into FDA’s Research Tracking System and the planning to replatform RTS to AWS. The work connects today’s research workflow to an eventual modernization path.</p>
   </header>
 
-  <AwsArchitecture id="aws-approach" />
+  <section class="section" id="rts-ai">
+    <div class="shell case-grid">
+      <div class="case-intro">
+        <p class="eyebrow">01 / Research Tracking System / applied AI</p>
+        <h3>Let AI do the comparison. Let experts make the decision.</h3>
+        <p>I’m leading the first AI integration into FDA’s Research Tracking System (RTS). The in-boundary LLM analyzes regulatory research abstracts against the governing coding manual and returns recommendations, supporting evidence, and discrepancy flags.</p>
+        <p>This workflow is being integrated into RTS to reduce manual comparison work and direct expert attention to disagreements. Regulatory science staff remain responsible for each decision.</p>
+      </div>
+      <div class="case-steps">
+        <div class="case-step"><span>WHY</span><div><h4>Reduce low-value comparison work</h4><p>Direct expert attention toward disagreements and edge cases.</p></div></div>
+        <div class="case-step"><span>HOW</span><div><h4>Ground every recommendation</h4><p>Use the governing manual and surface the evidence behind the output.</p></div></div>
+        <div class="case-step"><span>WHO</span><div><h4>Keep reviewers accountable</h4><p>The system recommends. FDA staff decide.</p></div></div>
+        <div class="case-step"><span>FIT</span><div><h4>Design for the agency boundary</h4><p>Integrate into the existing research workflow and security environment.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section rts-aws" id="rts-aws">
+    <div class="shell">
+      <SectionHeading
+        index="02"
+        label="RTS / AWS replatform planning"
+        title="Plan the move to AWS around the work RTS must support."
+        body="I’m leading the planning effort to replatform RTS to AWS and establish a path for eventual modernization. The decisions cover the current system, the target architecture, the migration sequence, and the people who will operate it."
+      />
+      <div class="work-list">
+        <div class="work-row"><span>01</span><h3>Current system</h3><p>Understand the research workflows, integrations, data, and constraints that the replatform must preserve.</p><span></span></div>
+        <div class="work-row"><span>02</span><h3>AWS architecture</h3><p>Shape a target architecture around security, resilience, access, operations, and cost before selecting services.</p><span></span></div>
+        <div class="work-row"><span>03</span><h3>Modernization path</h3><p>Sequence migration and later improvements so RTS continues to serve scientists as the platform changes.</p><span></span></div>
+      </div>
+    </div>
+  </section>
 
   <section class="section paper" id="fda-mission-systems">
     <div class="shell">
       <SectionHeading
-        index="01"
+        index="03"
         label="FDA mission systems"
         title="Modernizing the information layer behind regulatory science."
         body="At FDA’s Center for Tobacco Products, I connect research operations, data integration, scientific retrieval, acquisition, and product delivery. Much of the implementation is internal; the mission and several core systems are documented publicly."
@@ -37,27 +67,10 @@ import AwsArchitecture from '../components/AwsArchitecture.astro';
     </div>
   </section>
 
-  <section class="section" id="applied-ai">
-    <div class="shell case-grid">
-      <div class="case-intro">
-        <p class="eyebrow">02 / AI inside research tracking</p>
-        <h3>Let AI do the comparison. Let experts make the decision.</h3>
-        <p>I led the integration of an in-boundary LLM into CTP research tracking applications. It analyzes regulatory research abstracts against the governing coding manual and returns recommendations, supporting evidence, and discrepancy flags.</p>
-        <p>The AI cuts down the manual comparison work and shows its reasoning. Regulatory science staff remain responsible for the decision.</p>
-      </div>
-      <div class="case-steps">
-        <div class="case-step"><span>WHY</span><div><h4>Reduce low-value comparison work</h4><p>Direct expert attention toward disagreements and edge cases.</p></div></div>
-        <div class="case-step"><span>HOW</span><div><h4>Ground every recommendation</h4><p>Use the governing manual and surface the evidence behind the output.</p></div></div>
-        <div class="case-step"><span>WHO</span><div><h4>Keep reviewers accountable</h4><p>The system recommends. FDA staff decide.</p></div></div>
-        <div class="case-step"><span>FIT</span><div><h4>Design for the agency boundary</h4><p>Integrate into the existing research workflow and security environment.</p></div></div>
-      </div>
-    </div>
-  </section>
-
   <section class="section paper" id="tutorialrepo">
     <div class="shell">
       <SectionHeading
-        index="03"
+        index="04"
         label="Architecture in practice / TutorialRepo"
         title="One platform, connected decisions."
         body="I direct TutorialRepo across AWS delivery, AI, publishing, a native iOS client, and commercial operation. It is a working example of carrying architecture choices through launch and support."

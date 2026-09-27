@@ -2,20 +2,19 @@
 import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SectionHeading from '../components/SectionHeading.astro';
-import AwsArchitecture from '../components/AwsArchitecture.astro';
 import markPortrait from '../../images/MarkPro.webp';
 ---
 
 <BaseLayout>
   <section class="hero-home">
     <div>
-      <p class="eyebrow">AWS solutions architecture / federal mission systems</p>
-      <h1><em>Architecture that works across the whole system.</em></h1>
+      <p class="eyebrow">FDA research systems / applied AI / AWS architecture</p>
+      <h1><em>Before making work faster, ask whether it needs to happen at all.</em></h1>
     </div>
     <div class="hero-aside" data-reveal>
-      <p>I connect AWS delivery, identity, APIs, workflows, and operations to the mission. I lead the technical and program decisions that carry a system from design into use.</p>
+      <p>I lead modernization work for FDA’s Research Tracking System (RTS). I’m leading its first LLM integration and planning its replatform to AWS, connecting technical decisions to the mission, people, and investment behind them.</p>
       <div class="button-row">
-        <a class="button primary" href="#aws-architecture">See my AWS approach <span aria-hidden="true">↘</span></a>
+        <a class="button primary" href="/work/#rts-ai">See the RTS work <span aria-hidden="true">↘</span></a>
         <a class="button" href="https://www.linkedin.com/in/markgingrass/" target="_blank" rel="noreferrer">Hire me <span aria-hidden="true">↗</span></a>
       </div>
     </div>
@@ -33,7 +32,23 @@ import markPortrait from '../../images/MarkPro.webp';
     <p class="proof-note">The weapon systems, engines, and budget figures are from my previous role as a logistics supply chain manager for 448 SCMW.</p>
   </section>
 
-  <AwsArchitecture />
+  <section class="section">
+    <div class="shell case-grid">
+      <div class="case-intro" data-reveal>
+        <p class="eyebrow">Research Tracking System / applied AI</p>
+        <h3>Bring an LLM into RTS. Keep scientists in control.</h3>
+        <p>I’m leading the first AI integration into FDA’s Research Tracking System. The LLM compares project abstracts with the governing coding manual, returns supporting evidence, and flags disagreements. FDA reviewers make the final call.</p>
+        <p>In parallel, I’m leading planning to replatform RTS to AWS. That work sets the architecture and migration direction for eventual modernization while the current research mission continues.</p>
+        <a class="button link" href="/work/#rts-ai">See the RTS work <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="case-steps" data-reveal>
+        <div class="case-step"><span>01</span><div><h4>Constrain the task</h4><p>Analyze against an authoritative manual—not an open-ended prompt.</p></div></div>
+        <div class="case-step"><span>02</span><div><h4>Show the evidence</h4><p>Return supporting snippets and discrepancy flags with each recommendation.</p></div></div>
+        <div class="case-step"><span>03</span><div><h4>Preserve accountability</h4><p>Use AI to narrow the discussion; keep decision authority with reviewers.</p></div></div>
+        <div class="case-step"><span>04</span><div><h4>Fit the environment</h4><p>Operate within the agency boundary and the existing review process.</p></div></div>
+      </div>
+    </div>
+  </section>
 
   <section class="section">
     <div class="shell">
@@ -71,24 +86,6 @@ import markPortrait from '../../images/MarkPro.webp';
         body="I direct TutorialRepo across AWS delivery, AI, a publishing pipeline, and a native iOS client. The platform supports more courses on one foundation, and I carry the architecture decisions through release and operation."
       />
       <a class="button dark-button" href="/work/#tutorialrepo">See the architecture decisions <span aria-hidden="true">→</span></a>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="shell case-grid">
-      <div class="case-intro" data-reveal>
-        <p class="eyebrow">Applied AI / inside the firewall</p>
-        <h3>I use AI to speed up the work. Lean thinking decides what work is worth doing.</h3>
-        <p>I orchestrate multiple agents across research, analysis, development, and decision-making to multiply what I can get done.</p>
-        <p>I led the integration of an in-boundary LLM into CTP research tracking applications. It checks project abstracts against the coding manual, shows the evidence behind its recommendations, and flags disagreements. FDA reviewers make the final call.</p>
-        <a class="button link" href="/work/#applied-ai">See how it works <span aria-hidden="true">→</span></a>
-      </div>
-      <div class="case-steps" data-reveal>
-        <div class="case-step"><span>01</span><div><h4>Constrain the task</h4><p>Analyze against an authoritative manual—not an open-ended prompt.</p></div></div>
-        <div class="case-step"><span>02</span><div><h4>Show the evidence</h4><p>Return supporting snippets and discrepancy flags with each recommendation.</p></div></div>
-        <div class="case-step"><span>03</span><div><h4>Preserve accountability</h4><p>Use AI to narrow the discussion; keep decision authority with reviewers.</p></div></div>
-        <div class="case-step"><span>04</span><div><h4>Fit the environment</h4><p>Operate within the agency boundary and the existing review process.</p></div></div>
-      </div>
     </div>
   </section>
 
