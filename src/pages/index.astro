@@ -2,11 +2,16 @@
 import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SectionHeading from '../components/SectionHeading.astro';
+import CareerFilm from '../components/CareerFilm.astro';
 import markPortrait from '../../images/MarkPro.webp';
 ---
 
 <BaseLayout>
-  <section class="hero-home">
+  <link slot="head" rel="preload" as="image" href="/media/career/career-poster.webp" media="(min-width: 768px)" />
+  <link slot="head" rel="preload" as="image" href="/media/career/career-mobile-poster.webp" media="(max-width: 767px)" />
+  <CareerFilm />
+
+  <section class="hero-home film-followup" id="the-work">
     <div>
       <p class="eyebrow">FDA research systems / applied AI / AWS architecture</p>
       <h1><em>Stop spending money to make bad processes faster. Eliminate them. It’s free.</em></h1>

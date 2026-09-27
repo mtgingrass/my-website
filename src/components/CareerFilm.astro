@@ -1,0 +1,200 @@
+---
+const chapters = [
+  { time: 0, label: 'Air Force' },
+  { time: 8, label: 'Systems & logistics' },
+  { time: 20, label: 'FDA leadership' },
+  { time: 40, label: 'Applied AI' },
+  { time: 46, label: 'AWS planning' },
+];
+---
+
+<section class="career-cinema" aria-labelledby="career-film-title" data-career-film>
+  <div class="film-heading">
+    <h2 id="career-film-title">A career in systems.</h2>
+    <span>01:00 <span aria-hidden="true">/</span> Silent film</span>
+  </div>
+  <div class="film-player">
+    <div class="film-frame">
+      <video
+        id="career-film"
+        src="/media/career/career-desktop.mp4"
+        data-mobile-src="/media/career/career-mobile.mp4"
+        poster="/media/career/career-poster.webp"
+        width="1920"
+        height="1080"
+        muted
+        playsinline
+        controls
+        preload="none"
+        aria-label="Mark Gingrass: from Air Force systems and logistics to FDA research, applied AI, and AWS planning"
+        aria-describedby="film-description"
+      >
+        <a href="/media/career/career-desktop.mp4">Watch Mark’s career film</a>
+      </video>
+    </div>
+    <div class="film-controls" hidden>
+      <button type="button" data-play aria-controls="career-film">Play film</button>
+      <button type="button" data-restart aria-label="Restart career film">↺ <span>Restart</span></button>
+      <label class="film-seek">
+        <span class="film-sr-only">Playback position in seconds</span>
+        <input type="range" min="0" max="60" step="0.1" value="0" data-seek aria-valuetext="0:00 of 1:00" />
+      </label>
+      <span class="film-time" data-time aria-hidden="true">0:00 / 1:00</span>
+      <button type="button" data-fullscreen aria-label="View career film fullscreen">⛶ <span>Fullscreen</span></button>
+    </div>
+  </div>
+  <nav class="film-chapters" aria-label="Career film chapters" hidden>
+    {chapters.map((chapter, index) => (
+      <button type="button" data-chapter={chapter.time} aria-controls="career-film">
+        <span aria-hidden="true">0{index + 1}</span>{chapter.label}
+      </button>
+    ))}
+  </nav>
+  <p id="film-description" class="film-sr-only">A silent animated film following Mark’s Air Force experience, logistics and program leadership, FDA research systems, the first LLM integration into RTS, and planning to replatform RTS to AWS. The story and current work are described below.</p>
+  <div class="film-caption">
+    <p data-film-status role="status"></p>
+    <a href="#the-work">The work behind the film <span aria-hidden="true">↓</span></a>
+  </div>
+</section>
+
+<script>
+  const section = document.querySelector<HTMLElement>('[data-career-film]');
+  if (section) {
+    const video = section.querySelector('video')!;
+    const controls = section.querySelector<HTMLElement>('.film-controls')!;
+    const chapters = section.querySelector<HTMLElement>('.film-chapters')!;
+    const playButton = section.querySelector<HTMLButtonElement>('[data-play]')!;
+    const seek = section.querySelector<HTMLInputElement>('[data-seek]')!;
+    const clock = section.querySelector<HTMLElement>('[data-time]')!;
+    const status = section.querySelector<HTMLElement>('[data-film-status]')!;
+    const fullscreen = section.querySelector<HTMLButtonElement>('[data-fullscreen]')!;
+    const chapterButtons = [...section.querySelectorAll<HTMLButtonElement>('[data-chapter]')];
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const mobileScreen = window.matchMedia('(max-width: 767px)');
+    const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
+    let resumeWhenVisible = false;
+    let inView = true;
+
+    const selectFilm = () => {
+      video.src = mobileScreen.matches ? video.dataset.mobileSrc! : '/media/career/career-desktop.mp4';
+      video.poster = mobileScreen.matches ? '/media/career/career-mobile-poster.webp' : '/media/career/career-poster.webp';
+    };
+    selectFilm();
+    video.muted = true;
+    video.controls = false;
+    controls.hidden = false;
+    chapters.hidden = false;
+
+    const formatTime = (seconds: number) => `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
+    const duration = () => Number.isFinite(video.duration) ? video.duration : 60;
+    const update = () => {
+      const total = duration();
+      playButton.textContent = video.ended ? 'Replay film' : video.paused ? 'Play film' : 'Pause film';
+      seek.max = String(total);
+      seek.value = String(video.currentTime);
+      seek.style.setProperty('--played', `${video.currentTime / total * 100}%`);
+      seek.setAttribute('aria-valuetext', `${formatTime(video.currentTime)} of ${formatTime(total)}`);
+      clock.textContent = `${formatTime(video.currentTime)} / ${formatTime(total)}`;
+      chapterButtons.forEach((button, index) => {
+        const active = video.currentTime >= Number(button.dataset.chapter) &&
+          (index === chapterButtons.length - 1 || video.currentTime < Number(chapterButtons[index + 1].dataset.chapter));
+        if (active) button.setAttribute('aria-current', 'true');
+        else button.removeAttribute('aria-current');
+      });
+    };
+    const play = async () => {
+      if (video.ended) video.currentTime = 0;
+      try {
+        await video.play();
+        status.textContent = '';
+      } catch {
+        status.textContent = 'Press Play film to begin.';
+      }
+      update();
+    };
+    mobileScreen.addEventListener('change', () => {
+      const time = video.currentTime;
+      const wasPlaying = !video.paused;
+      const wasLoaded = video.readyState > 0;
+      selectFilm();
+      if (wasLoaded) {
+        video.addEventListener('loadedmetadata', () => {
+          video.currentTime = Math.min(time, duration());
+          if (wasPlaying) void play();
+          else video.pause();
+          update();
+        }, { once: true });
+        // Load metadata for the alternate composition without restarting the film.
+        video.autoplay = wasPlaying;
+        video.preload = 'metadata';
+        video.load();
+      }
+    });
+    playButton.addEventListener('click', () => {
+      resumeWhenVisible = false;
+      if (video.paused) void play();
+      else video.pause();
+    });
+    section.querySelector('[data-restart]')!.addEventListener('click', () => {
+      resumeWhenVisible = false;
+      video.currentTime = 0;
+      void play();
+    });
+    seek.addEventListener('input', () => {
+      video.currentTime = Number(seek.value);
+      update();
+    });
+    chapterButtons.forEach((button) => button.addEventListener('click', async () => {
+      resumeWhenVisible = false;
+      if (video.readyState === 0) {
+        video.preload = 'metadata';
+        video.load();
+        await new Promise<void>((resolve) => video.addEventListener('loadedmetadata', () => resolve(), { once: true }));
+      }
+      video.currentTime = Number(button.dataset.chapter);
+      void play();
+    }));
+    const nativeVideo = video as HTMLVideoElement & { webkitEnterFullscreen?: () => void };
+    if (!document.fullscreenEnabled && !nativeVideo.webkitEnterFullscreen) fullscreen.hidden = true;
+    fullscreen.addEventListener('click', async () => {
+      try {
+        if (document.fullscreenElement) await document.exitFullscreen();
+        else if (document.fullscreenEnabled) await section.querySelector<HTMLElement>('.film-player')!.requestFullscreen();
+        else nativeVideo.webkitEnterFullscreen?.();
+      } catch { status.textContent = 'Fullscreen is unavailable in this browser.'; }
+    });
+    ['play', 'pause', 'ended', 'timeupdate', 'loadedmetadata'].forEach((event) => video.addEventListener(event, update));
+    video.addEventListener('error', () => { status.textContent = 'The film could not load. You can read the story below.'; });
+
+    const pauseOffscreen = () => {
+      if (document.hidden || !inView) {
+        if (!video.paused) {
+          resumeWhenVisible = true;
+          video.pause();
+        }
+      } else if (resumeWhenVisible && !reducedMotion.matches) {
+        resumeWhenVisible = false;
+        void play();
+      }
+    };
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(([entry]) => {
+        inView = entry.isIntersecting;
+        pauseOffscreen();
+      }, { threshold: 0.1 }).observe(video);
+    }
+    document.addEventListener('visibilitychange', pauseOffscreen);
+    video.addEventListener('play', pauseOffscreen);
+    reducedMotion.addEventListener('change', () => {
+      if (reducedMotion.matches) {
+        resumeWhenVisible = false;
+        video.pause();
+      }
+    });
+    update();
+    if (!reducedMotion.matches && !connection?.saveData && !document.hidden) {
+      video.autoplay = true;
+      void play();
+    }
+  }
+</script>

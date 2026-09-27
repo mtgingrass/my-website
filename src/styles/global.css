@@ -497,3 +497,74 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .rts-aws { border-top: 1px solid var(--line); }
 .footer-cta { margin-bottom: .5rem; font-weight: 800; }
 .footer-aside { margin: 0 0 2rem; color: var(--muted); font-size: .9rem; }
+
+/* The career film is the opening experience; the written story follows. */
+.career-cinema {
+  width: min(calc(100% - var(--gutter) * 2), var(--max), calc((100svh - 320px) * 16 / 9));
+  margin: 0 auto;
+  padding: 1.4rem 0 0;
+  position: relative;
+  z-index: 21;
+}
+.film-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+.film-heading h2 { margin: 0; font-size: 1.15rem; font-weight: 500; letter-spacing: -.02em; }
+.film-heading > span { color: var(--muted); font: .65rem var(--mono); text-transform: uppercase; letter-spacing: .08em; }
+.film-heading > span > span { color: var(--signal); padding-inline: .5rem; }
+.film-player { background: #0a0a0a; border: 1px solid #333b35; box-shadow: 0 24px 80px #0004; }
+.film-frame { position: relative; background: #0a0a0a; }
+.film-frame::before, .film-frame::after { content: ''; position: absolute; top: -1px; width: 22px; height: 1px; background: var(--signal); pointer-events: none; z-index: 1; }
+.film-frame::before { left: -1px; }
+.film-frame::after { right: -1px; }
+.film-frame video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; }
+.film-controls { display: flex; align-items: center; gap: 1rem; min-height: 54px; padding: 0 .9rem; border-top: 1px solid #232a25; background: #111512; }
+.film-controls button, .film-chapters button { appearance: none; background: none; border: 0; color: var(--muted); cursor: pointer; font: .65rem var(--mono); }
+.film-controls button { min-height: 44px; padding: 0 .2rem; white-space: nowrap; }
+.film-controls [data-play] { color: var(--signal); min-width: 84px; text-align: left; }
+.film-controls button:hover, .film-chapters button:hover { color: var(--paper); }
+.film-controls button:focus-visible, .film-chapters button:focus-visible, .film-seek input:focus-visible, .film-caption a:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+.film-seek { flex: 1; min-width: 40px; display: flex; align-items: center; }
+.film-seek input { --played: 0%; appearance: none; width: 100%; margin: 0; height: 28px; border-radius: 2px; background: linear-gradient(to right, var(--signal) var(--played), #3d4740 var(--played)) center / 100% 4px no-repeat; cursor: pointer; }
+.film-seek input::-webkit-slider-thumb { appearance: none; width: 12px; height: 12px; border-radius: 50%; background: var(--signal); }
+.film-seek input::-moz-range-thumb { width: 12px; height: 12px; border: 0; border-radius: 50%; background: var(--signal); }
+.film-time { color: var(--muted); font: .62rem var(--mono); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.film-chapters { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); border-bottom: 1px solid var(--line); }
+.film-chapters button { min-height: 44px; padding: .8rem .3rem; text-align: left; border-bottom: 1px solid transparent; }
+.film-chapters button > span { color: #747f77; margin-right: .55rem; font-size: .6rem; }
+.film-chapters button[aria-current] { color: var(--paper); border-bottom-color: var(--signal); }
+.film-chapters button[aria-current] > span { color: var(--signal); }
+.film-caption { display: flex; justify-content: space-between; align-items: center; gap: 1rem; min-height: 48px; }
+.film-caption p { margin: 0; color: var(--muted); font-size: .75rem; }
+.film-caption a { color: var(--muted); font: .65rem var(--mono); text-transform: uppercase; letter-spacing: .05em; text-decoration: none; padding-block: .8rem; margin-left: auto; }
+.film-caption a span { color: var(--signal); margin-left: .5rem; }
+.film-caption a:hover { color: var(--paper); }
+.film-controls[hidden], .film-chapters[hidden], .film-controls button[hidden] { display: none; }
+.film-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.film-player:fullscreen { display: flex; flex-direction: column; justify-content: center; border: 0; }
+.film-player:fullscreen .film-frame { flex: 1; min-height: 0; display: flex; align-items: center; }
+.film-player:fullscreen video { height: 100%; max-height: calc(100dvh - 54px); }
+.hero-home.film-followup { min-height: 0; padding: clamp(3.5rem, 6vw, 6rem) 0; gap: clamp(2rem, 5vw, 5rem); scroll-margin-top: 2rem; }
+.hero-home.film-followup h1 { font-size: clamp(2.6rem, 4.8vw, 4.7rem); line-height: 1.02; }
+.hero-home.film-followup::after { display: none; }
+@media (max-width: 980px) {
+  .career-cinema { width: min(calc(100% - var(--gutter) * 2), var(--max)); }
+  .film-chapters button > span { display: none; }
+}
+@media (max-width: 767px) {
+  .career-cinema { max-width: 430px; }
+  .film-frame video { aspect-ratio: 9 / 16; }
+}
+@media (max-width: 560px) {
+  .career-cinema { padding-top: 1.1rem; }
+  .film-heading h2 { font-size: 1rem; }
+  .film-heading > span { font-size: .55rem; }
+  .film-controls { gap: .65rem; padding-inline: .6rem; }
+  .film-controls [data-play] { min-width: 70px; font-size: .6rem; }
+  .film-controls [data-restart] span, .film-controls [data-fullscreen] span { display: none; }
+  .film-controls [data-restart], .film-controls [data-fullscreen] { font-size: 1.25rem; min-width: 30px; }
+  .film-time { display: none; }
+  .film-chapters { display: flex; overflow-x: auto; gap: 1.2rem; }
+  .film-chapters button { flex: 0 0 auto; font-size: .6rem; }
+  .film-caption { align-items: flex-start; flex-direction: column; gap: 0; padding-top: .35rem; }
+  .film-caption p:empty { display: none; }
+  .hero-home.film-followup { padding-top: 2.5rem; }
+}

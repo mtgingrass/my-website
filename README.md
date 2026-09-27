@@ -39,3 +39,9 @@ The build runs `astro check` before creating the static site in `dist/`.
 - `*.qmd`, `_quarto.yml`, and `_quarto.scss` — retained legacy Quarto source for content reference; not used by the active build
 
 The old `Learn`/book-list navigation has intentionally been removed. Current writing lives on the newsletter.
+
+## Career film
+
+The homepage opens with `src/components/CareerFilm.astro`. The 60-second film plays muted on arrival, with pause, restart, seeking, chapter navigation, and fullscreen controls. Reduced motion and data-saving preferences use the poster until the visitor presses play. Playback pauses outside the viewport or in a hidden tab.
+
+`public/media/career/` contains an optimized 1920×1080 desktop film and a separately composed 720×1280 vertical mobile film, each with a WebP poster. Sources are `Career Film-desktop.mp4` and `Career Film Mobile.mp4`. The web exports use FFmpeg with `libx264`, `-preset slow`, CRF 23, `yuv420p`, and `-movflags +faststart`. Screens below 768px receive the vertical composition. Crossing that breakpoint switches sources while preserving playback position. Both cuts are 60 seconds and share chapter timings.
