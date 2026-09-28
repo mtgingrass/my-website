@@ -11,7 +11,7 @@ const chapters = [
 <section class="career-cinema" aria-labelledby="career-film-title" data-career-film>
   <div class="film-heading">
     <h2 id="career-film-title">A career in systems.</h2>
-    <span>01:00 <span aria-hidden="true">/</span> Silent film</span>
+    <span>01:04 <span aria-hidden="true">/</span> With music</span>
   </div>
   <div class="film-player">
     <div class="film-frame">
@@ -37,9 +37,10 @@ const chapters = [
       <button type="button" data-restart aria-label="Restart career film">↺ <span>Restart</span></button>
       <label class="film-seek">
         <span class="film-sr-only">Playback position in seconds</span>
-        <input type="range" min="0" max="60" step="0.1" value="0" data-seek aria-valuetext="0:00 of 1:00" />
+        <input type="range" min="0" max="64" step="0.1" value="0" data-seek aria-valuetext="0:00 of 1:04" />
       </label>
-      <span class="film-time" data-time aria-hidden="true">0:00 / 1:00</span>
+      <span class="film-time" data-time aria-hidden="true">0:00 / 1:04</span>
+      <button type="button" data-sound aria-controls="career-film" aria-label="Turn sound on">Sound on</button>
       <button type="button" data-fullscreen aria-label="View career film fullscreen">⛶ <span>Fullscreen</span></button>
     </div>
   </div>
@@ -50,7 +51,7 @@ const chapters = [
       </button>
     ))}
   </nav>
-  <p id="film-description" class="film-sr-only">A silent animated film following Mark’s Air Force experience, logistics and program leadership, FDA research systems, the first LLM integration into RTS, and planning to replatform RTS to AWS. The story and current work are described below.</p>
+  <p id="film-description" class="film-sr-only">An animated film with music following Mark’s Air Force experience, logistics and program leadership, FDA research systems, the first LLM integration into RTS, and planning to replatform RTS to AWS. Use Sound on to hear the music. The story and current work are described below.</p>
   <div class="film-caption">
     <p data-film-status role="status"></p>
     <a href="#the-work">The work behind the film <span aria-hidden="true">↓</span></a>
@@ -64,6 +65,7 @@ const chapters = [
     const controls = section.querySelector<HTMLElement>('.film-controls')!;
     const chapters = section.querySelector<HTMLElement>('.film-chapters')!;
     const playButton = section.querySelector<HTMLButtonElement>('[data-play]')!;
+    const soundButton = section.querySelector<HTMLButtonElement>('[data-sound]')!;
     const seek = section.querySelector<HTMLInputElement>('[data-seek]')!;
     const clock = section.querySelector<HTMLElement>('[data-time]')!;
     const status = section.querySelector<HTMLElement>('[data-film-status]')!;
@@ -86,10 +88,13 @@ const chapters = [
     chapters.hidden = false;
 
     const formatTime = (seconds: number) => `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
-    const duration = () => Number.isFinite(video.duration) ? video.duration : 60;
+    const duration = () => Number.isFinite(video.duration) ? video.duration : 64;
     const update = () => {
       const total = duration();
       playButton.textContent = video.ended ? 'Replay film' : video.paused ? 'Play film' : 'Pause film';
+      const isSilent = video.muted || video.volume === 0;
+      soundButton.textContent = isSilent ? 'Sound on' : 'Mute';
+      soundButton.setAttribute('aria-label', isSilent ? 'Turn sound on' : 'Mute sound');
       seek.max = String(total);
       seek.value = String(video.currentTime);
       seek.style.setProperty('--played', `${video.currentTime / total * 100}%`);
@@ -135,6 +140,12 @@ const chapters = [
       if (video.paused) void play();
       else video.pause();
     });
+    soundButton.addEventListener('click', () => {
+      const isSilent = video.muted || video.volume === 0;
+      video.muted = !isSilent;
+      if (isSilent && video.volume === 0) video.volume = 1;
+      update();
+    });
     section.querySelector('[data-restart]')!.addEventListener('click', () => {
       resumeWhenVisible = false;
       video.currentTime = 0;
@@ -163,7 +174,7 @@ const chapters = [
         else nativeVideo.webkitEnterFullscreen?.();
       } catch { status.textContent = 'Fullscreen is unavailable in this browser.'; }
     });
-    ['play', 'pause', 'ended', 'timeupdate', 'loadedmetadata'].forEach((event) => video.addEventListener(event, update));
+    ['play', 'pause', 'ended', 'timeupdate', 'loadedmetadata', 'volumechange'].forEach((event) => video.addEventListener(event, update));
     video.addEventListener('error', () => { status.textContent = 'The film could not load. You can read the story below.'; });
 
     const pauseOffscreen = () => {

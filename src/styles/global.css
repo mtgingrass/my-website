@@ -520,6 +520,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .film-controls button, .film-chapters button { appearance: none; background: none; border: 0; color: var(--muted); cursor: pointer; font: .65rem var(--mono); }
 .film-controls button { min-height: 44px; padding: 0 .2rem; white-space: nowrap; }
 .film-controls [data-play] { color: var(--signal); min-width: 84px; text-align: left; }
+.film-controls [data-sound] { min-width: 58px; color: var(--signal); }
 .film-controls button:hover, .film-chapters button:hover { color: var(--paper); }
 .film-controls button:focus-visible, .film-chapters button:focus-visible, .film-seek input:focus-visible, .film-caption a:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
 .film-seek { flex: 1; min-width: 40px; display: flex; align-items: center; }
@@ -557,7 +558,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .career-cinema { padding-top: 1.1rem; }
   .film-heading h2 { font-size: 1rem; }
   .film-heading > span { font-size: .55rem; }
-  .film-controls { gap: .65rem; padding-inline: .6rem; }
+  .film-controls { gap: .4rem; padding-inline: .6rem; }
   .film-controls [data-play] { min-width: 70px; font-size: .6rem; }
   .film-controls [data-restart] span, .film-controls [data-fullscreen] span { display: none; }
   .film-controls [data-restart], .film-controls [data-fullscreen] { font-size: 1.25rem; min-width: 30px; }
