@@ -11,14 +11,14 @@ const chapters = [
 <section class="career-cinema" aria-labelledby="career-film-title" data-career-film>
   <div class="film-heading">
     <h2 id="career-film-title">A career in systems.</h2>
-    <span>01:04 <span aria-hidden="true">/</span> With music</span>
+    <span>01:04 <span aria-hidden="true">/</span> With sound effects</span>
   </div>
   <div class="film-player">
     <div class="film-frame">
       <video
         id="career-film"
-        src="/media/career/career-desktop.mp4"
-        data-mobile-src="/media/career/career-mobile.mp4"
+        src="/media/career/career-desktop-sfx.mp4"
+        data-mobile-src="/media/career/career-mobile-sfx.mp4"
         poster="/media/career/career-poster.webp"
         width="1920"
         height="1080"
@@ -29,7 +29,7 @@ const chapters = [
         aria-label="Mark Gingrass: from Air Force systems and logistics to FDA research, applied AI, and AWS planning"
         aria-describedby="film-description"
       >
-        <a href="/media/career/career-desktop.mp4">Watch Mark’s career film</a>
+        <a href="/media/career/career-desktop-sfx.mp4">Watch Mark’s career film</a>
       </video>
     </div>
     <div class="film-controls" hidden>
@@ -51,7 +51,7 @@ const chapters = [
       </button>
     ))}
   </nav>
-  <p id="film-description" class="film-sr-only">An animated film with music following Mark’s Air Force experience, logistics and program leadership, FDA research systems, the first LLM integration into RTS, and planning to replatform RTS to AWS. Use Sound on to hear the music. The story and current work are described below.</p>
+  <p id="film-description" class="film-sr-only">An animated film with sound effects following Mark’s Air Force experience, logistics and program leadership, FDA research systems, the first LLM integration into RTS, and planning to replatform RTS to AWS. Use Sound on to hear the sound effects. The story and current work are described below.</p>
   <div class="film-caption">
     <p data-film-status role="status"></p>
     <a href="#the-work">The work behind the film <span aria-hidden="true">↓</span></a>
@@ -78,7 +78,7 @@ const chapters = [
     let inView = true;
 
     const selectFilm = () => {
-      video.src = mobileScreen.matches ? video.dataset.mobileSrc! : '/media/career/career-desktop.mp4';
+      video.src = mobileScreen.matches ? video.dataset.mobileSrc! : '/media/career/career-desktop-sfx.mp4';
       video.poster = mobileScreen.matches ? '/media/career/career-mobile-poster.webp' : '/media/career/career-poster.webp';
     };
     selectFilm();
